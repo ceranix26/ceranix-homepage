@@ -37,6 +37,12 @@
     .section-head p { color:var(--muted); }
     .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
     .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:28px; box-shadow:0 12px 30px rgba(25,52,84,.06); }
+.card:hover {
+transform: translateY(-5px);
+transition: 0.3s;
+border-color:#009fe3;
+cursor:pointer;
+}
     .card h3 { color:var(--navy); margin-bottom:8px; font-size:20px; }
     .card p { color:var(--muted); font-size:15px; }
     .applications { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
@@ -109,7 +115,20 @@
     <div class="container">
       <div class="section-head"><span>PDC PRODUCTS</span><h2><span data-lang="ko">제품 포트폴리오</span><span data-lang="en">Product Portfolio</span></h2></div>
       <div class="grid">
-        <article class="card"><h3>MLCC</h3><p><span data-lang="ko">고전압, 안전, 고용량, 자동차 및 고신뢰성 제품</span><span data-lang="en">High-voltage, safety, high-capacitance, automotive and high-reliability series</span></p></article>
+        <a href="mlcc.html" style="text-rd">
+        <h3>MLCC</h3>
+        <p>
+            <span data-lang="ko">
+                고전압, 안전, 고용량, 자동차 및 고신뢰성 제품
+            </span>
+
+            <span data-lang="en">
+                High-voltage, safety, high-capacitance,
+                automotive and high-reliability series
+            </span>
+        </p>
+    </article>
+</a>
         <article class="card"><h3><span data-lang="ko">칩 저항</span><span data-lang="en">Chip Resistors</span></h3><p><span data-lang="ko">고전력, 전류 감지, 정밀, Anti-Surge 제품</span><span data-lang="en">High-power, current-sense, precision and anti-surge products</span></p></article>
         <article class="card"><h3><span data-lang="ko">인덕터</span><span data-lang="en">Inductors</span></h3><p><span data-lang="ko">RF 인덕터, 파워 초크, 커먼 모드 초크</span><span data-lang="en">RF inductors, power chokes and common-mode chokes</span></p></article>
         <article class="card"><h3>NTC Thermistors</h3><p><span data-lang="ko">온도 감지, 보상 및 돌입전류 제한 솔루션</span><span data-lang="en">Temperature sensing, compensation and inrush-current limiting</span></p></article>
