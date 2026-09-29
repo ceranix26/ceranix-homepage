@@ -3,63 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta
-    name="description"
-    content="CERANIX PDC High Voltage MLCC solutions for EV chargers, inverters, SMPS and industrial power systems."
-  >
-
+  <meta name="description" content="CERANIX PDC High Voltage MLCC solutions for EV chargers, inverters, SMPS and industrial power systems.">
   <title>CERANIX | PDC High Voltage MLCC</title>
-
   <style>
-    :root {
-      --navy:#062b63;
-      --blue:#009fe3;
-      --light:#f6f9fc;
-      --text:#172033;
-      --muted:#667085;
-      --line:#d9e2ec;
-      --white:#fff;
-    }
+    :root{--navy:#062b63;--blue:#009fe3;--light:#f6f9fc;--text:#172033;--muted:#667085;--line:#d9e2ec;--white:#fff}
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:"Pretendard","Noto Sans KR","Segoe UI",Arial,sans-serif;line-height:1.65;color:var(--text);background:#fff}
+    a{color:inherit;text-decoration:none}.container{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+    nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{width:210px;max-height:48px;object-fit:contain;object-position:left center}
+    .nav-links{display:flex;align-items:center;gap:28px;list-style:none;font-weight:700;font-size:14px}.nav-links a:hover,.nav-links a.active{color:var(--blue)}
+    .lang-switch{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:#f7f9fc}.lang-btn{border:0;background:transparent;padding:7px 11px;border-radius:999px;cursor:pointer;font-weight:800;color:var(--muted)}.lang-btn.active{color:#fff;background:var(--navy)}
+    .breadcrumb-wrap{background:#f8fafc;border-bottom:1px solid var(--line)}.breadcrumb{min-height:48px;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:14px}.breadcrumb a:hover{color:var(--blue)}
+    .hero{color:#fff;padding:104px 20px;text-align:center;background:radial-gradient(circle at 16% 18%,rgba(0,184,255,.36),transparent 34%),linear-gradient(135deg,#031a3d,#073b7b 66%,#0876ad)}
+    .eyebrow{display:inline-block;margin-bottom:20px;padding:7px 14px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.08);font-weight:800}.hero h1{font-size:clamp(42px,7vw,70px);line-height:1.1}.hero .subtitle{font-size:clamp(18px,2.3vw,24px);color:#dcecff;margin:18px auto 0;max-width:850px}.subtitle-line{display:block}.hero-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 23px;border-radius:7px;font-weight:800;border:1px solid transparent}.btn-primary{background:var(--blue);color:#fff}.btn-primary:hover{background:#0089c4}.btn-secondary{border-color:rgba(255,255,255,.52);color:#fff}.btn-secondary:hover{background:rgba(255,255,255,.1)}
+    section{padding:78px 0}section.alt{background:var(--light)}.section-head{max-width:820px;margin-bottom:34px}.section-head.center{text-align:center;margin-left:auto;margin-right:auto}.section-kicker{color:var(--blue);font-size:13px;font-weight:900;letter-spacing:1.2px}.section-head h2{color:var(--navy);font-size:clamp(29px,4vw,40px);margin:7px 0 12px}.section-head p,.lead{color:var(--muted)}
+    .feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.feature{background:#fff;border:1px solid var(--line);border-radius:13px;padding:27px;box-shadow:0 8px 24px rgba(25,52,84,.06)}.feature-number{display:grid;place-items:center;width:42px;height:42px;margin-bottom:17px;border-radius:10px;background:#e8f6fc;color:var(--blue);font-weight:900}.feature h3{color:var(--navy);font-size:19px;margin-bottom:8px}.feature p{color:var(--muted);font-size:14px}
+    .series-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.series-card{border:1px solid var(--line);border-radius:13px;padding:28px;background:#fff}.series-card h3{color:var(--navy);margin-bottom:4px}.series-tag{display:inline-block;margin:10px 0 14px;padding:5px 10px;border-radius:999px;background:#eaf7fc;color:#0878aa;font-weight:800;font-size:12px}.series-card ul{padding-left:20px;color:var(--muted)}
+    .application-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.application{background:linear-gradient(135deg,var(--navy),#0a5f9e);color:#fff;padding:24px 18px;text-align:center;border-radius:10px;font-weight:800}
+    .guide{display:grid;grid-template-columns:.8fr 1.2fr;gap:34px;align-items:start}.checklist{list-style:none;display:grid;gap:12px}.checklist li{border:1px solid var(--line);border-radius:9px;padding:14px 16px;background:#fff}.checklist strong{display:block;color:var(--navy)}.checklist span{color:var(--muted);font-size:14px}
+    .example{background:#061f46;color:#fff;border-radius:14px;padding:30px}.example h3{margin-bottom:16px}.spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.spec{padding:13px;border:1px solid rgba(255,255,255,.17);border-radius:8px;background:rgba(255,255,255,.06)}.spec small{display:block;color:#a9c6e5}.spec strong{display:block;margin-top:2px}.example-note{margin-top:16px;color:#bdd1e6;font-size:13px}
+    .notice{padding:17px 19px;border-left:4px solid var(--blue);background:#f7fbfe;color:var(--muted);font-size:14px}.contact-box{text-align:center;border:1px solid var(--line);border-radius:14px;padding:44px;background:var(--light)}.contact-box h2{color:var(--navy);font-size:clamp(28px,4vw,38px);margin-bottom:12px}.contact-box p{max-width:720px;margin:auto;color:var(--muted)}
+    footer{background:#03172f;color:#c9d5e3;text-align:center;padding:26px}
+    [data-lang]{display:none}html[lang="ko"] [data-lang="ko"],html[lang="en"] [data-lang="en"]{display:initial}
+    @media(max-width:900px){.nav-links{display:none}.feature-grid{grid-template-columns:1fr 1fr}.series-grid,.application-grid{grid-template-columns:1fr 1fr}.guide{grid-template-columns:1fr}}
+    @media(max-width:560px){.container{width:min(100% - 26px,1120px)}.logo{width:170px}.hero{padding:82px 14px}section{padding:62px 0}.feature-grid,.series-grid,.application-grid,.spec-grid{grid-template-columns:1fr}.contact-box{padding:30px 20px}.subtitle-line{display:inline}.subtitle-line+.subtitle-line::before{content:" "}.breadcrumb{overflow-x:auto;white-space:nowrap}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="container">
+    <a href="index.html" aria-label="CERANIX home"><img src="LOGO.png" class="logo" alt="CERANIX"></a>
+    <ul class="nav-links">
+      <li><a href="index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li>
+      <li><a href="index.html#products" class="active"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li>
+      <li><a href="index.html#applications"><span data-lang="ko">적용 분야</span><span data-lang="en">Applications</span></a></li>
+      <li><a href="index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li>
+    </ul>
+    <div class="lang-switch" aria-label="Language selector"><button class="lang-btn active" type="button" data-set-lang="ko">KO</button><button class="lang-btn" type="button" data-set-lang="en">EN</button></div>
+  </nav>
+</header>
+<div class="breadcrumb-wrap"><div class="container breadcrumb"><a href="index.html"><span data-lang="ko">홈</span><span data-lang="en">Home</span></a><span>›</span><a href="mlcc.html">MLCC</a><span>›</span><strong>High Voltage MLCC</strong></div></div>
+<main>
+  <section class="hero">
+    <div class="container">
+      <span class="eyebrow"><span data-lang="ko">PDC 고전압 MLCC</span><span data-lang="en">PDC High Voltage MLCC</span></span>
+      <h1>High Voltage MLCC</h1>
+      <p class="subtitle"><span data-lang="ko"><span class="subtitle-line">고전압·절연 여유·아크 억제 요구를 위한</span><span class="subtitle-line">산업 및 전력변환용 MLCC 솔루션</span></span><span data-lang="en"><span class="subtitle-line">MLCC Solutions for High-Voltage, Insulation Margin</span><span class="subtitle-line">and Anti-Arcing Requirements in Power Conversion</span></span></p>
+      <div class="hero-actions"><a class="btn btn-primary" href="index.html#contact"><span data-lang="ko">견적·샘플 문의</span><span data-lang="en">Request Quote or Sample</span></a><a class="btn btn-secondary" href="mlcc.html"><span data-lang="ko">MLCC 제품군으로 돌아가기</span><span data-lang="en">Back to MLCC Products</span></a></div>
+    </div>
+  </section>
 
-    * {
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-    }
+  <section>
+    <div class="container">
+      <div class="section-head"><span class="section-kicker">OVERVIEW</span><h2><span data-lang="ko">고전압 회로 조건에 맞춘 후보 검토</span><span data-lang="en">Candidate Review for High-Voltage Circuits</span></h2><p><span data-lang="ko">PDC의 고전압 MLCC 제품군은 1kV 이상 고전압 요구, 아크 억제, 저손실 및 산업용 고신뢰성 조건을 중심으로 검토할 수 있습니다. 세라닉스는 실제 사용전압, 회로 위치, 용량, 사이즈, 온도와 스위칭 조건을 기준으로 후보 선정과 샘플 평가를 지원합니다.</span><span data-lang="en">PDC high-voltage MLCC families may be reviewed for requirements including 1kV and above, anti-arcing, low loss and industrial reliability. CERANIX supports candidate selection and sample evaluation based on actual operating voltage, circuit position, capacitance, size, temperature and switching conditions.</span></p></div>
+      <div class="notice"><span data-lang="ko">특정 전압, 인증, 정격 및 최대 10kV 맞춤 가능 여부는 대상 품번과 최신 PDC 공식 데이터시트를 기준으로 개별 확인해야 합니다.</span><span data-lang="en">Specific voltage, certification, rating and custom availability up to 10kV must be confirmed for each part number against the latest official PDC datasheet.</span></div>
+    </div>
+  </section>
 
-    html {
-      scroll-behavior:smooth;
-    }
+  <section class="alt">
+    <div class="container">
+      <div class="section-head center"><span class="section-kicker">KEY CONSIDERATIONS</span><h2><span data-lang="ko">주요 검토 포인트</span><span data-lang="en">Key Review Points</span></h2></div>
+      <div class="feature-grid">
+        <article class="feature"><div class="feature-number">01</div><h3><span data-lang="ko">고전압 대응</span><span data-lang="en">High-Voltage Support</span></h3><p><span data-lang="ko">정격전압뿐 아니라 실제 사용전압, 과도전압 및 절연 여유를 함께 검토합니다.</span><span data-lang="en">Review rated voltage together with actual operating voltage, transients and insulation margin.</span></p></article>
+        <article class="feature"><div class="feature-number">02</div><h3>Anti-Arcing</h3><p><span data-lang="ko">고전압 구간의 아크 억제 요구와 패키지·전극 구조 조건을 확인합니다.</span><span data-lang="en">Review anti-arcing requirements and package or electrode structure for high-voltage sections.</span></p></article>
+        <article class="feature"><div class="feature-number">03</div><h3><span data-lang="ko">손실·리플 조건</span><span data-lang="en">Loss and Ripple</span></h3><p><span data-lang="ko">스위칭 주파수, Ripple, DC Bias와 발열 조건을 후보 비교에 반영합니다.</span><span data-lang="en">Include switching frequency, ripple, DC bias and thermal conditions in candidate comparison.</span></p></article>
+        <article class="feature"><div class="feature-number">04</div><h3><span data-lang="ko">신뢰성·공급 검토</span><span data-lang="en">Reliability and Supply</span></h3><p><span data-lang="ko">환경 조건, 승인자료, MOQ·SPQ, 납기와 장기 공급 요구를 함께 확인합니다.</span><span data-lang="en">Confirm environment, approval documents, MOQ, SPQ, lead time and long-term supply requirements.</span></p></article>
+      </div>
+    </div>
+  </section>
 
-    body {
-      font-family:
-        "Pretendard",
-        "Noto Sans KR",
-        "Segoe UI",
-        Arial,
-        sans-serif;
+  <section>
+    <div class="container">
+      <div class="section-head"><span class="section-kicker">PRODUCT FAMILIES</span><h2><span data-lang="ko">검토 가능한 제품 계열</span><span data-lang="en">Product Families for Review</span></h2><p><span data-lang="ko">아래 계열은 회로 조건에 따라 비교 검토하는 대표 범주이며, 최종 적용 가능 여부는 개별 품번 기준으로 확인합니다.</span><span data-lang="en">The families below are representative categories for comparison by circuit conditions. Final applicability must be confirmed by specific part number.</span></p></div>
+      <div class="series-grid">
+        <article class="series-card"><h3>FV Series</h3><span class="series-tag">High Voltage · ≥1kV</span><ul><li><span data-lang="ko">EV 충전기·인버터·산업 전원</span><span data-lang="en">EV chargers, inverters and industrial power</span></li><li><span data-lang="ko">고전압 회로 후보 검토</span><span data-lang="en">Candidate review for high-voltage circuits</span></li></ul></article>
+        <article class="series-card"><h3>FJ Series</h3><span class="series-tag">Anti-Arcing High Voltage</span><ul><li><span data-lang="ko">아크 억제 요구 회로</span><span data-lang="en">Circuits requiring arc suppression</span></li><li><span data-lang="ko">인버터·충전기 스위칭 환경</span><span data-lang="en">Inverter and charger switching environments</span></li></ul></article>
+        <article class="series-card"><h3>FR Series</h3><span class="series-tag">High Reliability</span><ul><li><span data-lang="ko">산업·전력용 고신뢰성 요구</span><span data-lang="en">High-reliability industrial and power requirements</span></li><li><span data-lang="ko">환경·수명 조건 기반 검토</span><span data-lang="en">Review based on environmental and lifetime conditions</span></li></ul></article>
+      </div>
+    </div>
+  </section>
 
-      line-height:1.65;
-      color:var(--text);
-      background:#fff;
-    }
+  <section class="alt">
+    <div class="container">
+      <div class="section-head center"><span class="section-kicker">APPLICATIONS</span><h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2></div>
+      <div class="application-grid"><div class="application">EV Charger</div><div class="application">Solar Inverter</div><div class="application">ESS</div><div class="application">Industrial SMPS</div><div class="application">Power Conversion</div><div class="application">OBC / DC-DC</div></div>
+    </div>
+  </section>
 
-    a {
-      color:inherit;
-      text-decoration:none;
-    }
+  <section>
+    <div class="container guide">
+      <div><div class="section-head"><span class="section-kicker">SELECTION GUIDE</span><h2><span data-lang="ko">문의 전 확인 정보</span><span data-lang="en">Information to Prepare</span></h2><p><span data-lang="ko">아래 정보를 제공하면 기존품 비교와 후보 검토가 더 정확해집니다.</span><span data-lang="en">Providing the following information improves cross-reference and candidate review.</span></p></div>
+        <ul class="checklist"><li><strong><span data-lang="ko">기존 제조사·품번</span><span data-lang="en">Current Manufacturer and Part Number</span></strong><span><span data-lang="ko">대체 또는 세컨드소스 검토 기준</span><span data-lang="en">Reference for replacement or second-source review</span></span></li><li><strong><span data-lang="ko">전압·용량·허용오차</span><span data-lang="en">Voltage, Capacitance and Tolerance</span></strong><span><span data-lang="ko">정격값과 실제 사용 조건을 함께 기재</span><span data-lang="en">Include both ratings and actual operating conditions</span></span></li><li><strong><span data-lang="ko">사이즈·온도·주파수</span><span data-lang="en">Size, Temperature and Frequency</span></strong><span><span data-lang="ko">실장 공간과 스위칭 환경 확인</span><span data-lang="en">Confirm mounting space and switching environment</span></span></li><li><strong><span data-lang="ko">수량·일정·승인 요건</span><span data-lang="en">Quantity, Schedule and Approval Requirements</span></strong><span><span data-lang="ko">샘플 수량, 양산 계획과 필수 규격</span><span data-lang="en">Sample quantity, production plan and required standards</span></span></li></ul>
+      </div>
+      <aside class="example"><h3><span data-lang="ko">요구사양 예시</span><span data-lang="en">Example Requirement</span></h3><div class="spec-grid"><div class="spec"><small><span data-lang="ko">정격전압</span><span data-lang="en">Rated Voltage</span></small><strong>3kV</strong></div><div class="spec"><small><span data-lang="ko">용량</span><span data-lang="en">Capacitance</span></small><strong>470pF</strong></div><div class="spec"><small><span data-lang="ko">패키지</span><span data-lang="en">Package</span></small><strong>2220</strong></div><div class="spec"><small><span data-lang="ko">적용처</span><span data-lang="en">Application</span></small><strong>EV Charger</strong></div><div class="spec"><small><span data-lang="ko">사용온도</span><span data-lang="en">Operating Temperature</span></small><strong>-40°C to +125°C</strong></div><div class="spec"><small><span data-lang="ko">예상 수량</span><span data-lang="en">Estimated Quantity</span></small><strong><span data-lang="ko">별도 기재</span><span data-lang="en">To be provided</span></strong></div></div><p class="example-note"><span data-lang="ko">예시는 문의 작성 형식을 설명하기 위한 가상 조건이며 실제 PDC 품번의 공급 가능 사양을 의미하지 않습니다.</span><span data-lang="en">This is a fictional example showing the inquiry format and does not represent the available specifications of a PDC part number.</span></p></aside>
+    </div>
+  </section>
 
-    .container {
-      width:min(1120px, calc(100% - 40px));
-      margin:auto;
-    }
-
-    /* Header */
-
-    header {
-      position:sticky;
-      top:0;
-      z-index:100;
-      background:rgba(255,255,255,.96);
-      border-bottom
+  <section class="alt"><div class="container"><div class="contact-box"><h2><span data-lang="ko">고전압 MLCC 견적 및 샘플 문의</span><span data-lang="en">High Voltage MLCC Quote and Sample Inquiry</span></h2><p><span data-lang="ko">기존 품번 또는 요구사양을 보내주시면 전기적 특성, 신뢰성, 인증 및 공급 조건을 기준으로 검토합니다.</span><span data-lang="en">Send the existing part number or requirements for review based on electrical characteristics, reliability, certification and supply conditions.</span></p><a class="btn btn-primary" href="index.html#contact"><span data-lang="ko">문의하기</span><span data-lang="en">Contact CERANIX</span></a></div></div></section>
+</main>
+<footer>© 2026 CERANIX | PDC Korea Authorized Distributor</footer>
+<script>
+  const root=document.documentElement;
+  const buttons=document.querySelectorAll('[data-set-lang]');
+  function setLanguage(lang){
+    const safeLang=lang==='en'?'en':'ko';
+    root.lang=safeLang;
+    document.title=safeLang==='ko'?'CERANIX | PDC 고전압 MLCC':'CERANIX | PDC High Voltage MLCC';
+    buttons.forEach(button=>button.classList.toggle('active',button.dataset.setLang===safeLang));
+    localStorage.setItem('ceranix-language',safeLang);
+  }
+  buttons.forEach(button=>button.addEventListener('click',()=>setLanguage(button.dataset.setLang)));
+  setLanguage(localStorage.getItem('ceranix-language')||'ko');
+</script>
+</body>
+</html>
