@@ -37,12 +37,7 @@
     .section-head p { color:var(--muted); }
     .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
     .card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:28px; box-shadow:0 12px 30px rgba(25,52,84,.06); }
-.card:hover {
-transform: translateY(-5px);
-transition: 0.3s;
-border-color:#009fe3;
-cursor:pointer;
-}
+    .card:hover {transform: translateY(-5px);transition: 0.3s;border-color:#009fe3;cursor:pointer;}
     .card h3 { color:var(--navy); margin-bottom:8px; font-size:20px; }
     .card p { color:var(--muted); font-size:15px; }
     .applications { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
@@ -114,7 +109,7 @@ cursor:pointer;
   <section id="products" class="alt">
     <div class="container">
       <div class="section-head"><span>PDC PRODUCTS</span><h2><span data-lang="ko">제품 포트폴리오</span><span data-lang="en">Product Portfolio</span></h2></div>
-      <div class="grid">
+      <div class="card">
         <a href="mlcc.html" style="text-rd">
         <h3>MLCC</h3>
         <p>
