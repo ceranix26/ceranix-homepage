@@ -12,8 +12,13 @@ html{scroll-behavior:smooth}
 body{font-family:"Pretendard","Noto Sans KR","Segoe UI",Arial,sans-serif;line-height:1.65;color:var(--text);background:#fff}
 a{color:inherit;text-decoration:none}.container{width:min(1120px,calc(100% - 40px));margin:auto}
 .topbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
-.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:24px;font-weight:900;color:var(--navy)}
-.nav-right{display:flex;align-items:center;gap:14px}.home-link{font-weight:800;color:var(--navy)}.home-link:hover{color:var(--blue)}
+.container { width:min(1120px, calc(100% - 40px)); margin:auto; }
+    header { position:sticky; top:0; z-index:100; background:rgba(255,255,255,.96); border-bottom:1px solid var(--line); backdrop-filter:blur(10px); }
+    nav { min-height:76px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .logo { width:210px; max-height:48px; object-fit:contain; object-position:left center; }
+    .nav-links { display:flex; align-items:center; gap:28px; list-style:none; font-weight:700; font-size:14px; }
+    .nav-links a:hover { color:var(--blue); }
+  .nav-right{display:flex;align-items:center;gap:14px}.home-link{font-weight:800;color:var(--navy)}.home-link:hover{color:var(--blue)}
 .lang-switch{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:#f7f9fc}.lang-btn{border:0;background:transparent;padding:7px 11px;border-radius:999px;cursor:pointer;font-weight:800;color:var(--muted)}.lang-btn.active{color:#fff;background:var(--navy)}
 .hero{color:#fff;padding:105px 20px;text-align:center;background:radial-gradient(circle at 15% 20%,rgba(0,184,255,.34),transparent 36%),linear-gradient(135deg,#041c43,#073979 65%,#086ca4)}
 .hero h1{font-size:clamp(44px,7vw,72px);line-height:1.1}.subtitle{font-size:clamp(18px,2.3vw,24px);color:#dcecff;margin:18px auto 0;max-width:760px}.eyebrow{display:inline-block;margin-bottom:20px;padding:7px 14px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.08);font-weight:800}
