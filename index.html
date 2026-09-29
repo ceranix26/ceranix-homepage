@@ -141,7 +141,7 @@
       </div>
 
       <!-- Replace YOUR_FORM_ID below with the ID issued by Formspree. -->
-      <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form id="contactForm" action="https://formspree.io/f/Yxeaovkvn" method="POST">
         <input type="hidden" name="subject" value="CERANIX Website Inquiry">
         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <div class="form-grid">
@@ -179,12 +179,7 @@
   buttons.forEach(btn => btn.addEventListener('click', () => setLanguage(btn.dataset.setLang)));
   setLanguage(localStorage.getItem('ceranix-language') || 'ko');
 
-  document.getElementById('contactForm').addEventListener('submit', function(event) {
-    if (this.action.includes('YOUR_FORM_ID')) {
-      event.preventDefault();
-      alert(root.lang === 'ko' ? 'Formspree의 YOUR_FORM_ID를 실제 폼 ID로 교체해 주세요.' : 'Please replace YOUR_FORM_ID with your actual Formspree form ID.');
-    }
-  });
+  // Formspree active
 </script>
 </body>
 </html>
