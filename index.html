@@ -43,7 +43,9 @@
     .card h3 { color:var(--navy); margin-bottom:8px; font-size:20px; }
     .card p { color:var(--muted); font-size:15px; }
     .applications { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
-    .application { border-radius:10px; padding:24px 18px; color:#fff; font-weight:800; text-align:center; background:linear-gradient(145deg,var(--navy),#0a5a9a); }
+    .application { display:block; border-radius:10px; padding:24px 18px; color:#fff; font-weight:800; text-align:center; background:linear-gradient(145deg,var(--navy),#0a5a9a); transition:transform .25s ease, box-shadow .25s ease, filter .25s ease; }
+    .application:hover, .application:focus-visible { transform:translateY(-6px); box-shadow:0 18px 35px rgba(25,52,84,.22); filter:brightness(1.08); }
+    .application:focus-visible { outline:3px solid rgba(0,159,227,.35); outline-offset:3px; }
     .contact-wrap { display:grid; grid-template-columns:.85fr 1.15fr; gap:46px; align-items:start; }
     .contact-copy h2 { color:var(--navy); font-size:40px; line-height:1.2; margin-bottom:16px; }
     .contact-copy p { color:var(--muted); margin-bottom:22px; }
@@ -100,9 +102,9 @@
 <a class="product-link" href="products/varistors/varistors.html"><article class="card"><h3>Varistors</h3><p><span data-lang="ko">서지 및 ESD 보호용 제품</span><span data-lang="en">Surge and ESD protection products</span></p></article></a>
 <a class="product-link" href="products/ceramic-powders/ceramic-powders.html"><article class="card"><h3><span data-lang="ko">유전체 세라믹 분말</span><span data-lang="en">Dielectric Ceramic Powders</span></h3><p><span data-lang="ko">MLCC, LTCC, 마이크로웨이브 및 맞춤 소재</span><span data-lang="en">MLCC, LTCC, microwave and customized materials</span></p></article></a>
 </div></div></section>
-<section id="applications"><div class="container"><div class="section-head"><span>APPLICATIONS</span><h2><span data-lang="ko">핵심 적용 분야</span><span data-lang="en">Key Applications</span></h2></div><div class="applications"><div class="application">AI Server &amp; Data Center</div><div class="application">Industrial &amp; Power</div><div class="application">EV &amp; Automotive</div><div class="application">Networking &amp; 5G</div><div class="application">BMS &amp; Charging</div><div class="application">Medical</div><div class="application">Aerospace</div><div class="application">Smart Power</div></div></div></section>
+<section id="applications"><div class="container"><div class="section-head"><span>APPLICATIONS</span><h2><span data-lang="ko">핵심 적용 분야</span><span data-lang="en">Key Applications</span></h2></div><div class="applications"><a class="application" href="applications/ai-server-data-center.html">AI Server &amp; Data Center</a><a class="application" href="applications/industrial-power.html">Industrial &amp; Power</a><a class="application" href="applications/ev-automotive.html">EV &amp; Automotive</a><a class="application" href="applications/networking-5g.html">Networking &amp; 5G</a><a class="application" href="applications/bms-charging.html">BMS &amp; Charging</a><a class="application" href="applications/medical.html">Medical</a><a class="application" href="applications/aerospace.html">Aerospace</a><a class="application" href="applications/smart-power.html">Smart Power</a></div></div></section>
 <section class="alt" id="contact"><div class="container contact-wrap">
-<div class="contact-copy"><span style="color:var(--blue);font-weight:800">CONTACT</span><h2><span data-lang="ko">견적·샘플·기술 문의</span><span data-lang="en">Quote, Sample &amp; Technical Inquiry</span></h2><p><span data-lang="ko">기존 제조사와 품번, 요구 사양, 예상 수량 및 희망 납기를 알려주시면 검토에 도움이 됩니다.</span><span data-lang="en">For faster review, please include the current manufacturer and part number, required specifications, estimated quantity and requested delivery date.</span></p><ul class="contact-list"><li><strong>Email</strong> ceranix@naver.com</li><li><strong>Tel</strong> 010-9329-1253</li></ul></div>
+<div class="contact-copy"><span style="color:var(--blue);font-weight:800">CONTACT</span><h2><span data-lang="ko">견적·샘플·기술 문의</span><span data-lang="en">Quote, Sample &amp; Technical Inquiry</span></h2><p><span data-lang="ko">기존 제조사와 품번, 요구 사양, 예상 수량 및 희망 납기를 알려주시면 검토에 도움이 됩니다.</span><span data-lang="en">For faster review, please include the current manufacturer and part number, required specifications, estimated quantity and requested delivery date.</span></p><ul class="contact-list"><li><strong><span data-lang="ko">담당자</span><span data-lang="en">Contact</span></strong> <span data-lang="ko">권인경 부장</span><span data-lang="en">MR.KWON</span></li><li><strong>Email</strong> ceranix@naver.com</li><li><strong>Tel</strong> 010-9329-1253</li></ul></div>
 <form action="https://formspree.io/f/xeaovkvn" id="contactForm" method="POST">
 <input name="subject" type="hidden" value="CERANIX Website Inquiry"/>
 <input aria-hidden="true" autocomplete="off" name="_gotcha" style="position:absolute;left:-9999px" tabindex="-1" type="text"/>
@@ -120,7 +122,7 @@
 </form>
 </div></section>
 </main>
-<footer><div class="container">© 2026 CERANIX. All Rights Reserved.</div></footer>
+<footer><div class="container"><div>© 2026 CERANIX. All Rights Reserved.</div><div style="margin-top:4px"><span data-lang="ko">서울시 구로구 경인로53길 15 중앙유통단지 업무 A동 507호</span><span data-lang="en">Room 507, Building A, Jungang Distribution Complex, 15 Gyeongin-ro 53-gil, Guro-gu, Seoul, Republic of Korea</span></div></div></footer>
 <script>
   const root = document.documentElement;
   const buttons = document.querySelectorAll('[data-set-lang]');
