@@ -26,7 +26,13 @@
     .eyebrow { display:inline-block; padding:7px 14px; border:1px solid rgba(255,255,255,.32); border-radius:999px; background:rgba(255,255,255,.08); font-weight:700; }
     .hero h1 { font-size:clamp(42px,7vw,78px); line-height:1.08; margin:24px 0 18px; letter-spacing:-2px; }
     .hero p { font-size:clamp(18px,2.2vw,24px); color:#dcecff; max-width:760px; margin:auto; }
-    .actions { display:flex; justify-content:center; gap:12px; flex-wrap:wr<div class="actions">ap; margin-top:34px; }
+    .actions {
+        display:flex;
+        justify-content:center; 
+        gap:12px; 
+        flex-wrap:wrap; 
+        margin-top:34px;
+            }
     .btn { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:0 23px; border-radius:7px; font-weight:800; border:1px solid transparent; cursor:pointer; }
     .btn-primary { background:var(--blue); color:#fff; }
     .btn-secondary { border-color:rgba(255,255,255,.5); color:#fff; background:transparent; }
@@ -149,17 +155,19 @@
 </nav>
 </header>
 <main>
-<section class="hero" id="home"><div class="container hero-content">
+<section class="hero" id="home">
+    <div class="container hero-content">
 <span class="eyebrow"><span data-lang="ko">PDC 한국 공식 대리점</span><span data-lang="en">PDC Authorized Distributor in Korea</span></span>
 <h1><span data-lang="ko">고신뢰 수동전자부품 솔루션</span><span data-lang="en">High-Reliability Passive Component Solutions</span></h1>
 <p><span data-lang="ko">세라닉스는 PDC의 기술과 제품을 바탕으로 고객의 설계 검토, 샘플, 구매 및 공급을 지원합니다.</span><span data-lang="en">CERANIX supports product selection, samples, procurement and supply with PDC technologies and products.</span></p>
+    </div>
 </section>
 <section id="about"><div class="container"><div class="section-head"><span>CERANIX</span><h2><span data-lang="ko">고객과 PDC를 연결하는 전문 창구</span><span data-lang="en">Your Professional Connection to PDC</span></h2><p><span data-lang="ko">BOM과 전기적 조건, 신뢰성, 인증, 납기 및 공급 조건을 함께 검토하여 적합한 수동전자부품을 제안합니다.</span><span data-lang="en">We review BOMs, electrical requirements, reliability, certifications, lead times and supply conditions to propose suitable passive components.</span></p></div></div></section>
 <section class="alt" id="products"><div class="container"><div class="section-head"><span>PDC PRODUCTS</span><h2><span data-lang="ko">제품 포트폴리오</span><span data-lang="en">Product Portfolio</span></h2></div>
   <div class="product-portfolio">
 
 <a class="product-card" href="products/mlcc/mlcc.html">
-    <img s/products/mlcc.webp
+    images/products//mlcc.webp
     <span>MLCC</span>
 </a>
 
