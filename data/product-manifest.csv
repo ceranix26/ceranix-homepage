@@ -1,0 +1,7 @@
+﻿File,Category,SubCategories,Series,Packages,Rows
+products-fe.csv,MLCC,Stacked Capacitors,FE,0402|0603|0805|1206|1210,25200
+products-fh.csv,MLCC,Automotive Soft Termination,FH,0402|0603|0805|1206|1210,25200
+products-fj.csv,MLCC,Anti-Arcing High Voltage,FJ,0402|0603|0805|1206|1210,6000
+products-fk.csv,MLCC,Automotive Safety,FK,0402|0603|0805|1206|1210,25200
+products-fm.csv,MLCC,Medium Voltage,FM,0402|0603|0805|1206|1210,3000
+products-fn.csv,MLCC,General Purpose,FN,0'0402|0'0603|0402|0805|1206|1210,22200
