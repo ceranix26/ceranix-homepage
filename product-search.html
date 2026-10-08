@@ -12,154 +12,452 @@ section{padding:78px 0}section.alt{background:var(--light)}h2{color:var(--navy);
 
 .search-panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:0 10px 28px rgba(25,52,84,.07)}.tabs{display:flex;gap:8px;margin-bottom:22px}.tab{padding:10px 16px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--navy);font-weight:800;cursor:pointer}.tab.active{background:var(--navy);color:#fff}.pane{display:none}.pane.active{display:block}.filters{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.field{display:grid;gap:6px}.field label{font-weight:800;color:var(--navy);font-size:13px}select,input{min-height:44px;padding:10px;border:1px solid #cbd8e5;border-radius:7px;font:inherit}.table-wrap{overflow:auto;margin-top:18px;border:1px solid var(--line);border-radius:9px}table{border-collapse:collapse;min-width:1000px;width:100%}th{background:var(--navy);color:#fff}th,td{padding:11px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}.doc{display:inline-block;padding:6px 10px;border-radius:5px;color:#fff;font-weight:800;font-size:12px}.ds{background:var(--blue)}.env{background:#2e7d32}@media(max-width:860px){.filters{grid-template-columns:1fr 1fr}}@media(max-width:480px){.filters{grid-template-columns:1fr}}
 .pagination{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:18px;flex-wrap:wrap}.page-btn{border:1px solid var(--line);background:#fff;color:var(--navy);padding:8px 13px;border-radius:6px;font-weight:800;cursor:pointer}.page-btn:disabled{opacity:.4;cursor:not-allowed}.result-summary{margin-top:16px;color:var(--muted);font-size:14px}.loading{opacity:.72}.hint{margin-top:10px;color:var(--muted);font-size:13px}
-</style></head><body><header><nav class="container"><a href="index.html" class="brand"><img src="LOGO.png" class="logo" alt="CERANIX"><span class="logo-fallback">CERANIX</span></a><ul class="nav-links"><li><a href="index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li><li><a href="index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li><li><a href="index.html#applications"><span data-lang="ko">적용 분야</span><span data-lang="en">Applications</span></a></li><li><a class="active" href="product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product Search</span></a></li><li><a href="index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li></ul><div class="lang-switch"><button class="lang-btn active" data-set-lang="ko">KO</button><button class="lang-btn" data-set-lang="en">EN</button></div></nav></header><main><section class="hero"><div class="container"><span class="eyebrow"><span data-lang="ko">PDC 통합 제품 데이터베이스</span><span data-lang="en">PDC Integrated Product Database</span></span><h1>Product Search</h1><p class="subtitle"><span data-lang="ko">사양 검색과 Cross Reference를 한 곳에서 확인하세요.</span><span data-lang="en">Search specifications and cross references in one place.</span></p></div></section><section class="alt"><div class="container"><div class="search-panel"><div class="tabs"><button class="tab active" data-pane="spec">Specification Search</button><button class="tab" data-pane="cross">Cross Reference Search</button></div><div id="spec" class="pane active"><div class="filters"><div class="field"><label>Category</label><select id="category"></select></div><div class="field"><label>SubCategory</label><select id="subcategory"></select></div><div class="field"><label>Series</label><select id="series"></select></div><div class="field"><label>Package</label><select id="package"></select></div></div><a class="btn" href="#" id="specSearch">Search</a></div><div id="cross" class="pane"><div class="filters"><div class="field"><label>Manufacturer</label><select id="manufacturer"></select></div><div class="field" style="grid-column:span 3"><label>Competitor Part Number</label><input id="competitorPart"></div></div><a class="btn" href="#" id="crossSearch">Cross Search</a></div><p class="notice" id="status">Loading database...</p><div id="results"></div></div></div></section></main><footer>© 2026 CERANIX | PDC Korea Authorized Distributor</footer><script>
+.part-number-field{grid-column:1/-1}select:disabled{background:#eef2f6;color:#98a2b3;cursor:not-allowed}
+</style></head><body><header><nav class="container"><a href="index.html" class="brand"><img src="LOGO.png" class="logo" alt="CERANIX"><span class="logo-fallback">CERANIX</span></a><ul class="nav-links"><li><a href="index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li><li><a href="index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li><li><a href="index.html#applications"><span data-lang="ko">적용 분야</span><span data-lang="en">Applications</span></a></li><li><a class="active" href="product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product Search</span></a></li><li><a href="index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li></ul><div class="lang-switch"><button class="lang-btn active" data-set-lang="ko">KO</button><button class="lang-btn" data-set-lang="en">EN</button></div></nav></header><main><section class="hero"><div class="container"><span class="eyebrow"><span data-lang="ko">PDC 통합 제품 데이터베이스</span><span data-lang="en">PDC Integrated Product Database</span></span><h1>Product Search</h1><p class="subtitle"><span data-lang="ko">사양 검색과 Cross Reference를 한 곳에서 확인하세요.</span><span data-lang="en">Search specifications and cross references in one place.</span></p></div></section><section class="alt"><div class="container"><div class="search-panel"><div class="tabs"><button class="tab active" data-pane="spec">Specification Search</button><button class="tab" data-pane="cross">Cross Reference Search</button></div><div id="spec" class="pane active"><div class="filters"><div class="field"><label>Category</label><select id="category"></select></div><div class="field"><label>SubCategory</label><select id="subcategory"></select></div><div class="field"><label>Series</label><select id="series"></select></div><div class="field"><label>Package</label><select id="package"></select></div><div class="field part-number-field"><label>Part Number</label><input id="partNumber" type="search" autocomplete="off" placeholder="Enter full or partial part number"></div></div><a class="btn" href="#" id="specSearch">Search</a></div><div id="cross" class="pane"><div class="filters"><div class="field"><label>Manufacturer</label><select id="manufacturer"></select></div><div class="field" style="grid-column:span 3"><label>Competitor Part Number</label><input id="competitorPart"></div></div><a class="btn" href="#" id="crossSearch">Cross Search</a></div><p class="notice" id="status">Loading database...</p><div id="results"></div></div></div></section></main><footer>© 2026 CERANIX | PDC Korea Authorized Distributor</footer><script>
 const MANIFEST_FILE = './data/product-manifest.csv';
 const CROSS_FILE = './data/cross-reference.csv';
 const PAGE_SIZE = 50;
-// 현재 원본 Excel의 행이 Draft 상태이므로 작동 확인을 위해 Draft도 포함합니다.
-// 운영 공개 시에는 new Set(['Published'])로 변경하세요.
+
+// 현재 원본 CSV가 Draft 상태이므로 작동 확인을 위해 Draft도 표시합니다.
+// 공식 공개 전에는 new Set(['Published'])로 변경하세요.
 const VISIBLE_STATUSES = new Set(['Published', 'Draft']);
+
 const $ = id => document.getElementById(id);
 const statusEl = $('status');
 const resultsEl = $('results');
-const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-let manifest = [], crossRows = [], currentRows = [], currentPage = 1;
 const fileCache = new Map();
+
+let manifest = [];
+let crossRows = [];
+let currentRows = [];
+let currentPage = 1;
+
+function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, character => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+    })[character]);
+}
+
+function normalizePart(value) {
+    return String(value || '')
+        .toUpperCase()
+        .replace(/[^A-Z0-9]/g, '');
+}
 
 function parseCSV(text) {
     const rows = [];
-    let row = [], field = '', quoted = false;
+    let row = [];
+    let field = '';
+    let quoted = false;
+
     text = text.replace(/^\uFEFF/, '');
-    for (let i = 0; i < text.length; i++) {
-        const char = text[i];
+
+    for (let index = 0; index < text.length; index += 1) {
+        const character = text[index];
+
         if (quoted) {
-            if (char === '"' && text[i + 1] === '"') { field += '"'; i++; }
-            else if (char === '"') quoted = false;
-            else field += char;
-        } else if (char === '"') quoted = true;
-        else if (char === ',') { row.push(field); field = ''; }
-        else if (char === '\n') { row.push(field.replace(/\r$/, '')); rows.push(row); row = []; field = ''; }
-        else field += char;
+            if (character === '"' && text[index + 1] === '"') {
+                field += '"';
+                index += 1;
+            } else if (character === '"') {
+                quoted = false;
+            } else {
+                field += character;
+            }
+        } else if (character === '"') {
+            quoted = true;
+        } else if (character === ',') {
+            row.push(field);
+            field = '';
+        } else if (character === '\n') {
+            row.push(field.replace(/\r$/, ''));
+            rows.push(row);
+            row = [];
+            field = '';
+        } else {
+            field += character;
+        }
     }
-    if (field || row.length) { row.push(field.replace(/\r$/, '')); rows.push(row); }
+
+    if (field || row.length) {
+        row.push(field.replace(/\r$/, ''));
+        rows.push(row);
+    }
+
     const headers = rows.shift() || [];
-    return rows.filter(r => r.some(v => v !== '')).map(r => Object.fromEntries(headers.map((h, i) => [h, r[i] ?? ''])));
+
+    return rows
+        .filter(record => record.some(value => value !== ''))
+        .map(record => Object.fromEntries(
+            headers.map((header, index) => [header, record[index] ?? ''])
+        ));
 }
 
 async function fetchCSV(path) {
-    const response = await fetch(path, { cache: 'force-cache' });
-    if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+    const response = await fetch(path, { cache: 'no-cache' });
+
+    if (!response.ok) {
+        throw new Error(`${path}: HTTP ${response.status}`);
+    }
+
     return parseCSV(await response.text());
 }
 
-function options(values) {
-    return '<option value="">All</option>' + [...new Set(values.filter(Boolean))].sort().map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
-}
-
-function splitValues(value) { return String(value || '').split('|').filter(Boolean); }
-
-function updateFilters(changed = '') {
-    const selectedCategory = $('category').value;
-    const candidates = manifest.filter(m => !selectedCategory || splitValues(m.Category).includes(selectedCategory));
-    if (changed !== 'category') $('category').innerHTML = options(manifest.flatMap(m => splitValues(m.Category)));
-    $('subcategory').innerHTML = options(candidates.flatMap(m => splitValues(m.SubCategories)));
-    $('series').innerHTML = options(candidates.map(m => m.Series));
-    $('package').innerHTML = options(candidates.flatMap(m => splitValues(m.Packages)));
-    $('manufacturer').innerHTML = options(crossRows.map(r => r.CompetitorManufacturer));
-}
-
-function targetFiles() {
-    return manifest.filter(m =>
-        (!$('category').value || splitValues(m.Category).includes($('category').value)) &&
-        (!$('subcategory').value || splitValues(m.SubCategories).includes($('subcategory').value)) &&
-        (!$('series').value || m.Series === $('series').value) &&
-        (!$('package').value || splitValues(m.Packages).includes($('package').value))
+function uniqueSorted(values) {
+    return [...new Set(values.filter(Boolean))].sort((a, b) =>
+        String(a).localeCompare(String(b), undefined, { numeric: true })
     );
 }
 
-async function loadProductFile(file) {
-    if (!fileCache.has(file)) fileCache.set(file, fetchCSV(`./data/${file}`));
-    return fileCache.get(file);
+function optionMarkup(values) {
+    return '<option value="">All</option>' + uniqueSorted(values)
+        .map(value => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`)
+        .join('');
+}
+
+function splitManifestValues(value) {
+    return String(value || '')
+        .split('|')
+        .map(item => item.trim())
+        .filter(Boolean);
+}
+
+function setSelectOptions(selectElement, values, preferredValue = '') {
+    selectElement.innerHTML = optionMarkup(values);
+
+    if (
+        preferredValue &&
+        [...selectElement.options].some(option => option.value === preferredValue)
+    ) {
+        selectElement.value = preferredValue;
+    }
+}
+
+function updateCascadingFilters(changedLevel = 'init') {
+    const categorySelect = $('category');
+    const subcategorySelect = $('subcategory');
+    const seriesSelect = $('series');
+    const packageSelect = $('package');
+
+    const previous = {
+        category: categorySelect.value,
+        subcategory: subcategorySelect.value,
+        series: seriesSelect.value,
+        package: packageSelect.value
+    };
+
+    if (changedLevel === 'category') {
+        previous.subcategory = '';
+        previous.series = '';
+        previous.package = '';
+    } else if (changedLevel === 'subcategory') {
+        previous.series = '';
+        previous.package = '';
+    } else if (changedLevel === 'series') {
+        previous.package = '';
+    }
+
+    setSelectOptions(
+        categorySelect,
+        manifest.flatMap(row => splitManifestValues(row.Category)),
+        previous.category
+    );
+
+    const categoryFiles = manifest.filter(row =>
+        !categorySelect.value ||
+        splitManifestValues(row.Category).includes(categorySelect.value)
+    );
+
+    setSelectOptions(
+        subcategorySelect,
+        categoryFiles.flatMap(row => splitManifestValues(row.SubCategories)),
+        previous.subcategory
+    );
+
+    const subcategoryFiles = categoryFiles.filter(row =>
+        !subcategorySelect.value ||
+        splitManifestValues(row.SubCategories).includes(subcategorySelect.value)
+    );
+
+    setSelectOptions(
+        seriesSelect,
+        subcategoryFiles.map(row => row.Series),
+        previous.series
+    );
+
+    const seriesFiles = subcategoryFiles.filter(row =>
+        !seriesSelect.value || row.Series === seriesSelect.value
+    );
+
+    setSelectOptions(
+        packageSelect,
+        seriesFiles.flatMap(row => splitManifestValues(row.Packages)),
+        previous.package
+    );
+
+    subcategorySelect.disabled = !categorySelect.value;
+    seriesSelect.disabled = !subcategorySelect.value;
+    packageSelect.disabled = !seriesSelect.value;
+
+    setSelectOptions(
+        $('manufacturer'),
+        crossRows.map(row => row.CompetitorManufacturer),
+        $('manufacturer').value
+    );
+}
+
+function targetFiles() {
+    return manifest.filter(row =>
+        (!$('category').value || splitManifestValues(row.Category).includes($('category').value)) &&
+        (!$('subcategory').value || splitManifestValues(row.SubCategories).includes($('subcategory').value)) &&
+        (!$('series').value || row.Series === $('series').value) &&
+        (!$('package').value || splitManifestValues(row.Packages).includes($('package').value))
+    );
+}
+
+async function loadProductFile(fileName) {
+    if (!fileCache.has(fileName)) {
+        fileCache.set(fileName, fetchCSV(`./data/${fileName}`));
+    }
+
+    return fileCache.get(fileName);
+}
+
+function productRowMarkup(row) {
+    return `
+        <tr>
+            <td>${escapeHtml(row.Category)}</td>
+            <td>${escapeHtml(row.SubCategory)}</td>
+            <td><b>${escapeHtml(row.PartNumber)}</b></td>
+            <td>${escapeHtml(row.Series)}</td>
+            <td>${escapeHtml(row.Package)}</td>
+            <td>${escapeHtml(row.PrimarySpec)}</td>
+            <td>${row.DatasheetURL ? `<a class="doc ds" target="_blank" rel="noopener" href="${escapeHtml(row.DatasheetURL)}">View</a>` : '-'}</td>
+            <td>${row.EnvironmentalURL ? `<a class="doc env" target="_blank" rel="noopener" href="${escapeHtml(row.EnvironmentalURL)}">View</a>` : '-'}</td>
+        </tr>
+    `;
+}
+
+function renderResults() {
+    if (!currentRows.length) {
+        resultsEl.innerHTML = '<p class="notice">No matching products found.</p>';
+        return;
+    }
+
+    const totalPages = Math.ceil(currentRows.length / PAGE_SIZE);
+    currentPage = Math.min(Math.max(1, currentPage), totalPages);
+
+    const startIndex = (currentPage - 1) * PAGE_SIZE;
+    const pageRows = currentRows.slice(startIndex, startIndex + PAGE_SIZE);
+
+    resultsEl.innerHTML = `
+        <p class="result-summary">
+            ${currentRows.length.toLocaleString()}개 중
+            ${(startIndex + 1).toLocaleString()}-${Math.min(startIndex + PAGE_SIZE, currentRows.length).toLocaleString()} 표시
+        </p>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>SubCategory</th>
+                        <th>Part Number</th>
+                        <th>Series</th>
+                        <th>Package</th>
+                        <th>Primary Spec</th>
+                        <th>Datasheet</th>
+                        <th>Environmental</th>
+                    </tr>
+                </thead>
+                <tbody>${pageRows.map(productRowMarkup).join('')}</tbody>
+            </table>
+        </div>
+        <div class="pagination">
+            <button class="page-btn" id="prevPage" ${currentPage === 1 ? 'disabled' : ''}>이전</button>
+            <strong>${currentPage.toLocaleString()} / ${totalPages.toLocaleString()}</strong>
+            <button class="page-btn" id="nextPage" ${currentPage === totalPages ? 'disabled' : ''}>다음</button>
+        </div>
+    `;
+
+    $('prevPage').onclick = () => {
+        currentPage -= 1;
+        renderResults();
+        resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    $('nextPage').onclick = () => {
+        currentPage += 1;
+        renderResults();
+        resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
 }
 
 async function searchProducts() {
+    const normalizedPartNumber = normalizePart($('partNumber').value);
+    const hasFilter =
+        $('category').value ||
+        $('subcategory').value ||
+        $('series').value ||
+        $('package').value ||
+        normalizedPartNumber;
+
+    if (!hasFilter) {
+        statusEl.textContent = '검색 조건을 하나 이상 선택해 주세요.';
+        resultsEl.innerHTML = '<p class="notice">Category를 선택하거나 Part Number를 입력해 주세요.</p>';
+        return;
+    }
+
     statusEl.textContent = '선택한 조건에 필요한 CSV 파일을 불러오는 중...';
     statusEl.classList.add('loading');
+
     try {
         const files = targetFiles();
-        const chunks = await Promise.all(files.map(m => loadProductFile(m.File)));
-        currentRows = chunks.flat().filter(r =>
-            VISIBLE_STATUSES.has(r.Status) &&
-            (!$('category').value || r.Category === $('category').value) &&
-            (!$('subcategory').value || r.SubCategory === $('subcategory').value) &&
-            (!$('series').value || r.Series === $('series').value) &&
-            (!$('package').value || r.Package === $('package').value)
+        const chunks = await Promise.all(
+            files.map(row => loadProductFile(row.File))
         );
+
+        currentRows = chunks.flat().filter(row =>
+            VISIBLE_STATUSES.has(row.Status) &&
+            (!$('category').value || row.Category === $('category').value) &&
+            (!$('subcategory').value || row.SubCategory === $('subcategory').value) &&
+            (!$('series').value || row.Series === $('series').value) &&
+            (!$('package').value || row.Package === $('package').value) &&
+            (!normalizedPartNumber || normalizePart(row.PartNumber).includes(normalizedPartNumber))
+        );
+
         currentPage = 1;
         renderResults();
         statusEl.textContent = `검색 완료: ${currentRows.length.toLocaleString()}개 결과, CSV ${files.length}개 로드`;
     } catch (error) {
         statusEl.textContent = '제품 CSV 파일을 불러오지 못했습니다.';
+        resultsEl.innerHTML = '<p class="notice">CSV 파일 경로와 파일명을 확인해 주세요.</p>';
         console.error(error);
-    } finally { statusEl.classList.remove('loading'); }
+    } finally {
+        statusEl.classList.remove('loading');
+    }
 }
 
-function productRow(r) {
-    return `<tr><td>${esc(r.Category)}</td><td>${esc(r.SubCategory)}</td><td><b>${esc(r.PartNumber)}</b></td><td>${esc(r.Series)}</td><td>${esc(r.Package)}</td><td>${esc(r.PrimarySpec)}</td><td>${r.DatasheetURL ? `<a class="doc ds" target="_blank" rel="noopener" href="${esc(r.DatasheetURL)}">View</a>` : '-'}</td><td>${r.EnvironmentalURL ? `<a class="doc env" target="_blank" rel="noopener" href="${esc(r.EnvironmentalURL)}">View</a>` : '-'}</td></tr>`;
-}
-
-function renderResults() {
-    if (!currentRows.length) { resultsEl.innerHTML = '<p class="notice">No matching products found.</p>'; return; }
-    const totalPages = Math.ceil(currentRows.length / PAGE_SIZE);
-    currentPage = Math.min(Math.max(1, currentPage), totalPages);
-    const start = (currentPage - 1) * PAGE_SIZE;
-    const pageRows = currentRows.slice(start, start + PAGE_SIZE);
-    resultsEl.innerHTML = `<p class="result-summary">${currentRows.length.toLocaleString()}개 중 ${(start + 1).toLocaleString()}-${Math.min(start + PAGE_SIZE, currentRows.length).toLocaleString()} 표시</p><div class="table-wrap"><table><thead><tr><th>Category</th><th>SubCategory</th><th>Part Number</th><th>Series</th><th>Package</th><th>Primary Spec</th><th>Datasheet</th><th>Environmental</th></tr></thead><tbody>${pageRows.map(productRow).join('')}</tbody></table></div><div class="pagination"><button class="page-btn" id="prevPage" ${currentPage === 1 ? 'disabled' : ''}>이전</button><strong>${currentPage.toLocaleString()} / ${totalPages.toLocaleString()}</strong><button class="page-btn" id="nextPage" ${currentPage === totalPages ? 'disabled' : ''}>다음</button></div>`;
-    $('prevPage').onclick = () => { currentPage--; renderResults(); resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
-    $('nextPage').onclick = () => { currentPage++; renderResults(); resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
-}
-
-function normalizePart(value) { return String(value || '').toUpperCase().replace(/[^A-Z0-9]/g, ''); }
 async function crossSearch() {
     const query = normalizePart($('competitorPart').value);
-    if (!query) { resultsEl.innerHTML = '<p class="notice">Competitor Part Number를 입력해 주세요.</p>'; return; }
-    const refs = crossRows.filter(r =>
-        VISIBLE_STATUSES.has(r.Status) &&
-        (!$('manufacturer').value || r.CompetitorManufacturer === $('manufacturer').value) &&
-        normalizePart(r.NormalizedCompetitorPart || r.CompetitorPartNumber).includes(query)
-    );
-    if (!refs.length) { currentRows = []; renderResults(); statusEl.textContent = 'Cross Reference 결과가 없습니다.'; return; }
-    const allChunks = await Promise.all(manifest.map(m => loadProductFile(m.File)));
-    const byPart = new Map(allChunks.flat().map(r => [r.PartNumber, r]));
-    currentRows = refs.map(r => byPart.get(r.PDCCandidate)).filter(Boolean);
-    currentPage = 1; renderResults();
-    statusEl.textContent = `Cross Reference 결과: ${currentRows.length.toLocaleString()}개`;
+
+    if (!query) {
+        resultsEl.innerHTML = '<p class="notice">Competitor Part Number를 입력해 주세요.</p>';
+        return;
+    }
+
+    statusEl.textContent = 'Cross Reference 검색 중...';
+
+    try {
+        const references = crossRows.filter(row =>
+            VISIBLE_STATUSES.has(row.Status) &&
+            (!$('manufacturer').value || row.CompetitorManufacturer === $('manufacturer').value) &&
+            normalizePart(row.NormalizedCompetitorPart || row.CompetitorPartNumber).includes(query)
+        );
+
+        if (!references.length) {
+            currentRows = [];
+            renderResults();
+            statusEl.textContent = 'Cross Reference 결과가 없습니다.';
+            return;
+        }
+
+        const allChunks = await Promise.all(
+            manifest.map(row => loadProductFile(row.File))
+        );
+
+        const productsByPartNumber = new Map(
+            allChunks.flat().map(row => [row.PartNumber, row])
+        );
+
+        currentRows = references
+            .map(row => productsByPartNumber.get(row.PDCCandidate))
+            .filter(Boolean);
+
+        currentPage = 1;
+        renderResults();
+        statusEl.textContent = `Cross Reference 결과: ${currentRows.length.toLocaleString()}개`;
+    } catch (error) {
+        statusEl.textContent = 'Cross Reference 검색 중 오류가 발생했습니다.';
+        console.error(error);
+    }
 }
 
-async function init() {
+async function initializeDatabase() {
     try {
-        [manifest, crossRows] = await Promise.all([fetchCSV(MANIFEST_FILE), fetchCSV(CROSS_FILE)]);
-        updateFilters();
-        const total = manifest.reduce((sum, row) => sum + Number(row.Rows || 0), 0);
-        statusEl.textContent = `CSV 데이터베이스 준비 완료: ${total.toLocaleString()}개 제품. 검색 시 필요한 시리즈 파일만 불러옵니다.`;
+        [manifest, crossRows] = await Promise.all([
+            fetchCSV(MANIFEST_FILE),
+            fetchCSV(CROSS_FILE)
+        ]);
+
+        updateCascadingFilters();
+
+        const totalProducts = manifest.reduce(
+            (total, row) => total + Number(row.Rows || 0),
+            0
+        );
+
+        statusEl.textContent = `CSV 데이터베이스 준비 완료: ${totalProducts.toLocaleString()}개 제품. 검색 시 필요한 시리즈 파일만 불러옵니다.`;
     } catch (error) {
         statusEl.textContent = 'CSV 데이터베이스 목록을 불러오지 못했습니다.';
         console.error(error);
     }
 }
 
-$('category').onchange = () => updateFilters('category');
-$('specSearch').onclick = e => { e.preventDefault(); searchProducts(); };
-$('crossSearch').onclick = e => { e.preventDefault(); crossSearch(); };
-document.querySelectorAll('.tab').forEach(button => button.onclick = () => {
-    document.querySelectorAll('.tab,.pane').forEach(el => el.classList.remove('active'));
-    button.classList.add('active');
-    $(button.dataset.pane).classList.add('active');
+$('category').onchange = () => updateCascadingFilters('category');
+$('subcategory').onchange = () => updateCascadingFilters('subcategory');
+$('series').onchange = () => updateCascadingFilters('series');
+$('package').onchange = () => updateCascadingFilters('package');
+
+$('partNumber').onkeydown = event => {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        searchProducts();
+    }
+};
+
+$('competitorPart').onkeydown = event => {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        crossSearch();
+    }
+};
+
+$('specSearch').onclick = event => {
+    event.preventDefault();
+    searchProducts();
+};
+
+$('crossSearch').onclick = event => {
+    event.preventDefault();
+    crossSearch();
+};
+
+document.querySelectorAll('.tab').forEach(button => {
+    button.onclick = () => {
+        document.querySelectorAll('.tab, .pane').forEach(element =>
+            element.classList.remove('active')
+        );
+
+        button.classList.add('active');
+        $(button.dataset.pane).classList.add('active');
+    };
 });
+
 const root = document.documentElement;
-document.querySelectorAll('[data-set-lang]').forEach(button => button.onclick = () => {
-    root.lang = button.dataset.setLang;
-    document.querySelectorAll('[data-set-lang]').forEach(el => el.classList.toggle('active', el === button));
+
+document.querySelectorAll('[data-set-lang]').forEach(button => {
+    button.onclick = () => {
+        root.lang = button.dataset.setLang;
+
+        document.querySelectorAll('[data-set-lang]').forEach(element =>
+            element.classList.toggle('active', element === button)
+        );
+    };
 });
-init();
+
+initializeDatabase();
 </script></body></html>
