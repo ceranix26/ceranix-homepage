@@ -20,7 +20,7 @@ const PAGE_SIZE = 50;
 
 // 현재 원본 CSV가 Draft 상태이므로 작동 확인을 위해 Draft도 표시합니다.
 // 공식 공개 전에는 new Set(['Published'])로 변경하세요.
-const VISIBLE_STATUSES = new Set(['Published', 'Draft']);
+const VISIBLE_STATUSES = new Set(['Published']);
 
 const $ = id => document.getElementById(id);
 const statusEl = $('status');
