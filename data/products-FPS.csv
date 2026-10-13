@@ -1,5 +1,5 @@
 ﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
-Chip Resistors,High Power,FPS06FTG3002N,FPS,1206,±1%; Chip Resistor,,,30 kΩ,,,,,,Draft
-Chip Resistors,High Power,FPS06FTG1002N,FPS,1206,±1%; Chip Resistor,,,10 kΩ,,,,,,Draft
-Chip Resistors,High Power,FPS06FTG4991N,FPS,1206,±1%; Chip Resistor,,,4.99 kΩ,,,,,,Draft
-Chip Resistors,High Power,FPS06FTG3001N,FPS,1206,±1%; Chip Resistor,,,3 kΩ,,,,,,Draft
+Chip Resistors,High Power,FPS06FTG3002N,FPS,1206,±1%; Chip Resistor,,,30 kΩ,,,,,,Published
+Chip Resistors,High Power,FPS06FTG1002N,FPS,1206,±1%; Chip Resistor,,,10 kΩ,,,,,,Published
+Chip Resistors,High Power,FPS06FTG4991N,FPS,1206,±1%; Chip Resistor,,,4.99 kΩ,,,,,,Published
+Chip Resistors,High Power,FPS06FTG3001N,FPS,1206,±1%; Chip Resistor,,,3 kΩ,,,,,,Published

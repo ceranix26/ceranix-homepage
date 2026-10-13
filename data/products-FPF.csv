@@ -1,5 +1,5 @@
 ﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
-Chip Resistors,High Power,FPF25FQK1000NM,FPF,2512,±1%; Chip Resistor,,,100 Ω,,,,,,Draft
-Chip Resistors,High Power,FPF25JP-1R8,FPF,2512,±5%; Chip Resistor,,,1.8 Ω,,,,,,Draft
-Chip Resistors,High Power,FPF02FV-22R0-M,FPF,0402,±1%; Chip Resistor,,,22 Ω,,,,,,Draft
-Chip Resistors,High Power,FPF02FV-22R0-M,FPF,0402,±1%; Chip Resistor,,,22 Ω,,,,,,Draft
+Chip Resistors,High Power,FPF25FQK1000NM,FPF,2512,±1%; Chip Resistor,,,100 Ω,,,,,,Published
+Chip Resistors,High Power,FPF25JP-1R8,FPF,2512,±5%; Chip Resistor,,,1.8 Ω,,,,,,Published
+Chip Resistors,High Power,FPF02FV-22R0-M,FPF,402,±1%; Chip Resistor,,,22 Ω,,,,,,Published
+Chip Resistors,High Power,FPF02FV-22R0-M,FPF,402,±1%; Chip Resistor,,,22 Ω,,,,,,Published

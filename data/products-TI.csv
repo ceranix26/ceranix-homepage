@@ -1,3 +1,3 @@
 ﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
-Inductors,Ferrite Bead,TI160806P700-LRH,TI,348,Impedance-coded ferrite component,,,,,,,,,Draft
-Inductors,Ferrite Bead,TI201209F601-LRH,TI,0805,Impedance-coded ferrite component,,,,,,,,,Draft
+Inductors,Ferrite Bead,TI160806P700-LRH,TI,348,Impedance-coded ferrite component,,,,,,,,,Published
+Inductors,Ferrite Bead,TI201209F601-LRH,TI,805,Impedance-coded ferrite component,,,,,,,,,Published

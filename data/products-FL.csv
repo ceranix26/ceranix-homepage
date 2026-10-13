@@ -1,2 +1,2 @@
 ﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
-Inductors,RF / Chip Inductor,FL201209I-100M-LRH,FL,0805,±20%,,,,10 uH,,,,,Draft
+Inductors,RF / Chip Inductor,FL201209I-100M-LRH,FL,805,±20%,,,,10 uH,,,,,Published

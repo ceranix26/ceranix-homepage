@@ -1,19 +1,19 @@
 ﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
-MLCC,General Purpose,FN15X103K500PNG,FN,0402,X7R; ±10%; 7-inch paper reel,50V,10 nF,,,,,,,Draft
-MLCC,General Purpose,FN18X104K500PBG,FN,0603,X7R; ±10%; 7-inch paper reel,50V,100 nF,,,,,,,Draft
-MLCC,General Purpose,FN15N2R7C500PNG,FN,0402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,2.7 pF,,,,,,,Draft
-MLCC,General Purpose,FN15N3R9B500PNG,FN,0402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,3.9 pF,,,,,,,Draft
-MLCC,General Purpose,FN15N6R8B500PNG,FN,0402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,6.8 pF,,,,,,,Draft
-MLCC,General Purpose,FN15N1R2B500PNG,FN,0402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,1.2 pF,,,,,,,Draft
-MLCC,General Purpose,FN15N5R6C500PNG,FN,0402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,5.6 pF,,,,,,,Draft
-MLCC,General Purpose,FN15N8R2C500PNG,FN,0402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,8.2 pF,,,,,,,Draft
-MLCC,General Purpose,FN15N1R8C500PNG,FN,0402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,1.8 pF,,,,,,,Draft
-MLCC,General Purpose,FN18X103K500PSG,FN,0603,X7R; ±10%; 7-inch paper reel,50V,10 nF,,,,,,,Draft
-MLCC,General Purpose,FN18N101J500PSG,FN,0603,C0G (NP0); ±5%; 7-inch paper reel,50V,100 pF,,,,,,,Draft
-MLCC,General Purpose,FN18X681K500PSG,FN,0603,X7R; ±10%; 7-inch paper reel,50V,680 pF,,,,,,,Draft
-MLCC,General Purpose,FN18X334K250PBG,FN,0603,X7R; ±10%; 7-inch paper reel,25V,330 nF,,,,,,,Draft
-MLCC,General Purpose,FN18N470J500PSG,FN,0603,C0G (NP0); ±5%; 7-inch paper reel,50V,47 pF,,,,,,,Draft
-MLCC,General Purpose,FN31N220J500PXG,FN,1206,C0G (NP0); ±5%; 7-inch paper reel,50V,22 pF,,,,,,,Draft
-MLCC,General Purpose,FN18X473K250PSG,FN,0603,X7R; ±10%; 7-inch paper reel,25V,47 nF,,,,,,,Draft
-MLCC,General Purpose,FN15N7R5B500PNG,FN,0402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,7.5 pF,,,,,,,Draft
-MLCC,General Purpose,FN21X104K500LCG,FN,0805,X7R; ±10%; 13-inch embossed reel,50V,100 nF,,,,,,,Draft
+MLCC,General Purpose,FN15X103K500PNG,FN,402,X7R; ±10%; 7-inch paper reel,50V,10 nF,,,,,,,Published
+MLCC,General Purpose,FN18X104K500PBG,FN,603,X7R; ±10%; 7-inch paper reel,50V,100 nF,,,,,,,Published
+MLCC,General Purpose,FN15N2R7C500PNG,FN,402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,2.7 pF,,,,,,,Published
+MLCC,General Purpose,FN15N3R9B500PNG,FN,402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,3.9 pF,,,,,,,Published
+MLCC,General Purpose,FN15N6R8B500PNG,FN,402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,6.8 pF,,,,,,,Published
+MLCC,General Purpose,FN15N1R2B500PNG,FN,402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,1.2 pF,,,,,,,Published
+MLCC,General Purpose,FN15N5R6C500PNG,FN,402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,5.6 pF,,,,,,,Published
+MLCC,General Purpose,FN15N8R2C500PNG,FN,402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,8.2 pF,,,,,,,Published
+MLCC,General Purpose,FN15N1R8C500PNG,FN,402,C0G (NP0); ±0.25 pF; 7-inch paper reel,50V,1.8 pF,,,,,,,Published
+MLCC,General Purpose,FN18X103K500PSG,FN,603,X7R; ±10%; 7-inch paper reel,50V,10 nF,,,,,,,Published
+MLCC,General Purpose,FN18N101J500PSG,FN,603,C0G (NP0); ±5%; 7-inch paper reel,50V,100 pF,,,,,,,Published
+MLCC,General Purpose,FN18X681K500PSG,FN,603,X7R; ±10%; 7-inch paper reel,50V,680 pF,,,,,,,Published
+MLCC,General Purpose,FN18X334K250PBG,FN,603,X7R; ±10%; 7-inch paper reel,25V,330 nF,,,,,,,Published
+MLCC,General Purpose,FN18N470J500PSG,FN,603,C0G (NP0); ±5%; 7-inch paper reel,50V,47 pF,,,,,,,Published
+MLCC,General Purpose,FN31N220J500PXG,FN,1206,C0G (NP0); ±5%; 7-inch paper reel,50V,22 pF,,,,,,,Published
+MLCC,General Purpose,FN18X473K250PSG,FN,603,X7R; ±10%; 7-inch paper reel,25V,47 nF,,,,,,,Published
+MLCC,General Purpose,FN15N7R5B500PNG,FN,402,C0G (NP0); ±0.10 pF; 7-inch paper reel,50V,7.5 pF,,,,,,,Published
+MLCC,General Purpose,FN21X104K500LCG,FN,805,X7R; ±10%; 13-inch embossed reel,50V,100 nF,,,,,,,Published
