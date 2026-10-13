@@ -1,0 +1,3 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+Inductors,Power Inductor,CSS127P-330M-LRH,CSS,127P,±20%,,,,33 uH,,,,,Draft
+Inductors,Power Inductor,CSS0745F-470M-1LRH,CSS,0745F,±20%,,,,47 uH,,,,,Draft

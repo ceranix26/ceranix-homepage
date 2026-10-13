@@ -1,0 +1,4 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+Inductors,Power Inductor,CSM0645D-680M-LRH,CSM,0645D,±20%,,,,68 uH,,,,,Draft
+Inductors,Power Inductor,CSM0315D-4R7M-LRH,CSM,0315D,±20%,,,,4.7 uH,,,,,Draft
+Inductors,Power Inductor,CSM0645D-470M-LRH,CSM,0645D,±20%,,,,47 uH,,,,,Draft

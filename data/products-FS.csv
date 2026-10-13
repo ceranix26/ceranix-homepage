@@ -1,0 +1,7 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+MLCC,High Capacitance,FS15B225M100PNG,FS,0402,X5R; ±20%; 7-inch paper reel,10V,2.2 µF,,,,,,,Draft
+MLCC,High Capacitance,FS18B106M6R3PBG,FS,0603,X5R; ±20%; 7-inch paper reel,6.3V,10 µF,,,,,,,Draft
+MLCC,High Capacitance,FS32X225K101EGG,FS,1210,X7R; ±10%; 7-inch embossed reel,100V,2.2 µF,,,,,,,Draft
+MLCC,High Capacitance,FS32X475K101EGG,FS,1210,X7R; ±10%; 7-inch embossed reel,100V,4.7 µF,,,,,,,Draft
+MLCC,High Capacitance,FS55X475K101EGG,FS,2220,X7R; ±10%; 7-inch embossed reel,100V,4.7 µF,,,,,,,Draft
+MLCC,High Capacitance,FS32X106K500LGG,FS,1210,X7R; ±10%; 13-inch embossed reel,50V,10 µF,,,,,,,Draft

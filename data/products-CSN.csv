@@ -1,0 +1,7 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+Inductors,Power Inductor,CSN054D-4R7K-LRH,CSN,054D,±10%,,,,4.7 uH,,,,,Draft
+Inductors,Power Inductor,CSN054D-221K-LRH,CSN,054D,±10%,,,,220 uH,,,,,Draft
+Inductors,Power Inductor,CSN084F-221M-LRH,CSN,084F,±20%,,,,220 uH,,,,,Draft
+Inductors,Power Inductor,CSN054D-470L-LRH,CSN,054D,±15%,,,,47 uH,,,,,Draft
+Inductors,Power Inductor,CSN084F-151M-LRH,CSN,084F,±20%,,,,150 uH,,,,,Draft
+Inductors,Power Inductor,CSN084F-331M-LRH,CSN,084F,±20%,,,,330 uH,,,,,Draft

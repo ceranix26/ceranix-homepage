@@ -1,0 +1,6 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+MLCC,Automotive General,MT18X103K500PSG,MT,0603,X7R; ±10%; 7-inch paper reel,50V,10 nF,,,,AEC-Q200,,,Draft
+MLCC,Automotive General,MT15X101K160PNG,MT,0402,X7R; ±10%; 7-inch paper reel,16V,100 pF,,,,AEC-Q200,,,Draft
+MLCC,Automotive General,MT18X101K500PSG,MT,0603,X7R; ±10%; 7-inch paper reel,50V,100 pF,,,,AEC-Q200,,,Draft
+MLCC,Automotive General,MT18X101K250PSG,MT,0603,X7R; ±10%; 7-inch paper reel,25V,100 pF,,,,AEC-Q200,,,Draft
+MLCC,Automotive General,MT18N181J500PSG,MT,0603,C0G (NP0); ±5%; 7-inch paper reel,50V,180 pF,,,,AEC-Q200,,,Draft

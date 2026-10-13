@@ -1,0 +1,11 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+Inductors,RF / Chip Inductor,0402CP-12NJ-LRH,CP,0402,±5%,,,,12 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-6N2J-LRH,CP,0402,±5%,,,,6.2 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-18NJ-LRH,CP,0402,±5%,,,,18 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-7N5J-LRH,CP,0402,±5%,,,,7.5 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-47NJ-LRH,CP,0402,±5%,,,,47 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-2N4J-LRH,CP,0402,±5%,,,,2.4 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-15NJ-LRH,CP,0402,±5%,,,,15 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-27NJ-LRH,CP,0402,±5%,,,,27 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-56NJ-LRH,CP,0402,±5%,,,,56 nH,,,,,Draft
+Inductors,RF / Chip Inductor,0402CP-4N3W-LRH,CP,0402,Tolerance code W,,,,4.3 nH,,,,,Draft

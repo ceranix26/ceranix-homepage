@@ -1,0 +1,15 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+Chip Resistors,High Power,FBF06FT-R082,FBF,1206,±1%; Chip Resistor,,,0.082 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06FTPR220,FBF,1206,±1%; Chip Resistor,,,0.22 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF05FT-R560,FBF,0805,±1%; Chip Resistor,,,0.56 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06FT-R470,FBF,1206,±1%; Chip Resistor,,,0.47 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF25FP-R010K,FBF,2512,±1%; Chip Resistor,,,0.01 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06JT-R015,FBF,1206,±5%; Chip Resistor,,,0.015 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF25FP-R200,FBF,2512,±1%; Chip Resistor,,,0.2 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF25FP-R020,FBF,2512,±1%; Chip Resistor,,,0.02 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06FT-R100,FBF,1206,±1%; Chip Resistor,,,0.1 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06FT-R390,FBF,1206,±1%; Chip Resistor,,,0.39 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06FT-R560,FBF,1206,±1%; Chip Resistor,,,0.56 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06FT-R120,FBF,1206,±1%; Chip Resistor,,,0.12 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF25FPPR050,FBF,2512,±1%; Chip Resistor,,,0.05 Ω,,,,,,Draft
+Chip Resistors,High Power,FBF06FTPR150-M,FBF,1206,±1%; Chip Resistor,,,0.15 Ω,,,,,,Draft
