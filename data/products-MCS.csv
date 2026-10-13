@@ -1,4 +1,4 @@
 ﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
-Inductors,Power Inductor,MCS0530-3R3MN2,MCS,530,±20%,,,,3.3 uH,,,,,Published
-Inductors,Power Inductor,MCS0530-1R0MN2,MCS,530,±20%,,,,1 uH,,,,,Published
-Inductors,Power Inductor,MCS0630-4R7MN2,MCS,630,±20%,,,,4.7 uH,,,,,Published
+Inductors,Power Inductor,MCS0530-3R3MN2,MCS,0530,±20%,,,,3.3 uH,,,,,Published
+Inductors,Power Inductor,MCS0530-1R0MN2,MCS,0530,±20%,,,,1 uH,,,,,Published
+Inductors,Power Inductor,MCS0630-4R7MN2,MCS,0630,±20%,,,,4.7 uH,,,,,Published
