@@ -1,11 +1,11 @@
 ﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
-Inductors,RF / Chip Inductor,ML100505H-6N8J-LRH,ML,402,±5%,,,,6.8 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-10NJ-LRH,ML,402,±5%,,,,10 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-12NJ-LRH,ML,402,±5%,,,,12 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-18NJ-LRH,ML,402,±5%,,,,18 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-27NJ-LRH,ML,402,±5%,,,,27 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-3N0S-LRH,ML,402,±0.3 nH,,,,3 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-3N9S-LRH,ML,402,±0.3 nH,,,,3.9 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-47NJ-LRH,ML,402,±5%,,,,47 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML100505H-6N2S-LRH,ML,402,±0.3 nH,,,,6.2 nH,,,,,Published
-Inductors,RF / Chip Inductor,ML160808H-39NJ-LRH,ML,603,±5%,,,,39 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-6N8J-LRH,ML,0402,±5%,,,,6.8 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-10NJ-LRH,ML,0402,±5%,,,,10 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-12NJ-LRH,ML,0402,±5%,,,,12 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-18NJ-LRH,ML,0402,±5%,,,,18 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-27NJ-LRH,ML,0402,±5%,,,,27 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-3N0S-LRH,ML,0402,±0.3 nH,,,,3 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-3N9S-LRH,ML,0402,±0.3 nH,,,,3.9 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-47NJ-LRH,ML,0402,±5%,,,,47 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML100505H-6N2S-LRH,ML,0402,±0.3 nH,,,,6.2 nH,,,,,Published
+Inductors,RF / Chip Inductor,ML160808H-39NJ-LRH,ML,0603,±5%,,,,39 nH,,,,,Published
