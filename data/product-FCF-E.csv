@@ -1,0 +1,631 @@
+﻿Category,SubCategory,PartNumber,Series,Package,PrimarySpec,Voltage,Capacitance,Resistance,Inductance,SafetyClass,AutomotiveGrade,DatasheetURL,EnvironmentalURL,Status
+Chip Resistors,General Purpose,FCF03FT-R100-E,FCF-E,0603,±1%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR100LE,FCF-E,0603,±1%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R100-E,FCF-E,0603,±2%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR100LE,FCF-E,0603,±2%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R100-E,FCF-E,0603,±5%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR100LE,FCF-E,0603,±5%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R120-E,FCF-E,0603,±1%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR120LE,FCF-E,0603,±1%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R120-E,FCF-E,0603,±2%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR120LE,FCF-E,0603,±2%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R120-E,FCF-E,0603,±5%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR120LE,FCF-E,0603,±5%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R150-E,FCF-E,0603,±1%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR150LE,FCF-E,0603,±1%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R150-E,FCF-E,0603,±2%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR150LE,FCF-E,0603,±2%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R150-E,FCF-E,0603,±5%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR150LE,FCF-E,0603,±5%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R180-E,FCF-E,0603,±1%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR180LE,FCF-E,0603,±1%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R180-E,FCF-E,0603,±2%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR180LE,FCF-E,0603,±2%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R180-E,FCF-E,0603,±5%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR180LE,FCF-E,0603,±5%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R200-E,FCF-E,0603,±1%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR200LE,FCF-E,0603,±1%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R200-E,FCF-E,0603,±2%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR200LE,FCF-E,0603,±2%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R200-E,FCF-E,0603,±5%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR200LE,FCF-E,0603,±5%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R220-E,FCF-E,0603,±1%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR220LE,FCF-E,0603,±1%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R220-E,FCF-E,0603,±2%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR220LE,FCF-E,0603,±2%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R220-E,FCF-E,0603,±5%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR220LE,FCF-E,0603,±5%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R270-E,FCF-E,0603,±1%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR270LE,FCF-E,0603,±1%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R270-E,FCF-E,0603,±2%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR270LE,FCF-E,0603,±2%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R270-E,FCF-E,0603,±5%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR270LE,FCF-E,0603,±5%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R300-E,FCF-E,0603,±1%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR300LE,FCF-E,0603,±1%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R300-E,FCF-E,0603,±2%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR300LE,FCF-E,0603,±2%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R300-E,FCF-E,0603,±5%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR300LE,FCF-E,0603,±5%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R330-E,FCF-E,0603,±1%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR330LE,FCF-E,0603,±1%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R330-E,FCF-E,0603,±2%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR330LE,FCF-E,0603,±2%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R330-E,FCF-E,0603,±5%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR330LE,FCF-E,0603,±5%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R390-E,FCF-E,0603,±1%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR390LE,FCF-E,0603,±1%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R390-E,FCF-E,0603,±2%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR390LE,FCF-E,0603,±2%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R390-E,FCF-E,0603,±5%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR390LE,FCF-E,0603,±5%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R470-E,FCF-E,0603,±1%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR470LE,FCF-E,0603,±1%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R470-E,FCF-E,0603,±2%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR470LE,FCF-E,0603,±2%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R470-E,FCF-E,0603,±5%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR470LE,FCF-E,0603,±5%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R560-E,FCF-E,0603,±1%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR560LE,FCF-E,0603,±1%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R560-E,FCF-E,0603,±2%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR560LE,FCF-E,0603,±2%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R560-E,FCF-E,0603,±5%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR560LE,FCF-E,0603,±5%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R680-E,FCF-E,0603,±1%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR680LE,FCF-E,0603,±1%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R680-E,FCF-E,0603,±2%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR680LE,FCF-E,0603,±2%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R680-E,FCF-E,0603,±5%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR680LE,FCF-E,0603,±5%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R750-E,FCF-E,0603,±1%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR750LE,FCF-E,0603,±1%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R750-E,FCF-E,0603,±2%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR750LE,FCF-E,0603,±2%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R750-E,FCF-E,0603,±5%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR750LE,FCF-E,0603,±5%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03FT-R820-E,FCF-E,0603,±1%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03FTDR820LE,FCF-E,0603,±1%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03GT-R820-E,FCF-E,0603,±2%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03GTDR820LE,FCF-E,0603,±2%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF03JT-R820-E,FCF-E,0603,±5%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF03JTDR820LE,FCF-E,0603,±5%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R010-E,FCF-E,0805,±1%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR010HE,FCF-E,0805,±1%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R010-E,FCF-E,0805,±2%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR010HE,FCF-E,0805,±2%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R010-E,FCF-E,0805,±5%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR010HE,FCF-E,0805,±5%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R100-E,FCF-E,0805,±1%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR100LE,FCF-E,0805,±1%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R100-E,FCF-E,0805,±2%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR100LE,FCF-E,0805,±2%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R100-E,FCF-E,0805,±5%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR100LE,FCF-E,0805,±5%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R012-E,FCF-E,0805,±1%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR012HE,FCF-E,0805,±1%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R012-E,FCF-E,0805,±2%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR012HE,FCF-E,0805,±2%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R012-E,FCF-E,0805,±5%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR012HE,FCF-E,0805,±5%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R120-E,FCF-E,0805,±1%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR120LE,FCF-E,0805,±1%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R120-E,FCF-E,0805,±2%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR120LE,FCF-E,0805,±2%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R120-E,FCF-E,0805,±5%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR120LE,FCF-E,0805,±5%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R015-E,FCF-E,0805,±1%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR015HE,FCF-E,0805,±1%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R015-E,FCF-E,0805,±2%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR015HE,FCF-E,0805,±2%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R015-E,FCF-E,0805,±5%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR015HE,FCF-E,0805,±5%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R150-E,FCF-E,0805,±1%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR150LE,FCF-E,0805,±1%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R150-E,FCF-E,0805,±2%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR150LE,FCF-E,0805,±2%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R150-E,FCF-E,0805,±5%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR150LE,FCF-E,0805,±5%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R018-E,FCF-E,0805,±1%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR018HE,FCF-E,0805,±1%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R018-E,FCF-E,0805,±2%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR018HE,FCF-E,0805,±2%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R018-E,FCF-E,0805,±5%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR018HE,FCF-E,0805,±5%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R180-E,FCF-E,0805,±1%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR180LE,FCF-E,0805,±1%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R180-E,FCF-E,0805,±2%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR180LE,FCF-E,0805,±2%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R180-E,FCF-E,0805,±5%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR180LE,FCF-E,0805,±5%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R020-E,FCF-E,0805,±1%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR020HE,FCF-E,0805,±1%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R020-E,FCF-E,0805,±2%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR020HE,FCF-E,0805,±2%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R020-E,FCF-E,0805,±5%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR020HE,FCF-E,0805,±5%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R200-E,FCF-E,0805,±1%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR200LE,FCF-E,0805,±1%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R200-E,FCF-E,0805,±2%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR200LE,FCF-E,0805,±2%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R200-E,FCF-E,0805,±5%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR200LE,FCF-E,0805,±5%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R022-E,FCF-E,0805,±1%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR022JE,FCF-E,0805,±1%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R022-E,FCF-E,0805,±2%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR022JE,FCF-E,0805,±2%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R022-E,FCF-E,0805,±5%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR022JE,FCF-E,0805,±5%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R220-E,FCF-E,0805,±1%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR220LE,FCF-E,0805,±1%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R220-E,FCF-E,0805,±2%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR220LE,FCF-E,0805,±2%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R220-E,FCF-E,0805,±5%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR220LE,FCF-E,0805,±5%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R027-E,FCF-E,0805,±1%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR027JE,FCF-E,0805,±1%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R027-E,FCF-E,0805,±2%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR027JE,FCF-E,0805,±2%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R027-E,FCF-E,0805,±5%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR027JE,FCF-E,0805,±5%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R270-E,FCF-E,0805,±1%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR270LE,FCF-E,0805,±1%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R270-E,FCF-E,0805,±2%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR270LE,FCF-E,0805,±2%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R270-E,FCF-E,0805,±5%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR270LE,FCF-E,0805,±5%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R030-E,FCF-E,0805,±1%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR030JE,FCF-E,0805,±1%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R030-E,FCF-E,0805,±2%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR030JE,FCF-E,0805,±2%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R030-E,FCF-E,0805,±5%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR030JE,FCF-E,0805,±5%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R300-E,FCF-E,0805,±1%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR300LE,FCF-E,0805,±1%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R300-E,FCF-E,0805,±2%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR300LE,FCF-E,0805,±2%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R300-E,FCF-E,0805,±5%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR300LE,FCF-E,0805,±5%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R033-E,FCF-E,0805,±1%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR033JE,FCF-E,0805,±1%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R033-E,FCF-E,0805,±2%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR033JE,FCF-E,0805,±2%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R033-E,FCF-E,0805,±5%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR033JE,FCF-E,0805,±5%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R330-E,FCF-E,0805,±1%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR330LE,FCF-E,0805,±1%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R330-E,FCF-E,0805,±2%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR330LE,FCF-E,0805,±2%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R330-E,FCF-E,0805,±5%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR330LE,FCF-E,0805,±5%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R039-E,FCF-E,0805,±1%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR039JE,FCF-E,0805,±1%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R039-E,FCF-E,0805,±2%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR039JE,FCF-E,0805,±2%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R039-E,FCF-E,0805,±5%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR039JE,FCF-E,0805,±5%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R390-E,FCF-E,0805,±1%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR390LE,FCF-E,0805,±1%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R390-E,FCF-E,0805,±2%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR390LE,FCF-E,0805,±2%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R390-E,FCF-E,0805,±5%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR390LE,FCF-E,0805,±5%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R047-E,FCF-E,0805,±1%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR047JE,FCF-E,0805,±1%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R047-E,FCF-E,0805,±2%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR047JE,FCF-E,0805,±2%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R047-E,FCF-E,0805,±5%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR047JE,FCF-E,0805,±5%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R470-E,FCF-E,0805,±1%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR470LE,FCF-E,0805,±1%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R470-E,FCF-E,0805,±2%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR470LE,FCF-E,0805,±2%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R470-E,FCF-E,0805,±5%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR470LE,FCF-E,0805,±5%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R056-E,FCF-E,0805,±1%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR056KE,FCF-E,0805,±1%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R056-E,FCF-E,0805,±2%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR056KE,FCF-E,0805,±2%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R056-E,FCF-E,0805,±5%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR056KE,FCF-E,0805,±5%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R560-E,FCF-E,0805,±1%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR560LE,FCF-E,0805,±1%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R560-E,FCF-E,0805,±2%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR560LE,FCF-E,0805,±2%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R560-E,FCF-E,0805,±5%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR560LE,FCF-E,0805,±5%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R068-E,FCF-E,0805,±1%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR068KE,FCF-E,0805,±1%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R068-E,FCF-E,0805,±2%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR068KE,FCF-E,0805,±2%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R068-E,FCF-E,0805,±5%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR068KE,FCF-E,0805,±5%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R680-E,FCF-E,0805,±1%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR680LE,FCF-E,0805,±1%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R680-E,FCF-E,0805,±2%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR680LE,FCF-E,0805,±2%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R680-E,FCF-E,0805,±5%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR680LE,FCF-E,0805,±5%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R075-E,FCF-E,0805,±1%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR075KE,FCF-E,0805,±1%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R075-E,FCF-E,0805,±2%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR075KE,FCF-E,0805,±2%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R075-E,FCF-E,0805,±5%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR075KE,FCF-E,0805,±5%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R750-E,FCF-E,0805,±1%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR750LE,FCF-E,0805,±1%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R750-E,FCF-E,0805,±2%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR750LE,FCF-E,0805,±2%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R750-E,FCF-E,0805,±5%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR750LE,FCF-E,0805,±5%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R082-E,FCF-E,0805,±1%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR082KE,FCF-E,0805,±1%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R082-E,FCF-E,0805,±2%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR082KE,FCF-E,0805,±2%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R082-E,FCF-E,0805,±5%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR082KE,FCF-E,0805,±5%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05FT-R820-E,FCF-E,0805,±1%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05FTFR820LE,FCF-E,0805,±1%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05GT-R820-E,FCF-E,0805,±2%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05GTFR820LE,FCF-E,0805,±2%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF05JT-R820-E,FCF-E,0805,±5%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF05JTFR820LE,FCF-E,0805,±5%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R010-E,FCF-E,1206,±1%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR010HE,FCF-E,1206,±1%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R010-E,FCF-E,1206,±2%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR010HE,FCF-E,1206,±2%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R010-E,FCF-E,1206,±5%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR010HE,FCF-E,1206,±5%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R100-E,FCF-E,1206,±1%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR100LE,FCF-E,1206,±1%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R100-E,FCF-E,1206,±2%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR100LE,FCF-E,1206,±2%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R100-E,FCF-E,1206,±5%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR100LE,FCF-E,1206,±5%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R012-E,FCF-E,1206,±1%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR012HE,FCF-E,1206,±1%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R012-E,FCF-E,1206,±2%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR012HE,FCF-E,1206,±2%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R012-E,FCF-E,1206,±5%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR012HE,FCF-E,1206,±5%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R120-E,FCF-E,1206,±1%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR120LE,FCF-E,1206,±1%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R120-E,FCF-E,1206,±2%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR120LE,FCF-E,1206,±2%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R120-E,FCF-E,1206,±5%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR120LE,FCF-E,1206,±5%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R015-E,FCF-E,1206,±1%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR015HE,FCF-E,1206,±1%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R015-E,FCF-E,1206,±2%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR015HE,FCF-E,1206,±2%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R015-E,FCF-E,1206,±5%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR015HE,FCF-E,1206,±5%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R150-E,FCF-E,1206,±1%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR150LE,FCF-E,1206,±1%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R150-E,FCF-E,1206,±2%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR150LE,FCF-E,1206,±2%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R150-E,FCF-E,1206,±5%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR150LE,FCF-E,1206,±5%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R018-E,FCF-E,1206,±1%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR018HE,FCF-E,1206,±1%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R018-E,FCF-E,1206,±2%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR018HE,FCF-E,1206,±2%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R018-E,FCF-E,1206,±5%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR018HE,FCF-E,1206,±5%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R180-E,FCF-E,1206,±1%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR180LE,FCF-E,1206,±1%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R180-E,FCF-E,1206,±2%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR180LE,FCF-E,1206,±2%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R180-E,FCF-E,1206,±5%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR180LE,FCF-E,1206,±5%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R020-E,FCF-E,1206,±1%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR020HE,FCF-E,1206,±1%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R020-E,FCF-E,1206,±2%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR020HE,FCF-E,1206,±2%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R020-E,FCF-E,1206,±5%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR020HE,FCF-E,1206,±5%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R200-E,FCF-E,1206,±1%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR200LE,FCF-E,1206,±1%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R200-E,FCF-E,1206,±2%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR200LE,FCF-E,1206,±2%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R200-E,FCF-E,1206,±5%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR200LE,FCF-E,1206,±5%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R022-E,FCF-E,1206,±1%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR022JE,FCF-E,1206,±1%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R022-E,FCF-E,1206,±2%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR022JE,FCF-E,1206,±2%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R022-E,FCF-E,1206,±5%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR022JE,FCF-E,1206,±5%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R220-E,FCF-E,1206,±1%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR220LE,FCF-E,1206,±1%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R220-E,FCF-E,1206,±2%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR220LE,FCF-E,1206,±2%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R220-E,FCF-E,1206,±5%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR220LE,FCF-E,1206,±5%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R027-E,FCF-E,1206,±1%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR027JE,FCF-E,1206,±1%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R027-E,FCF-E,1206,±2%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR027JE,FCF-E,1206,±2%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R027-E,FCF-E,1206,±5%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR027JE,FCF-E,1206,±5%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R270-E,FCF-E,1206,±1%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR270LE,FCF-E,1206,±1%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R270-E,FCF-E,1206,±2%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR270LE,FCF-E,1206,±2%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R270-E,FCF-E,1206,±5%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR270LE,FCF-E,1206,±5%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R030-E,FCF-E,1206,±1%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR030JE,FCF-E,1206,±1%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R030-E,FCF-E,1206,±2%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR030JE,FCF-E,1206,±2%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R030-E,FCF-E,1206,±5%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR030JE,FCF-E,1206,±5%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R300-E,FCF-E,1206,±1%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR300LE,FCF-E,1206,±1%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R300-E,FCF-E,1206,±2%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR300LE,FCF-E,1206,±2%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R300-E,FCF-E,1206,±5%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR300LE,FCF-E,1206,±5%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R033-E,FCF-E,1206,±1%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR033JE,FCF-E,1206,±1%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R033-E,FCF-E,1206,±2%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR033JE,FCF-E,1206,±2%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R033-E,FCF-E,1206,±5%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR033JE,FCF-E,1206,±5%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R330-E,FCF-E,1206,±1%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR330LE,FCF-E,1206,±1%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R330-E,FCF-E,1206,±2%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR330LE,FCF-E,1206,±2%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R330-E,FCF-E,1206,±5%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR330LE,FCF-E,1206,±5%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R039-E,FCF-E,1206,±1%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR039JE,FCF-E,1206,±1%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R039-E,FCF-E,1206,±2%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR039JE,FCF-E,1206,±2%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R039-E,FCF-E,1206,±5%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR039JE,FCF-E,1206,±5%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R390-E,FCF-E,1206,±1%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR390LE,FCF-E,1206,±1%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R390-E,FCF-E,1206,±2%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR390LE,FCF-E,1206,±2%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R390-E,FCF-E,1206,±5%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR390LE,FCF-E,1206,±5%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R047-E,FCF-E,1206,±1%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR047JE,FCF-E,1206,±1%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R047-E,FCF-E,1206,±2%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR047JE,FCF-E,1206,±2%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R047-E,FCF-E,1206,±5%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR047JE,FCF-E,1206,±5%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R470-E,FCF-E,1206,±1%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR470LE,FCF-E,1206,±1%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R470-E,FCF-E,1206,±2%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR470LE,FCF-E,1206,±2%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R470-E,FCF-E,1206,±5%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR470LE,FCF-E,1206,±5%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R056-E,FCF-E,1206,±1%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR056KE,FCF-E,1206,±1%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R056-E,FCF-E,1206,±2%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR056KE,FCF-E,1206,±2%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R056-E,FCF-E,1206,±5%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR056KE,FCF-E,1206,±5%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R560-E,FCF-E,1206,±1%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR560LE,FCF-E,1206,±1%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R560-E,FCF-E,1206,±2%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR560LE,FCF-E,1206,±2%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R560-E,FCF-E,1206,±5%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR560LE,FCF-E,1206,±5%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R068-E,FCF-E,1206,±1%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR068KE,FCF-E,1206,±1%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R068-E,FCF-E,1206,±2%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR068KE,FCF-E,1206,±2%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R068-E,FCF-E,1206,±5%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR068KE,FCF-E,1206,±5%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R680-E,FCF-E,1206,±1%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR680LE,FCF-E,1206,±1%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R680-E,FCF-E,1206,±2%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR680LE,FCF-E,1206,±2%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R680-E,FCF-E,1206,±5%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR680LE,FCF-E,1206,±5%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R075-E,FCF-E,1206,±1%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR075KE,FCF-E,1206,±1%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R075-E,FCF-E,1206,±2%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR075KE,FCF-E,1206,±2%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R075-E,FCF-E,1206,±5%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR075KE,FCF-E,1206,±5%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R750-E,FCF-E,1206,±1%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR750LE,FCF-E,1206,±1%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R750-E,FCF-E,1206,±2%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR750LE,FCF-E,1206,±2%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R750-E,FCF-E,1206,±5%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR750LE,FCF-E,1206,±5%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R082-E,FCF-E,1206,±1%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR082KE,FCF-E,1206,±1%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R082-E,FCF-E,1206,±2%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR082KE,FCF-E,1206,±2%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R082-E,FCF-E,1206,±5%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR082KE,FCF-E,1206,±5%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06FT-R820-E,FCF-E,1206,±1%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06FTGR820LE,FCF-E,1206,±1%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06GT-R820-E,FCF-E,1206,±2%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06GTGR820LE,FCF-E,1206,±2%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF06JT-R820-E,FCF-E,1206,±5%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF06JTGR820LE,FCF-E,1206,±5%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R010-E,FCF-E,1210,±1%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR010HE,FCF-E,1210,±1%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R010-E,FCF-E,1210,±2%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR010HE,FCF-E,1210,±2%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R010-E,FCF-E,1210,±5%; Normal,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR010HE,FCF-E,1210,±5%; High Power; HE,,,10 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R100-E,FCF-E,1210,±1%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR100LE,FCF-E,1210,±1%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R100-E,FCF-E,1210,±2%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR100LE,FCF-E,1210,±2%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R100-E,FCF-E,1210,±5%; Normal,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR100LE,FCF-E,1210,±5%; High Power; LE,,,100 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R012-E,FCF-E,1210,±1%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR012HE,FCF-E,1210,±1%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R012-E,FCF-E,1210,±2%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR012HE,FCF-E,1210,±2%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R012-E,FCF-E,1210,±5%; Normal,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR012HE,FCF-E,1210,±5%; High Power; HE,,,12 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R120-E,FCF-E,1210,±1%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR120LE,FCF-E,1210,±1%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R120-E,FCF-E,1210,±2%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR120LE,FCF-E,1210,±2%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R120-E,FCF-E,1210,±5%; Normal,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR120LE,FCF-E,1210,±5%; High Power; LE,,,120 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R015-E,FCF-E,1210,±1%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR015HE,FCF-E,1210,±1%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R015-E,FCF-E,1210,±2%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR015HE,FCF-E,1210,±2%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R015-E,FCF-E,1210,±5%; Normal,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR015HE,FCF-E,1210,±5%; High Power; HE,,,15 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R150-E,FCF-E,1210,±1%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR150LE,FCF-E,1210,±1%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R150-E,FCF-E,1210,±2%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR150LE,FCF-E,1210,±2%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R150-E,FCF-E,1210,±5%; Normal,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR150LE,FCF-E,1210,±5%; High Power; LE,,,150 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R018-E,FCF-E,1210,±1%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR018HE,FCF-E,1210,±1%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R018-E,FCF-E,1210,±2%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR018HE,FCF-E,1210,±2%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R018-E,FCF-E,1210,±5%; Normal,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR018HE,FCF-E,1210,±5%; High Power; HE,,,18 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R180-E,FCF-E,1210,±1%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR180LE,FCF-E,1210,±1%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R180-E,FCF-E,1210,±2%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR180LE,FCF-E,1210,±2%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R180-E,FCF-E,1210,±5%; Normal,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR180LE,FCF-E,1210,±5%; High Power; LE,,,180 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R020-E,FCF-E,1210,±1%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR020HE,FCF-E,1210,±1%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R020-E,FCF-E,1210,±2%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR020HE,FCF-E,1210,±2%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R020-E,FCF-E,1210,±5%; Normal,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR020HE,FCF-E,1210,±5%; High Power; HE,,,20 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R200-E,FCF-E,1210,±1%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR200LE,FCF-E,1210,±1%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R200-E,FCF-E,1210,±2%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR200LE,FCF-E,1210,±2%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R200-E,FCF-E,1210,±5%; Normal,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR200LE,FCF-E,1210,±5%; High Power; LE,,,200 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R022-E,FCF-E,1210,±1%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR022JE,FCF-E,1210,±1%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R022-E,FCF-E,1210,±2%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR022JE,FCF-E,1210,±2%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R022-E,FCF-E,1210,±5%; Normal,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR022JE,FCF-E,1210,±5%; High Power; JE,,,22 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R220-E,FCF-E,1210,±1%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR220LE,FCF-E,1210,±1%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R220-E,FCF-E,1210,±2%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR220LE,FCF-E,1210,±2%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R220-E,FCF-E,1210,±5%; Normal,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR220LE,FCF-E,1210,±5%; High Power; LE,,,220 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R027-E,FCF-E,1210,±1%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR027JE,FCF-E,1210,±1%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R027-E,FCF-E,1210,±2%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR027JE,FCF-E,1210,±2%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R027-E,FCF-E,1210,±5%; Normal,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR027JE,FCF-E,1210,±5%; High Power; JE,,,27 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R270-E,FCF-E,1210,±1%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR270LE,FCF-E,1210,±1%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R270-E,FCF-E,1210,±2%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR270LE,FCF-E,1210,±2%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R270-E,FCF-E,1210,±5%; Normal,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR270LE,FCF-E,1210,±5%; High Power; LE,,,270 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R030-E,FCF-E,1210,±1%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR030JE,FCF-E,1210,±1%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R030-E,FCF-E,1210,±2%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR030JE,FCF-E,1210,±2%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R030-E,FCF-E,1210,±5%; Normal,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR030JE,FCF-E,1210,±5%; High Power; JE,,,30 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R300-E,FCF-E,1210,±1%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR300LE,FCF-E,1210,±1%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R300-E,FCF-E,1210,±2%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR300LE,FCF-E,1210,±2%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R300-E,FCF-E,1210,±5%; Normal,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR300LE,FCF-E,1210,±5%; High Power; LE,,,300 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R033-E,FCF-E,1210,±1%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR033JE,FCF-E,1210,±1%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R033-E,FCF-E,1210,±2%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR033JE,FCF-E,1210,±2%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R033-E,FCF-E,1210,±5%; Normal,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR033JE,FCF-E,1210,±5%; High Power; JE,,,33 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R330-E,FCF-E,1210,±1%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR330LE,FCF-E,1210,±1%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R330-E,FCF-E,1210,±2%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR330LE,FCF-E,1210,±2%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R330-E,FCF-E,1210,±5%; Normal,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR330LE,FCF-E,1210,±5%; High Power; LE,,,330 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R039-E,FCF-E,1210,±1%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR039JE,FCF-E,1210,±1%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R039-E,FCF-E,1210,±2%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR039JE,FCF-E,1210,±2%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R039-E,FCF-E,1210,±5%; Normal,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR039JE,FCF-E,1210,±5%; High Power; JE,,,39 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R390-E,FCF-E,1210,±1%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR390LE,FCF-E,1210,±1%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R390-E,FCF-E,1210,±2%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR390LE,FCF-E,1210,±2%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R390-E,FCF-E,1210,±5%; Normal,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR390LE,FCF-E,1210,±5%; High Power; LE,,,390 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R047-E,FCF-E,1210,±1%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR047JE,FCF-E,1210,±1%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R047-E,FCF-E,1210,±2%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR047JE,FCF-E,1210,±2%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R047-E,FCF-E,1210,±5%; Normal,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR047JE,FCF-E,1210,±5%; High Power; JE,,,47 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R470-E,FCF-E,1210,±1%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR470LE,FCF-E,1210,±1%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R470-E,FCF-E,1210,±2%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR470LE,FCF-E,1210,±2%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R470-E,FCF-E,1210,±5%; Normal,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR470LE,FCF-E,1210,±5%; High Power; LE,,,470 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R056-E,FCF-E,1210,±1%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR056KE,FCF-E,1210,±1%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R056-E,FCF-E,1210,±2%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR056KE,FCF-E,1210,±2%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R056-E,FCF-E,1210,±5%; Normal,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR056KE,FCF-E,1210,±5%; High Power; KE,,,56 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R560-E,FCF-E,1210,±1%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR560LE,FCF-E,1210,±1%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R560-E,FCF-E,1210,±2%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR560LE,FCF-E,1210,±2%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R560-E,FCF-E,1210,±5%; Normal,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR560LE,FCF-E,1210,±5%; High Power; LE,,,560 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R068-E,FCF-E,1210,±1%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR068KE,FCF-E,1210,±1%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R068-E,FCF-E,1210,±2%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR068KE,FCF-E,1210,±2%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R068-E,FCF-E,1210,±5%; Normal,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR068KE,FCF-E,1210,±5%; High Power; KE,,,68 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R680-E,FCF-E,1210,±1%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR680LE,FCF-E,1210,±1%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R680-E,FCF-E,1210,±2%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR680LE,FCF-E,1210,±2%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R680-E,FCF-E,1210,±5%; Normal,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR680LE,FCF-E,1210,±5%; High Power; LE,,,680 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R075-E,FCF-E,1210,±1%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR075KE,FCF-E,1210,±1%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R075-E,FCF-E,1210,±2%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR075KE,FCF-E,1210,±2%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R075-E,FCF-E,1210,±5%; Normal,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR075KE,FCF-E,1210,±5%; High Power; KE,,,75 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R750-E,FCF-E,1210,±1%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR750LE,FCF-E,1210,±1%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R750-E,FCF-E,1210,±2%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR750LE,FCF-E,1210,±2%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R750-E,FCF-E,1210,±5%; Normal,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR750LE,FCF-E,1210,±5%; High Power; LE,,,750 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R082-E,FCF-E,1210,±1%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR082KE,FCF-E,1210,±1%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R082-E,FCF-E,1210,±2%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR082KE,FCF-E,1210,±2%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R082-E,FCF-E,1210,±5%; Normal,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR082KE,FCF-E,1210,±5%; High Power; KE,,,82 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12FT-R820-E,FCF-E,1210,±1%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12FTGR820LE,FCF-E,1210,±1%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12GT-R820-E,FCF-E,1210,±2%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12GTGR820LE,FCF-E,1210,±2%; High Power; LE,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose,FCF12JT-R820-E,FCF-E,1210,±5%; Normal,,,820 mΩ,,,,,,Draft
+Chip Resistors,General Purpose High Power,FCF12JTGR820LE,FCF-E,1210,±5%; High Power; LE,,,820 mΩ,,,,,,Draft

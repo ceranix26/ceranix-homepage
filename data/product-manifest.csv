@@ -5,25 +5,32 @@ products-fj.csv,MLCC,Anti-Arcing High Voltage,FJ,0402|0603|0805|1206|1210,"6,000
 products-fk.csv,MLCC,Automotive Safety,FK,0402|0603|0805|1206|1210,"25,200"
 products-FM.csv,MLCC,Medium Voltage,FM,1210|0805|0402|0603|1206,"3,005"
 products-fn.csv,MLCC,General Purpose,FN,0402|0603|1206|0805,18
-products-fv.csv,MLCC,High Voltage,FV,1206|1812|1808|0805|1210|1825|2220|2225|2211,"2,100"
+products-FV.csv,MLCC,High Voltage,FV,1206|1812|1808|0805|1210|1825|2220|2225|2211,"2,100"
 products-FCF.csv,Chip Resistors,High Power,FCF,0603|1206|0805|2512|0402,90
-products-FP.csv,MLCC,Anti-Bend General Purpose,FP,402,9
-products-mt.csv,MLCC,Automotive General,MT,0603|0402,5
+products-FP.csv,MLCC,Anti-Bend General Purpose,FP,0402,9
+products-MT.csv,MLCC,Automotive General,MT,0603|0402,5
 products-csr.csv,Chip Resistors,Current Sensing Thick Film Resistor,FBF,0402|0603|0805|1206|1210,14
-products-fs.csv,MLCC,High Capacitance,FS,0402|0603|1210|2220,6
+products-FS.csv,MLCC,High Capacitance,FS,0402|0603|1210|2220,6
 products-FPS.csv,Chip Resistors,High Power,FPS,1206,4
 products-FPF.csv,Chip Resistors,High Power,FPF,2512|0402,4
 products-CSMW.csv,Inductors,Power Inductor,CSMW,0520D,1
-products-CP.csv,Inductors,RF / Chip Inductor,CP,402,10
+products-CP.csv,Inductors,RF / Chip Inductor,CP,0402,10
 products-CSM.csv,Inductors,Power Inductor,CSM,0645D|0315D,3
 products-CSN.csv,Inductors,Power Inductor,CSN,054D|084F,6
-products-FB.csv,Inductors,Ferrite Bead,FB,402,2
+products-FB.csv,Inductors,Ferrite Bead,FB,0402,2
 products-CSME.csv,Inductors,Power Inductor,CSME,0418D|0412D,3
 products-CSS.csv,Inductors,Power Inductor,CSS,127P|0745F,2
 products-FBF.csv,Chip Resistors,High Power,FBF,1206|0805|2512,14
-products-FL.csv,Inductors,RF / Chip Inductor,FL,805,1
+products-FL.csv,Inductors,RF / Chip Inductor,FL,0805,1
 products-FMF.csv,Chip Resistors,Current Sense,FMF,2512,2
 products-ML.csv,Inductors,RF / Chip Inductor,ML,0402|0603,10
 products-MCS.csv,Inductors,Power Inductor,MCS,0530|0630,3
-products-TI.csv,Inductors,Ferrite Bead,TI,348|0805,2
+products-TI.csv,Inductors,Ferrite Bead,TI,0348|0805,2
 products-SCM.csv,Inductors,RF / Chip Inductor,SCM,1206,1
+product-FBF-10R.csv,Current Sense Resistors,1Ω to 10Ω,FBF-10R,1206,288
+product-FBF-M.csv,Current Sense Resistors,AEC-Q200 / Anti-Sulfur,FBF-M,0603|0805|1206|1210,"1,320"
+product-FMF.csv,Current Sense Resistors,Metal Jumper|Metal Strip,FMF,1206,289
+product-FBF.csv,Current Sense Resistors,Metal Paste Low Ohm,FBF,0603|0805|1206|1210,660
+product-FCF-E.csv,Chip Resistors,General Purpose|General Purpose High Power,FCF-E,0603|0805|1206|1210,630
+product-FPF-L.csv,Current Sense Resistors,High Power Low Ohm,FPF-L,0603|0805|1206|1210,304
+product-FOF.csv,Current Sense Resistors,Metal Foil,FOF,0402|0603|0805|1206,196
