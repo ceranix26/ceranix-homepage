@@ -1,0 +1,7 @@
+# CERANIX robots.txt
+# Public website: allow search-engine crawling.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ceranix.co.kr/sitemap.xml
