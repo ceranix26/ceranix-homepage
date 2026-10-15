@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ko">
 
 <head>
@@ -305,6 +306,50 @@
                 padding: 28px 20px
             }
         }
+
+
+        /* Downloadable FM/FV datasheet cards */
+        .card.download-card {
+            position: relative;
+            display: block;
+            color: inherit;
+            cursor: pointer;
+            padding: 30px 78px 30px 30px;
+            transform: translateY(-8px);
+            box-shadow: 0 18px 38px rgba(25, 52, 84, .15);
+            transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+        }
+
+        .card.download-card:hover,
+        .card.download-card:focus-visible {
+            transform: translateY(-15px);
+            border-color: var(--blue);
+            box-shadow: 0 26px 48px rgba(25, 52, 84, .22);
+            outline: none;
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            transition: transform .25s ease;
+        }
+
+        .download-card:hover .download-icon,
+        .download-card:focus-visible .download-icon {
+            transform: translateY(3px) scale(1.06);
+        }
+
+        .download-label {
+            display: inline-block;
+            margin-top: 18px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800;
+        }
     </style>
 </head>
 
@@ -365,7 +410,9 @@
             <div class="container">
                 <h2><span data-lang="ko">주요 특징</span><span data-lang="en">Key Features</span></h2>
                 <div class="card-grid">
-                    <article class="card">
+                    <a aria-label="Download FM Series datasheet" class="card download-card" download=""
+                        href="../../docu/datasheet/MLCC/FM_Series.pdf"><img alt="" aria-hidden="true"
+                            class="download-icon" src="../../download-button.png" />
                         <h3>FM Series · Medium Voltage</h3>
                         <ul>
                             <li><span data-lang="ko">정격전압: 100Vdc~630Vdc</span><span data-lang="en">Rated voltage:
@@ -377,8 +424,12 @@
                             <li><span data-lang="ko">정전용량: C0G 0.5pF~100nF, X7R 100pF~820nF</span><span
                                     data-lang="en">Capacitance: C0G 0.5pF–100nF, X7R 100pF–820nF</span></li>
                         </ul>
-                    </article>
-                    <article class="card">
+                        <span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download
+                                Datasheet</span></span>
+                    </a>
+                    <a aria-label="Download FV Series datasheet" class="card download-card" download=""
+                        href="../../docu/datasheet/MLCC/FV_Series.pdf"><img alt="" aria-hidden="true"
+                            class="download-icon" src="../../download-button.png" />
                         <h3>FV Series · High Voltage</h3>
                         <ul>
                             <li><span data-lang="ko">정격전압: 1,000Vdc~6,000Vdc</span><span data-lang="en">Rated voltage:
@@ -390,7 +441,9 @@
                             <li><span data-lang="ko">정전용량: C0G 1.5pF~10nF, X7R 100pF~220nF</span><span
                                     data-lang="en">Capacitance: C0G 1.5pF–10nF, X7R 100pF–220nF</span></li>
                         </ul>
-                    </article>
+                        <span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download
+                                Datasheet</span></span>
+                    </a>
                     <article class="card">
                         <h3><span data-lang="ko">공통 특성</span><span data-lang="en">Common Characteristics</span></h3>
                         <ul>
