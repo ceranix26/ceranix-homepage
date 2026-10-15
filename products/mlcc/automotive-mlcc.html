@@ -341,6 +341,62 @@
                 content: " "
             }
         }
+
+
+        /* Downloadable datasheet cards */
+        .card.download-card {
+            position: relative;
+            display: block;
+            color: inherit;
+            cursor: pointer;
+            padding: 30px 78px 30px 30px;
+            transform: translateY(-8px);
+            box-shadow: 0 18px 38px rgba(25, 52, 84, .15);
+            transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+        }
+
+        .card.download-card:hover,
+        .card.download-card:focus-visible {
+            transform: translateY(-15px);
+            border-color: var(--blue);
+            box-shadow: 0 26px 48px rgba(25, 52, 84, .22);
+            outline: none;
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            transition: transform .25s ease;
+        }
+
+        .download-card:hover .download-icon,
+        .download-card:focus-visible .download-icon {
+            transform: translateY(3px) scale(1.06);
+        }
+
+        .download-label {
+            display: inline-block;
+            margin-top: 18px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800;
+        }
+
+        @media(max-width:480px) {
+            .card.download-card {
+                padding: 72px 24px 26px;
+                transform: none;
+            }
+
+            .card.download-card:hover,
+            .card.download-card:focus-visible {
+                transform: translateY(-5px);
+            }
+        }
     </style>
 </head>
 
@@ -398,7 +454,9 @@
             <div class="container">
                 <h2><span data-lang="ko">시리즈 구성</span><span data-lang="en">Series Overview</span></h2>
                 <div class="card-grid">
-                    <article class="card">
+                    <a aria-label="Download MT Series datasheet" class="card download-card" download=""
+                        href="../../docu/datasheet/MLCC/MTSeries.pdf"><img alt="" aria-hidden="true"
+                            class="download-icon" src="../../images/download-button.png" />
                         <h3>MT Series · Automotive General</h3>
                         <ul>
                             <li>AEC-Q200</li>
@@ -409,8 +467,12 @@
                             <li><span data-lang="ko">정격전압: 10Vdc~1,000Vdc</span><span data-lang="en">Rated voltage:
                                     10Vdc–1,000Vdc</span></li>
                         </ul>
-                    </article>
-                    <article class="card">
+                        <span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download
+                                Datasheet</span></span>
+                    </a>
+                    <a aria-label="Download MT Soft Termination datasheet" class="card download-card" download=""
+                        href="../../docu/datasheet/MLCC/MTSTSeries.pdf"><img alt="" aria-hidden="true"
+                            class="download-icon" src="../../images/download-button.png" />
                         <h3>MT Series · Soft Termination</h3>
                         <ul>
                             <li>AEC-Q200</li>
@@ -421,8 +483,12 @@
                             <li><span data-lang="ko">정격전압: 10Vdc~3,000Vdc</span><span data-lang="en">Rated voltage:
                                     10Vdc–3,000Vdc</span></li>
                         </ul>
-                    </article>
-                    <article class="card">
+                        <span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download
+                                Datasheet</span></span>
+                    </a>
+                    <a aria-label="Download MG Series datasheet" class="card download-card" download=""
+                        href="../../docu/datasheet/MLCC/MG_Series.pdf"><img alt="" aria-hidden="true"
+                            class="download-icon" src="../../images/download-button.png" />
                         <h3>MG Series · Automotive</h3>
                         <ul>
                             <li><span data-lang="ko">AEC-Q200 미인증 제품군</span><span data-lang="en">Without AEC-Q200
@@ -434,8 +500,12 @@
                             <li><span data-lang="ko">정격전압: 6.3Vdc~3,000Vdc</span><span data-lang="en">Rated voltage:
                                     6.3Vdc–3,000Vdc</span></li>
                         </ul>
-                    </article>
-                    <article class="card">
+                        <span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download
+                                Datasheet</span></span>
+                    </a>
+                    <a aria-label="Download FK/FH Automotive Safety datasheet" class="card download-card" download=""
+                        href="../../docu/datasheet/MLCC/FKFH_Auto_Series.pdf"><img alt="" aria-hidden="true"
+                            class="download-icon" src="../../images/download-button.png" />
                         <h3>FK/FH Series · Automotive Safety</h3>
                         <ul>
                             <li><span data-lang="ko">자동차용 Soft Termination 안전규격 제품</span><span data-lang="en">Automotive
@@ -447,7 +517,9 @@
                             <li><span data-lang="ko">유전체: C0G / X7R, 250Vac / 630Vdc</span><span
                                     data-lang="en">Dielectric: C0G / X7R, 250Vac / 630Vdc</span></li>
                         </ul>
-                    </article>
+                        <span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download
+                                Datasheet</span></span>
+                    </a>
                 </div>
             </div>
         </section>
