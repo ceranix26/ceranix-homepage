@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="ko">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="CERANIX PDC High Voltage Resistors product information.">
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="CERANIX PDC High Voltage Resistors product information." name="description" />
     <title>CERANIX | High Voltage Resistors</title>
     <style>
         :root {
@@ -304,6 +305,149 @@
                 margin-left: 0 !important
             }
         }
+
+        .series-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+            margin-top: 32px
+        }
+
+        .series-card {
+            position: relative;
+            display: block;
+            height: 100%;
+            padding: 30px 78px 30px 30px;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 18px 38px rgba(25, 52, 84, .12);
+            transform: translateY(-6px);
+            transition: .25s
+        }
+
+        .series-card:hover,
+        .series-card:focus-visible {
+            transform: translateY(-13px);
+            border-color: var(--blue);
+            box-shadow: 0 26px 48px rgba(25, 52, 84, .22);
+            outline: none
+        }
+
+        .series-card h3 {
+            margin-bottom: 4px;
+            color: var(--navy);
+            font-size: 23px
+        }
+
+        .series-type {
+            display: block;
+            margin-bottom: 15px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .series-card ul {
+            padding-left: 20px;
+            color: var(--muted)
+        }
+
+        .series-card li+li {
+            margin-top: 5px
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 38px;
+            height: 38px;
+            object-fit: contain
+        }
+
+        .download-label {
+            display: inline-block;
+            margin-top: 18px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .table-wrap {
+            margin-top: 28px;
+            overflow-x: auto;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff
+        }
+
+        .compare {
+            width: 100%;
+            min-width: 900px;
+            border-collapse: collapse
+        }
+
+        .compare th,
+        .compare td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top
+        }
+
+        .compare th {
+            color: #fff;
+            background: var(--navy);
+            font-size: 14px
+        }
+
+        .compare td {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .compare tr:last-child td {
+            border-bottom: 0
+        }
+
+        .compare strong {
+            color: var(--navy)
+        }
+
+        .tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 22px
+        }
+
+        .tag {
+            padding: 8px 13px;
+            border: 1px solid #cfe0ec;
+            border-radius: 999px;
+            background: #fff;
+            color: var(--navy);
+            font-size: 13px;
+            font-weight: 800
+        }
+
+        @media(max-width:860px) {
+            .series-grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        @media(max-width:480px) {
+            .series-card {
+                padding: 72px 24px 26px;
+                transform: none
+            }
+
+            .series-card:hover {
+                transform: translateY(-5px)
+            }
+        }
     </style>
 </head>
 
@@ -312,7 +456,7 @@
         <nav class="container"><a aria-label="CERANIX home" class="brand" href="../../index.html"><img
                     alt="CERANIX logo" class="logo"
                     onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
-                    src="../../LOGO.png"><span class="logo-fallback">CERANIX</span></a>
+                    src="../../LOGO.png" /><span class="logo-fallback">CERANIX</span></a>
             <ul class="nav-links">
                 <li><a href="../../index.html#about"><span data-lang="ko">회사소개</span><span
                             data-lang="en">About</span></a></li>
@@ -333,82 +477,175 @@
         <section class="hero">
             <div class="container"><span class="eyebrow">PDC Chip Resistors</span>
                 <h1>High Voltage Resistors</h1>
-                <p class="subtitle"><span data-lang="ko">최대 3000V RCWV의 고전압 회로용 저항</span><span
-                        data-lang="en">High-voltage resistors with RCWV up to 3000V</span></p>
+                <p class="subtitle"><span data-lang="ko">일반형·안전 인증형·내황형 고전압 후막 칩 저항기</span><span
+                        data-lang="en">General-purpose, safety-certified and anti-sulfur high-voltage thick-film chip
+                        resistors</span></p>
             </div>
         </section>
         <section>
             <div class="container">
                 <h2><span data-lang="ko">제품 소개</span><span data-lang="en">Product Introduction</span></h2>
-                <p class="lead"><strong>FVS / FVF High Voltage</strong><br><br><span data-lang="ko">PDC 고전압 저항은 FVS 안전
-                        인증형과 FVF 일반 고전압형으로 구성됩니다. 0603~2512 크기, 100kΩ~100MΩ 범위, 최대 3000V RCWV와 4000V 과부하 전압을 지원하며
-                        AEC-Q200 옵션이 있습니다. FVS는 UL/IEC 안전 규격 대응 내용을 포함합니다.</span><span data-lang="en">PDC high-voltage
-                        resistors include FVS safety-certified and FVF standard high-voltage series. They cover 0603 to
-                        2512, 100kΩ to 100MΩ, RCWV up to 3000V and overload voltage up to 4000V, with AEC-Q200 options.
-                        FVS includes UL/IEC safety-standard support.</span></p>
-                <div class="notice"><span data-lang="ko">제품 선정 시 저항값, 정격 전력, TCR, 동작 전압, 패키지 및 사용 환경을 검토하고 최종 사양은 최신
-                        데이터시트 또는 승인 사양서로 확인하시기 바랍니다.</span><span data-lang="en">Review resistance, power rating, TCR,
-                        operating voltage, package and environment, and confirm final specifications in the latest
-                        datasheet or approved specification.</span></div>
+                <p class="lead"><span data-lang="ko">PDC 고전압 저항 제품군은 FVF 일반형과 FVS 안전 인증형, 그리고 AEC-Q200·내황 요구에 대응하는
+                        AVF/AVS로 구성됩니다. FVF/FVS는 0603~2512, AVF/AVS는 1206~2512를 지원하며, 제품군에 따라 최대 동작전압 3000V와 최대 과부하전압
+                        4000V를 제공합니다.</span><span data-lang="en">PDC high-voltage resistor families include
+                        general-purpose FVF, safety-certified FVS, and AVF/AVS for AEC-Q200 and anti-sulfur
+                        requirements. FVF/FVS cover 0603 to 2512, while AVF/AVS cover 1206 to 2512, with maximum working
+                        voltage up to 3000V and overload voltage up to 4000V depending on series.</span></p>
+                <div class="tag-row"><span class="tag">AEC-Q200</span><span class="tag">RoHS</span><span
+                        class="tag">Halogen Free</span><span class="tag">-55°C~+155°C</span><span class="tag">Up to
+                        3000V Working</span></div>
+                <div class="notice"><span data-lang="ko">정격동작전압은 √(P×R)과 데이터시트에 명시된 최대 동작전압 중 낮은 값으로 결정합니다. 데이터시트는 실장
+                        패드·배선 영향도 고려하고 제품 동작 시 표면온도가 105°C를 넘지 않도록 권고합니다.</span><span data-lang="en">Rated working
+                        voltage is the lower of √(P×R) and the listed maximum working voltage. The datasheets also
+                        advise considering solder-pad and trace effects and keeping surface temperature at or below
+                        105°C during operation.</span></div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
-                <h2><span data-lang="ko">주요 검토 항목</span><span data-lang="en">Key Review Points</span></h2>
-                <div class="card-grid">
-                    <article class="card">
-                        <h3>Product Families</h3>
+                <h2><span data-lang="ko">시리즈별 사양 및 데이터시트</span><span data-lang="en">Series Specifications and
+                        Datasheets</span></h2>
+                <p class="lead"><span data-lang="ko">카드 전체를 클릭하면 해당 데이터시트를 다운로드합니다.</span><span data-lang="en">Select a
+                        card to download the corresponding datasheet.</span></p>
+                <div class="series-grid">
+                    <a class="series-card" download="" href="../../docu/datasheet/Chip-R/hvr/FVS.pdf"><img alt=""
+                            class="download-icon" src="../../images/download-button.png" />
+                        <h3>FVS Series</h3><span class="series-type">Safety Certified High Voltage · AEC-Q200</span>
                         <ul>
-                            <li><span data-lang="ko">FVS 안전 인증형 / FVF 일반형</span><span data-lang="en">FVS safety / FVF
-                                    standard</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Voltage</h3>
+                            <li>Size: 0603 / 0805 / 1206 / 2010 / 2512</li>
+                            <li>Power: 1/10W~1W</li>
+                            <li>Max. RCWV: 200V~3000V</li>
+                            <li>Max. Overload: 400V~4000V</li>
+                            <li>Resistance: 100kΩ~100MΩ (size/tolerance dependent)</li>
+                            <li>UL/IEC 62368 ed.3, 60950-1, 60065 / UL1676</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download="" href="../../docu/datasheet/Chip-R/hvr/FVF.pdf"><img alt=""
+                            class="download-icon" src="../../images/download-button.png" />
+                        <h3>FVF Series</h3><span class="series-type">General Purpose High Voltage · AEC-Q200</span>
                         <ul>
-                            <li><span data-lang="ko">RCWV 최대 3000V</span><span data-lang="en">RCWV up to 3000V</span>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Resistance</h3>
+                            <li>Size: 0603 / 0805 / 1206 / 2010 / 2512</li>
+                            <li>Power: 1/10W~1W</li>
+                            <li>Max. RCWV: 200V~3000V</li>
+                            <li>Max. Overload: 400V~4000V</li>
+                            <li>Resistance: 47Ω~100MΩ (size/tolerance dependent)</li>
+                            <li>Superior surge ability vs. general-purpose series</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download="" href="../../docu/datasheet/Chip-R/hvr/AVS.pdf"><img alt=""
+                            class="download-icon" src="../../images/download-button.png" />
+                        <h3>AVS Series</h3><span class="series-type">Safety Certified · High Voltage ·
+                            Anti-Sulfur</span>
                         <ul>
-                            <li><span data-lang="ko">100kΩ~100MΩ</span><span data-lang="en">100kΩ to 100MΩ</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Safety &amp; Reliability</h3>
+                            <li>Size: 1206 / 2010 / 2512</li>
+                            <li>Power: 1/4W / 1/2W / 1W</li>
+                            <li>Max. Working: 800V / 2000V / 3000V</li>
+                            <li>Max. Overload: 1600V / 3000V / 4000V</li>
+                            <li>Resistance: 100kΩ~100MΩ</li>
+                            <li>EIA-977 Test B: 105°C / 750h · UL/IEC 62368 ed.3</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download="" href="../../docu/datasheet/Chip-R/hvr/AVF.pdf"><img alt=""
+                            class="download-icon" src="../../images/download-button.png" />
+                        <h3>AVF Series</h3><span class="series-type">General Purpose · High Voltage · Anti-Sulfur</span>
                         <ul>
-                            <li><span data-lang="ko">UL/IEC 및 AEC-Q200 옵션</span><span data-lang="en">UL/IEC and AEC-Q200
-                                    options</span></li>
-                        </ul>
-                    </article>
+                            <li>Size: 1206 / 2010 / 2512</li>
+                            <li>Power: 1/4W / 1/2W / 1W</li>
+                            <li>Max. Working: 800V / 2000V / 3000V</li>
+                            <li>Max. Overload: 1600V / 3000V / 4000V</li>
+                            <li>Resistance: 100kΩ~100MΩ</li>
+                            <li>EIA-977 Test B: 105°C / 750h · AEC-Q200</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
                 </div>
             </div>
         </section>
         <section>
             <div class="container">
-                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
-                <div class="application-grid">
-                    <div class="application">Power Supply</div>
-                    <div class="application">Automotive</div>
-                    <div class="application">Measurement</div>
-                    <div class="application">Medical Equipment</div>
-                    <div class="application">Voltage Divider</div>
-                    <div class="application">Discharge Circuit</div>
-                    <div class="application">Protection Circuit</div>
-                    <div class="application">Industrial Power</div>
+                <h2><span data-lang="ko">시리즈 비교</span><span data-lang="en">Series Comparison</span></h2>
+                <div class="table-wrap">
+                    <table class="compare">
+                        <thead>
+                            <tr>
+                                <th>Series</th>
+                                <th>Positioning</th>
+                                <th>Size</th>
+                                <th>Power</th>
+                                <th>Max Working</th>
+                                <th>Resistance</th>
+                                <th>Key Feature</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>FVS</strong></td>
+                                <td>Safety Certified</td>
+                                <td>0603~2512</td>
+                                <td>1/10W~1W</td>
+                                <td>200~3000V</td>
+                                <td>100kΩ~100MΩ*</td>
+                                <td>UL/IEC + AEC-Q200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FVF</strong></td>
+                                <td>General High Voltage</td>
+                                <td>0603~2512</td>
+                                <td>1/10W~1W</td>
+                                <td>200~3000V</td>
+                                <td>47Ω~100MΩ*</td>
+                                <td>AEC-Q200, surge capability</td>
+                            </tr>
+                            <tr>
+                                <td><strong>AVS</strong></td>
+                                <td>Safety + Anti-Sulfur</td>
+                                <td>1206~2512</td>
+                                <td>1/4W~1W</td>
+                                <td>800~3000V</td>
+                                <td>100kΩ~100MΩ*</td>
+                                <td>EIA-977 + UL/IEC</td>
+                            </tr>
+                            <tr>
+                                <td><strong>AVF</strong></td>
+                                <td>General + Anti-Sulfur</td>
+                                <td>1206~2512</td>
+                                <td>1/4W~1W</td>
+                                <td>800~3000V</td>
+                                <td>100kΩ~100MΩ*</td>
+                                <td>EIA-977 + AEC-Q200</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+                <div class="notice"><span data-lang="ko">* 실제 저항 범위와 TCR은 크기·공차에 따라 달라집니다. 예를 들어 AVS/AVF의 ±1% 구간은 저항값에
+                        따라 ±100 또는 ±200ppm/°C가 적용되며, ±5%는 ±200ppm/°C입니다.</span><span data-lang="en">* Actual resistance
+                        range and TCR depend on size and tolerance. For AVS/AVF, ±1% parts use ±100 or ±200ppm/°C
+                        depending on resistance, while ±5% parts use ±200ppm/°C.</span></div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
+                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
+                <div class="application-grid">
+                    <div class="application">Power Supply</div>
+                    <div class="application">Automotive</div>
+                    <div class="application">Measurement Instrument</div>
+                    <div class="application">Medical Equipment</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
                 <div class="contact-box">
                     <h2><span data-lang="ko">제품 검색 및 문의</span><span data-lang="en">Product Search and Inquiry</span>
                     </h2>
-                    <p><span data-lang="ko">통합 제품 검색에서 상세 품번을 확인하거나 요구 사양을 보내주시면 후보 선정을 지원합니다.</span><span
-                            data-lang="en">Use the integrated search for detailed part numbers, or send requirements for
-                            candidate selection support.</span></p><a class="btn"
+                    <p><span data-lang="ko">요구 저항값, 동작전압, 과부하전압, 정격전력, 패키지, 안전 인증 및 내황 조건을 알려주시면 적합한 시리즈와 후보 품번 검토를
+                            지원합니다.</span><span data-lang="en">Send resistance, working voltage, overload voltage, power,
+                            package, safety-certification and anti-sulfur requirements for series and candidate
+                            review.</span></p><a class="btn"
                         href="../../product-search.html?category=chip-resistors&amp;subcategory=High%20Voltage"><span
                             data-lang="ko">통합 제품 검색</span><span data-lang="en">Integrated Product Search</span></a><a
                         class="btn" href="../../index.html#contact" style="margin-left:10px"><span

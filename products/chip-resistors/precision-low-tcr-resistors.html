@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="ko">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="CERANIX PDC Precision / Low TCR Resistors product information.">
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="CERANIX PDC Precision / Low TCR Resistors product information." name="description" />
     <title>CERANIX | Precision / Low TCR Resistors</title>
     <style>
         :root {
@@ -304,6 +305,149 @@
                 margin-left: 0 !important
             }
         }
+
+        .series-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+            margin-top: 32px
+        }
+
+        .series-card {
+            position: relative;
+            display: block;
+            height: 100%;
+            padding: 30px 78px 30px 30px;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 18px 38px rgba(25, 52, 84, .12);
+            transform: translateY(-6px);
+            transition: .25s
+        }
+
+        .series-card:hover,
+        .series-card:focus-visible {
+            transform: translateY(-13px);
+            border-color: var(--blue);
+            box-shadow: 0 26px 48px rgba(25, 52, 84, .22);
+            outline: none
+        }
+
+        .series-card h3 {
+            margin-bottom: 4px;
+            color: var(--navy);
+            font-size: 23px
+        }
+
+        .series-type {
+            display: block;
+            margin-bottom: 15px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .series-card ul {
+            padding-left: 20px;
+            color: var(--muted)
+        }
+
+        .series-card li+li {
+            margin-top: 5px
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 38px;
+            height: 38px;
+            object-fit: contain
+        }
+
+        .download-label {
+            display: inline-block;
+            margin-top: 18px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .table-wrap {
+            margin-top: 28px;
+            overflow-x: auto;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff
+        }
+
+        .compare {
+            width: 100%;
+            min-width: 900px;
+            border-collapse: collapse
+        }
+
+        .compare th,
+        .compare td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top
+        }
+
+        .compare th {
+            color: #fff;
+            background: var(--navy);
+            font-size: 14px
+        }
+
+        .compare td {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .compare tr:last-child td {
+            border-bottom: 0
+        }
+
+        .compare strong {
+            color: var(--navy)
+        }
+
+        .tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 22px
+        }
+
+        .tag {
+            padding: 8px 13px;
+            border: 1px solid #cfe0ec;
+            border-radius: 999px;
+            background: #fff;
+            color: var(--navy);
+            font-size: 13px;
+            font-weight: 800
+        }
+
+        @media(max-width:860px) {
+            .series-grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        @media(max-width:480px) {
+            .series-card {
+                padding: 72px 24px 26px;
+                transform: none
+            }
+
+            .series-card:hover {
+                transform: translateY(-5px)
+            }
+        }
     </style>
 </head>
 
@@ -312,7 +456,7 @@
         <nav class="container"><a aria-label="CERANIX home" class="brand" href="../../index.html"><img
                     alt="CERANIX logo" class="logo"
                     onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
-                    src="../../LOGO.png"><span class="logo-fallback">CERANIX</span></a>
+                    src="../../LOGO.png" /><span class="logo-fallback">CERANIX</span></a>
             <ul class="nav-links">
                 <li><a href="../../index.html#about"><span data-lang="ko">회사소개</span><span
                             data-lang="en">About</span></a></li>
@@ -333,83 +477,131 @@
         <section class="hero">
             <div class="container"><span class="eyebrow">PDC Chip Resistors</span>
                 <h1>Precision / Low TCR Resistors</h1>
-                <p class="subtitle"><span data-lang="ko">정밀 계측과 안정적인 저 TCR 회로</span><span data-lang="en">Precision
-                        measurement and stable low-TCR circuits</span></p>
+                <p class="subtitle"><span data-lang="ko">정밀 공차·저 TCR 박막 저항과 자동차용 내황 정밀 저항</span><span
+                        data-lang="en">Precision thin-film resistors with low TCR and automotive anti-sulfur
+                        options</span></p>
             </div>
         </section>
         <section>
             <div class="container">
                 <h2><span data-lang="ko">제품 소개</span><span data-lang="en">Product Introduction</span></h2>
-                <p class="lead"><strong>FAF Thin Film High Precision</strong><br><br><span data-lang="ko">PDC FAF 박막 정밀
-                        저항은 ±0.01%~±1% 허용오차, ±2~±50ppm/℃ TCR, 1Ω~3MΩ 범위와 0201~2512 크기를 제공합니다. AEC-Q200,
-                        anti-sulfuration, tantalum nitride 및 array 옵션이 포함됩니다.</span><span data-lang="en">PDC FAF
-                        thin-film precision resistors offer ±0.01% to ±1% tolerance, ±2 to ±50ppm/℃ TCR, 1Ω to 3MΩ
-                        resistance and 0201 to 2512 sizes. Options include AEC-Q200, anti-sulfuration, tantalum nitride
-                        and arrays.</span></p>
-                <div class="notice"><span data-lang="ko">제품 선정 시 저항값, 정격 전력, TCR, 동작 전압, 패키지 및 사용 환경을 검토하고 최종 사양은 최신
-                        데이터시트 또는 승인 사양서로 확인하시기 바랍니다.</span><span data-lang="en">Review resistance, power rating, TCR,
-                        operating voltage, package and environment, and confirm final specifications in the latest
-                        datasheet or approved specification.</span></div>
+                <p class="lead"><span data-lang="ko">FAF는 TaN, Ni/Cr 등의 금속 박막 저항체를 사용하는 고정밀 칩 저항기이며 0201~2512 크기, 최대 3MΩ
+                        범위와 ±0.01%~±1% 공차를 제공합니다. TCR 코드는 ±2, ±3, ±5, ±10, ±15, ±25, ±50ppm/°C까지 구성됩니다. FAF-MH는
+                        0402~1206의 자동차용 내황 박막 정밀 저항으로 AEC-Q200, ASTM B809-95와 ±10~±50ppm/°C TCR 옵션을 제공합니다.</span><span
+                        data-lang="en">FAF is a high-precision chip resistor using metal thin-film elements such as TaN
+                        and Ni/Cr, covering 0201 to 2512, resistance up to 3MΩ and ±0.01% to ±1% tolerance. TCR codes
+                        include ±2, ±3, ±5, ±10, ±15, ±25 and ±50ppm/°C. FAF-MH is an automotive anti-sulfur precision
+                        thin-film family in 0402 to 1206 with AEC-Q200, ASTM B809-95 and ±10 to ±50ppm/°C TCR
+                        options.</span></p>
+                <div class="tag-row"><span class="tag">Thin Film</span><span class="tag">FAF ±0.01%</span><span
+                        class="tag">FAF TCR ±2ppm/°C</span><span class="tag">FAF-MH AEC-Q200</span><span
+                        class="tag">ASTM B809-95</span></div>
+                <div class="notice"><span data-lang="ko">정밀 공차와 TCR은 모든 저항값·크기 조합에서 동일하게 제공되지 않습니다. 최종 품번은 데이터시트의
+                        Rating과 Part Number 표를 기준으로 확인해야 합니다.</span><span data-lang="en">Precision tolerance and TCR are
+                        not available in every resistance and size combination. Verify the final part number against the
+                        Rating and Part Number tables in the applicable datasheet.</span></div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
-                <h2><span data-lang="ko">주요 검토 항목</span><span data-lang="en">Key Review Points</span></h2>
-                <div class="card-grid">
-                    <article class="card">
-                        <h3>Precision</h3>
+                <h2><span data-lang="ko">시리즈별 사양 및 데이터시트</span><span data-lang="en">Series Specifications and
+                        Datasheets</span></h2>
+                <p class="lead"><span data-lang="ko">카드 전체를 클릭하면 해당 데이터시트를 다운로드합니다.</span><span data-lang="en">Select a
+                        card to download the corresponding datasheet.</span></p>
+                <div class="series-grid">
+                    <a class="series-card" download="" href="../../docu/datasheet/Chip-R/tfr/FAF.pdf"><img alt=""
+                            class="download-icon" src="../../images/download-button.png" />
+                        <h3>FAF Series</h3><span class="series-type">Thin Film · General High Precision</span>
                         <ul>
-                            <li><span data-lang="ko">±0.01%~±1% 허용오차</span><span data-lang="en">±0.01% to ±1%
-                                    tolerance</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Low TCR</h3>
+                            <li>Size: 0201~2512</li>
+                            <li>Tolerance: ±0.01%~±1%</li>
+                            <li>TCR: ±2 / ±3 / ±5 / ±10 / ±15 / ±25 / ±50ppm/°C</li>
+                            <li>Resistance: up to 3MΩ, size/type dependent</li>
+                            <li>Standard, Power Enhance, Narrow TCR and Ultra TCR types</li>
+                            <li>RoHS compliant · Halogen Free</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download="" href="../../docu/datasheet/Chip-R/tfr/FAF-MH.pdf"><img alt=""
+                            class="download-icon" src="../../images/download-button.png" />
+                        <h3>FAF-MH Series</h3><span class="series-type">Automotive · Anti-Sulfur · Thin Film
+                            Precision</span>
                         <ul>
-                            <li><span data-lang="ko">±2~±50ppm/℃ 선택</span><span data-lang="en">±2 to ±50ppm/℃
-                                    options</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Range &amp; Size</h3>
-                        <ul>
-                            <li><span data-lang="ko">1Ω~3MΩ, 0201~2512</span><span data-lang="en">1Ω to 3MΩ, 0201 to
-                                    2512</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Reliability</h3>
-                        <ul>
-                            <li><span data-lang="ko">AEC-Q200·Anti-Sulfur 옵션</span><span data-lang="en">AEC-Q200 and
-                                    anti-sulfur options</span></li>
-                        </ul>
-                    </article>
+                            <li>Size: 0402 / 0603 / 0805 / 1206</li>
+                            <li>Tolerance: ±0.05%~±1% (±0.02% on request)</li>
+                            <li>TCR: ±10 / ±15 / ±25 / ±50ppm/°C</li>
+                            <li>Resistance: 40Ω~35kΩ (0402) to 10Ω~1MΩ (1206), type dependent</li>
+                            <li>Power type: 0.0625W~0.40W at 85°C</li>
+                            <li>AEC-Q200 · ASTM B809-95 anti-sulfur</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
                 </div>
             </div>
         </section>
         <section>
             <div class="container">
-                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
-                <div class="application-grid">
-                    <div class="application">Automotive</div>
-                    <div class="application">Medical</div>
-                    <div class="application">Measurement</div>
-                    <div class="application">Communication</div>
-                    <div class="application">Portable Measuring</div>
-                    <div class="application">Industrial Control</div>
-                    <div class="application">Precision Divider</div>
-                    <div class="application">Sensor Circuit</div>
+                <h2><span data-lang="ko">FAF / FAF-MH 비교</span><span data-lang="en">FAF / FAF-MH Comparison</span></h2>
+                <div class="table-wrap">
+                    <table class="compare">
+                        <thead>
+                            <tr>
+                                <th>Series</th>
+                                <th>Positioning</th>
+                                <th>Size</th>
+                                <th>Tolerance</th>
+                                <th>TCR</th>
+                                <th>Resistance</th>
+                                <th>Key Feature</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>FAF</strong></td>
+                                <td>General High Precision</td>
+                                <td>0201~2512</td>
+                                <td>±0.01%~±1%</td>
+                                <td>±2~±50ppm/°C</td>
+                                <td>Up to 3MΩ*</td>
+                                <td>Ultra/Narrow TCR, Power Enhance</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FAF-MH</strong></td>
+                                <td>Automotive Anti-Sulfur</td>
+                                <td>0402~1206</td>
+                                <td>±0.05%~±1%**</td>
+                                <td>±10~±50ppm/°C</td>
+                                <td>Up to 1MΩ*</td>
+                                <td>AEC-Q200, ASTM B809-95</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+                <div class="notice"><span data-lang="ko">* 최대 저항값은 크기와 제품 타입에 따라 달라집니다. ** FAF-MH의 ±0.02%는 데이터시트에서 고객 요청
+                        사양으로 명시되어 있습니다. FAF-MH의 동작온도 범위는 -55~+175°C입니다.</span><span data-lang="en">* Maximum resistance
+                        depends on size and product type. ** FAF-MH ±0.02% is specified as available upon customer
+                        request. FAF-MH operating temperature range is -55 to +175°C.</span></div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
+                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
+                <div class="application-grid">
+                    <div class="application">Automotive Electronics</div>
+                    <div class="application">Medical Equipment</div>
+                    <div class="application">Measuring Instrument</div>
+                    <div class="application">Industrial Equipment</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
                 <div class="contact-box">
                     <h2><span data-lang="ko">제품 검색 및 문의</span><span data-lang="en">Product Search and Inquiry</span>
                     </h2>
-                    <p><span data-lang="ko">통합 제품 검색에서 상세 품번을 확인하거나 요구 사양을 보내주시면 후보 선정을 지원합니다.</span><span
-                            data-lang="en">Use the integrated search for detailed part numbers, or send requirements for
-                            candidate selection support.</span></p><a class="btn"
+                    <p><span data-lang="ko">필요 저항값, 공차, TCR, 정격전력, 패키지와 AEC-Q200·내황 조건을 알려주시면 FAF/FAF-MH 후보 품번 검토를
+                            지원합니다.</span><span data-lang="en">Send resistance, tolerance, TCR, power, package and
+                            AEC-Q200/anti-sulfur requirements for FAF/FAF-MH candidate review.</span></p><a class="btn"
                         href="../../product-search.html?category=chip-resistors&amp;subcategory=Precision%20/%20Low%20TCR"><span
                             data-lang="ko">통합 제품 검색</span><span data-lang="en">Integrated Product Search</span></a><a
                         class="btn" href="../../index.html#contact" style="margin-left:10px"><span
