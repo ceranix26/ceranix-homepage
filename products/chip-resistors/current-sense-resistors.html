@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description"
-        content="CERANIX PDC current sense resistors for BMS, EV/HEV, power supplies and battery packs.">
-    <title>CERANIX | Current Sense Resistors</title>
+    <meta name="description" content="CERANIX PDC current sense resistor series and datasheets.">
+    <title>CERANIX | PDC Current Sense Resistors</title>
     <style>
         :root {
             --navy: #062b63;
@@ -18,9 +17,9 @@
         }
 
         * {
+            box-sizing: border-box;
             margin: 0;
-            padding: 0;
-            box-sizing: border-box
+            padding: 0
         }
 
         html {
@@ -29,9 +28,8 @@
 
         body {
             font-family: "Pretendard", "Noto Sans KR", "Segoe UI", Arial, sans-serif;
-            line-height: 1.65;
             color: var(--text);
-            background: #fff
+            line-height: 1.65
         }
 
         a {
@@ -42,6 +40,15 @@
         .container {
             width: min(1120px, calc(100% - 40px));
             margin: auto
+        }
+
+        [data-lang] {
+            display: none
+        }
+
+        html[lang="ko"] [data-lang="ko"],
+        html[lang="en"] [data-lang="en"] {
+            display: initial
         }
 
         header {
@@ -63,34 +70,30 @@
 
         .brand {
             display: flex;
-            align-items: center;
-            min-width: 180px
+            align-items: center
         }
 
         .logo {
             display: block;
             width: 210px;
-            max-width: 100%;
             max-height: 48px;
-            object-fit: contain;
-            object-position: left center
+            object-fit: contain
         }
 
         .logo-fallback {
             display: none;
             color: var(--navy);
             font-size: 25px;
-            font-weight: 900;
-            letter-spacing: .5px
+            font-weight: 900
         }
 
         .nav-links {
             display: flex;
-            align-items: center;
             gap: 28px;
+            align-items: center;
             list-style: none;
-            font-weight: 700;
-            font-size: 14px
+            font-size: 14px;
+            font-weight: 700
         }
 
         .nav-links a:hover,
@@ -100,20 +103,20 @@
 
         .lang-switch {
             display: flex;
+            padding: 3px;
             border: 1px solid var(--line);
             border-radius: 999px;
-            padding: 3px;
             background: #f7f9fc
         }
 
         .lang-btn {
-            border: 0;
-            background: transparent;
             padding: 7px 11px;
+            border: 0;
             border-radius: 999px;
-            cursor: pointer;
+            background: transparent;
+            color: var(--muted);
             font-weight: 800;
-            color: var(--muted)
+            cursor: pointer
         }
 
         .lang-btn.active {
@@ -122,22 +125,10 @@
         }
 
         .hero {
-            color: #fff;
             padding: 105px 20px;
+            color: #fff;
             text-align: center;
             background: radial-gradient(circle at 15% 20%, rgba(0, 184, 255, .34), transparent 36%), linear-gradient(135deg, #041c43, #073979 65%, #086ca4)
-        }
-
-        .hero h1 {
-            font-size: clamp(44px, 7vw, 72px);
-            line-height: 1.1
-        }
-
-        .subtitle {
-            font-size: clamp(18px, 2.3vw, 24px);
-            color: #dcecff;
-            margin: 18px auto 0;
-            max-width: 820px
         }
 
         .eyebrow {
@@ -150,6 +141,18 @@
             font-weight: 800
         }
 
+        .hero h1 {
+            font-size: clamp(44px, 7vw, 72px);
+            line-height: 1.1
+        }
+
+        .subtitle {
+            max-width: 850px;
+            margin: 18px auto 0;
+            color: #dcecff;
+            font-size: clamp(18px, 2.3vw, 24px)
+        }
+
         section {
             padding: 78px 0
         }
@@ -159,14 +162,18 @@
         }
 
         h2 {
-            color: var(--navy);
             margin-bottom: 18px;
+            color: var(--navy);
             font-size: clamp(29px, 4vw, 38px)
         }
 
         .lead {
-            color: var(--muted);
-            max-width: 900px
+            max-width: 920px;
+            color: var(--muted)
+        }
+
+        .lead+.lead {
+            margin-top: 14px
         }
 
         .notice {
@@ -178,30 +185,153 @@
             font-size: 14px
         }
 
-        .card-grid {
+        .series-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 22px;
             margin-top: 32px
         }
 
-        .card {
+        .series-card {
+            position: relative;
+            display: block;
             height: 100%;
-            background: #fff;
+            padding: 30px 78px 30px 30px;
             border: 1px solid var(--line);
             border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 8px 24px rgba(25, 52, 84, .06)
+            background: #fff;
+            box-shadow: 0 18px 38px rgba(25, 52, 84, .12);
+            transform: translateY(-6px);
+            transition: .25s
         }
 
-        .card h3 {
+        .series-card:hover,
+        .series-card:focus-visible {
+            border-color: var(--blue);
+            box-shadow: 0 26px 48px rgba(25, 52, 84, .22);
+            transform: translateY(-13px);
+            outline: none
+        }
+
+        .series-card h3 {
+            margin-bottom: 4px;
             color: var(--navy);
-            margin-bottom: 12px
+            font-size: 22px
         }
 
-        .card ul {
+        .series-type {
+            display: block;
+            margin-bottom: 15px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .spec-list {
             padding-left: 20px;
             color: var(--muted)
+        }
+
+        .spec-list li+li {
+            margin-top: 5px
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            transition: .25s
+        }
+
+        .series-card:hover .download-icon {
+            transform: translateY(3px) scale(1.06)
+        }
+
+        .download-label {
+            display: inline-block;
+            margin-top: 18px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .catalog-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 22px;
+            margin-top: 30px;
+            padding: 25px 28px;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff
+        }
+
+        .catalog-box p {
+            color: var(--muted)
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 24px;
+            padding: 13px 26px;
+            border-radius: 7px;
+            color: #fff;
+            background: var(--blue);
+            font-weight: 800
+        }
+
+        .catalog-box .btn {
+            margin-top: 0;
+            white-space: nowrap
+        }
+
+        .btn:hover {
+            background: #0089c4
+        }
+
+        .table-wrap {
+            margin-top: 28px;
+            overflow-x: auto;
+            border: 1px solid var(--line);
+            border-radius: 12px
+        }
+
+        .comparison {
+            width: 100%;
+            min-width: 850px;
+            border-collapse: collapse
+        }
+
+        .comparison th,
+        .comparison td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top
+        }
+
+        .comparison th {
+            color: #fff;
+            background: var(--navy)
+        }
+
+        .comparison td {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .comparison tr:last-child td {
+            border: 0
+        }
+
+        .comparison strong {
+            color: var(--navy)
         }
 
         .application-grid {
@@ -212,58 +342,33 @@
         }
 
         .application {
-            background: linear-gradient(135deg, var(--navy), #0a5f9e);
-            color: #fff;
             padding: 22px 18px;
-            text-align: center;
             border-radius: 10px;
+            color: #fff;
+            background: linear-gradient(135deg, var(--navy), #0a5f9e);
+            text-align: center;
             font-weight: 800
         }
 
         .contact-box {
-            background: var(--light);
+            padding: 42px;
             border: 1px solid var(--line);
             border-radius: 14px;
-            padding: 42px;
+            background: #fff;
             text-align: center
         }
 
         .contact-box p {
-            color: var(--muted);
-            max-width: 680px;
-            margin: auto
-        }
-
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 24px;
-            background: var(--blue);
-            color: #fff;
-            padding: 13px 26px;
-            border-radius: 7px;
-            font-weight: 800
-        }
-
-        .btn:hover {
-            background: #0089c4
+            max-width: 700px;
+            margin: auto;
+            color: var(--muted)
         }
 
         footer {
-            background: #03172f;
+            padding: 26px;
             color: #c9d5e3;
-            text-align: center;
-            padding: 26px
-        }
-
-        [data-lang] {
-            display: none
-        }
-
-        html[lang="ko"] [data-lang="ko"],
-        html[lang="en"] [data-lang="en"] {
-            display: initial
+            background: #03172f;
+            text-align: center
         }
 
         @media(max-width:860px) {
@@ -271,12 +376,21 @@
                 display: none
             }
 
-            .card-grid {
+            .series-grid {
                 grid-template-columns: 1fr
             }
 
             .application-grid {
                 grid-template-columns: 1fr 1fr
+            }
+
+            .catalog-box {
+                align-items: flex-start;
+                flex-direction: column
+            }
+
+            .catalog-box .btn {
+                width: 100%
             }
         }
 
@@ -297,13 +411,17 @@
                 grid-template-columns: 1fr
             }
 
-            .contact-box {
-                padding: 28px 20px
+            .series-card {
+                padding: 72px 24px 26px;
+                transform: none
             }
 
-            .contact-box .btn {
-                display: flex;
-                margin-left: 0 !important
+            .series-card:hover {
+                transform: translateY(-5px)
+            }
+
+            .contact-box {
+                padding: 28px 20px
             }
         }
     </style>
@@ -311,10 +429,10 @@
 
 <body>
     <header>
-        <nav class="container"><a aria-label="CERANIX home" class="brand" href="../../index.html"><img
-                    alt="CERANIX logo" class="logo"
-                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
-                    src="../../LOGO.png"><span class="logo-fallback">CERANIX</span></a>
+        <nav class="container"><a class="brand" href="../../index.html" aria-label="CERANIX home"><img class="logo"
+                    src="../../LOGO.png" alt="CERANIX logo"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span
+                    class="logo-fallback">CERANIX</span></a>
             <ul class="nav-links">
                 <li><a href="../../index.html#about"><span data-lang="ko">회사소개</span><span
                             data-lang="en">About</span></a></li>
@@ -333,102 +451,233 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container"><span class="eyebrow">PDC Chip Resistors</span>
+            <div class="container"><span class="eyebrow">PDC CHIP RESISTORS</span>
                 <h1>Current Sense Resistors</h1>
-                <p class="subtitle"><span data-lang="ko">BMS, 전원 및 배터리팩을 위한 정밀 전류 감지</span><span
-                        data-lang="en">Precision current sensing for BMS, power supplies and battery packs</span></p>
+                <p class="subtitle"><span data-lang="ko">Metal Strip · Metal Foil · Metal Paste · Thick Film 전류 감지
+                        저항기</span><span data-lang="en">Metal Strip · Metal Foil · Metal Paste · Thick Film current-sense
+                        resistors</span></p>
             </div>
         </section>
         <section>
             <div class="container">
                 <h2><span data-lang="ko">제품 소개</span><span data-lang="en">Product Introduction</span></h2>
-                <p class="lead"><span data-lang="ko">Current Sense Resistors는 전류 흐름을 정밀하게 측정하기 위해 설계된 저저항 칩 저항 제품군입니다.
-                        PDC는 Metal Strip(FMF), Metal Foil(FOF), Metal Paste(FBF), High Power(FPF-L), Thick Film(FCF-E) 등
-                        다양한 기술 플랫폼을 제공하여 고전류, 고정밀, 고출력 및 자동차 전장 응용에 대응합니다.<br><br>제품군은 초저저항부터 최대 910mΩ까지 지원하며, 최대 3W 정격
-                        전력과 자동차 전장용 AEC-Q200 대응 옵션을 포함합니다. BMS, EV/HEV, 서버 전원장치, 산업용 전원 및 에너지 저장 시스템의 전류 모니터링에 활용할 수
-                        있습니다.</span><span data-lang="en">Current Sense Resistors are low-ohmic chip resistors designed
-                        for accurate current monitoring and protection circuits. PDC offers Metal Strip (FMF), Metal
-                        Foil (FOF), Metal Paste (FBF), High Power (FPF-L), and Thick Film (FCF-E) solutions for
-                        high-current, high-precision, high-power and automotive applications.<br><br>The range supports
-                        ultra-low resistance values up to 910mΩ, power ratings up to 3W and selected AEC-Q200 compliant
-                        options. Typical applications include BMS, EV/HEV, server power supplies, industrial power
-                        equipment and energy storage systems.</span></p>
-                <div class="notice"><span data-lang="ko">제품 선정 시 저항값, 정격 전력, TCR, 패키지 크기 및 사용 환경을 검토하고 최종 사양은 최신 데이터시트를
-                        확인하시기 바랍니다.</span><span data-lang="en">Review resistance, power rating, TCR, package size and
-                        operating environment, and confirm final specifications in the latest datasheet.</span></div>
+                <p class="lead"><span data-lang="ko">PDC 전류 감지 저항기는 회로 전류 측정을 위한 저저항 칩 저항기 제품군입니다. 금속 스트립 FMF, 금속 포일
+                        FOF, 금속 페이스트 FBF, 고출력 후막 FPF-L, 범용 후막 FCF-E 시리즈를 비교할 수 있습니다.</span><span data-lang="en">PDC
+                        current-sense resistors are low-ohmic chip resistors for circuit current measurement. Compare
+                        Metal Strip FMF, Metal Foil FOF, Metal Paste FBF, high-power Thick Film FPF-L and
+                        general-purpose Thick Film FCF-E series.</span></p>
+                <p class="lead"><span data-lang="ko">제품 선택 시 저항값, 정격전력, 허용오차, TCR, 크기, 동작 온도, AEC-Q200 및 내황 조건을 함께 검토해야
+                        합니다.</span><span data-lang="en">Product selection should consider resistance, power, tolerance,
+                        TCR, size, operating temperature, AEC-Q200 and anti-sulfur requirements.</span></p>
+                <div class="notice"><span data-lang="ko">아래 사양은 시리즈 비교용 요약입니다. 최종 품번은 해당 데이터시트의 Rating 및 Part Number 표를
+                        기준으로 확인하세요.</span><span data-lang="en">The specifications below are a series-selection summary.
+                        Verify the final part number in the applicable datasheet's Rating and Part Number tables.</span>
+                </div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
-                <h2><span data-lang="ko">주요 검토 항목</span><span data-lang="en">Key Review Points</span></h2>
-                <div class="card-grid">
-                    <article class="card">
-                        <h3>Current Sense Technologies</h3>
-                        <ul>
-                            <li><span data-lang="ko">FMF, FOF, FBF, FPF-L, FCF-E 제품군</span><span data-lang="en">FMF,
-                                    FOF, FBF, FPF-L and FCF-E families</span></li>
-                            <li><span data-lang="ko">적용 조건에 따른 기술 플랫폼 선택</span><span data-lang="en">Technology selection
-                                    by application requirements</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Electrical Performance</h3>
-                        <ul>
-                            <li><span data-lang="ko">초저저항부터 최대 910mΩ 범위</span><span data-lang="en">Ultra-low resistance
-                                    values up to 910mΩ</span></li>
-                            <li><span data-lang="ko">고정밀 및 저 TCR 특성</span><span data-lang="en">High precision and low
-                                    TCR performance</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Power &amp; Reliability</h3>
-                        <ul>
-                            <li><span data-lang="ko">최대 3W 정격 전력</span><span data-lang="en">Power ratings up to
-                                    3W</span></li>
-                            <li><span data-lang="ko">RoHS, Halogen Free 및 AEC-Q200 대응 옵션</span><span
-                                    data-lang="en">RoHS, Halogen Free and AEC-Q200 options</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Application Review</h3>
-                        <ul>
-                            <li><span data-lang="ko">전류 모니터링 및 보호 회로</span><span data-lang="en">Current monitoring and
-                                    protection circuits</span></li>
-                            <li><span data-lang="ko">배터리, 전원장치, 자동차 전장 및 산업 설비</span><span data-lang="en">Battery,
-                                    power, automotive and industrial equipment</span></li>
-                        </ul>
-                    </article>
+                <h2><span data-lang="ko">시리즈별 사양 및 데이터시트</span><span data-lang="en">Series Specifications and
+                        Datasheets</span></h2>
+                <p class="lead"><span data-lang="ko">카드 전체를 클릭하면 해당 데이터시트를 다운로드합니다.</span><span data-lang="en">Select a
+                        card to download the corresponding datasheet.</span></p>
+                <div class="series-grid">
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/cs/FMF.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="">
+                        <h3>FMF Series</h3><span class="series-type">Metal Strip · AEC-Q200</span>
+                        <ul class="spec-list">
+                            <li>1206 / 2512</li>
+                            <li>0Ω jumper, 0.5mΩ~100mΩ</li>
+                            <li>0.5W~3W</li>
+                            <li>±0.5% / ±1% / ±2% / ±5%</li>
+                            <li>Low EMF, low-inductance options</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/cs/FOF.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="">
+                        <h3>FOF Series</h3><span class="series-type">Metal Foil · Anti-Sulfur</span>
+                        <ul class="spec-list">
+                            <li>0402 / 0603 / 0805 / 1206 / 2512</li>
+                            <li>2mΩ~700mΩ</li>
+                            <li>1/3W~2W</li>
+                            <li>±0.5% / ±1% / ±5%</li>
+                            <li>ASTM B-809 compliant option</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/cs/FBF.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="">
+                        <h3>FBF Series</h3><span class="series-type">Metal Paste · Standard / Power</span>
+                        <ul class="spec-list">
+                            <li>0603~2512</li>
+                            <li>10mΩ~910mΩ</li>
+                            <li>1/8W~2W</li>
+                            <li>±0.5% / ±1% / ±2% / ±5%</li>
+                            <li>Standard and Power types</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/cs/FBF_AECQ.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="">
+                        <h3>FBF-M Series</h3><span class="series-type">Metal Paste · AEC-Q200 · Anti-Sulfur</span>
+                        <ul class="spec-list">
+                            <li>0603~2512</li>
+                            <li>50mΩ~910mΩ</li>
+                            <li>1/8W~2W</li>
+                            <li>±1% / ±2% / ±5%</li>
+                            <li>AEC-Q200, EIA-977 option</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/cs/FBF_10R.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="">
+                        <h3>FBF ≥1Ω Series</h3><span class="series-type">Metal Paste · AEC-Q200</span>
+                        <ul class="spec-list">
+                            <li>1206 / 2010 / 2512</li>
+                            <li>1Ω~10Ω</li>
+                            <li>1/4W~2W</li>
+                            <li>±1% / ±2% / ±5%</li>
+                            <li>TCR ±100ppm/°C</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/cs/FPF-L.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="">
+                        <h3>FPF-L Series</h3><span class="series-type">Thick Film · High Power · AEC-Q200</span>
+                        <ul class="spec-list">
+                            <li>0603~2512</li>
+                            <li>50mΩ~910mΩ</li>
+                            <li>1/4W~2W</li>
+                            <li>±1% / ±5%</li>
+                            <li>RoHS, Halogen Free</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/cs/FCF-E.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="">
+                        <h3>FCF-E Series</h3><span class="series-type">Thick Film · General Purpose</span>
+                        <ul class="spec-list">
+                            <li>0603~2512</li>
+                            <li>10mΩ~910mΩ</li>
+                            <li>1/8W~2W</li>
+                            <li>±1% / ±2% / ±5%</li>
+                            <li>Standard and high-power options</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                </div>
+                <div class="catalog-box">
+                    <div>
+                        <h3>PDC Chip Resistor Catalog</h3>
+                        <p><span data-lang="ko">전체 Chip-R 제품군과 품번 체계를 확인할 수 있는 종합 카탈로그입니다.</span><span
+                                data-lang="en">Review the complete Chip-R portfolio and part-number structure.</span>
+                        </p>
+                    </div><a class="btn" download href="../../docu/datasheet/Chip-R/CHR_catalog.pdf"><span
+                            data-lang="ko">종합 카탈로그 다운로드</span><span data-lang="en">Download Catalog</span></a>
                 </div>
             </div>
         </section>
         <section>
             <div class="container">
-                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
-                <div class="application-grid">
-                    <div class="application">EV / HEV</div>
-                    <div class="application"><span data-lang="ko">배터리 관리 시스템</span><span data-lang="en">Battery
-                            Management System</span></div>
-                    <div class="application"><span data-lang="ko">배터리 팩</span><span data-lang="en">Battery Pack</span>
-                    </div>
-                    <div class="application"><span data-lang="ko">에너지 저장 시스템</span><span data-lang="en">Energy Storage
-                            System</span></div>
-                    <div class="application"><span data-lang="ko">산업용 전원장치</span><span data-lang="en">Industrial Power
-                            Supply</span></div>
-                    <div class="application">DC-DC Converter</div>
-                    <div class="application">Server &amp; AI Power</div>
-                    <div class="application"><span data-lang="ko">전류 모니터링</span><span data-lang="en">Power
-                            Monitoring</span></div>
+                <h2><span data-lang="ko">시리즈 비교</span><span data-lang="en">Series Comparison</span></h2>
+                <div class="table-wrap">
+                    <table class="comparison">
+                        <thead>
+                            <tr>
+                                <th>Series</th>
+                                <th>Technology</th>
+                                <th>Resistance</th>
+                                <th>Power</th>
+                                <th>Size</th>
+                                <th>Key Feature</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>FMF</strong></td>
+                                <td>Metal Strip</td>
+                                <td>0Ω / 0.5mΩ~100mΩ</td>
+                                <td>0.5W~3W</td>
+                                <td>1206 / 2512</td>
+                                <td>AEC-Q200, Low EMF</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FOF</strong></td>
+                                <td>Metal Foil</td>
+                                <td>2mΩ~700mΩ</td>
+                                <td>1/3W~2W</td>
+                                <td>0402~2512</td>
+                                <td>±0.5%, Anti-Sulfur</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FBF</strong></td>
+                                <td>Metal Paste</td>
+                                <td>10mΩ~910mΩ</td>
+                                <td>1/8W~2W</td>
+                                <td>0603~2512</td>
+                                <td>Standard / Power</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FBF-M</strong></td>
+                                <td>Metal Paste</td>
+                                <td>50mΩ~910mΩ</td>
+                                <td>1/8W~2W</td>
+                                <td>0603~2512</td>
+                                <td>AEC-Q200, Anti-Sulfur</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FBF ≥1Ω</strong></td>
+                                <td>Metal Paste</td>
+                                <td>1Ω~10Ω</td>
+                                <td>1/4W~2W</td>
+                                <td>1206~2512</td>
+                                <td>AEC-Q200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FPF-L</strong></td>
+                                <td>Thick Film</td>
+                                <td>50mΩ~910mΩ</td>
+                                <td>1/4W~2W</td>
+                                <td>0603~2512</td>
+                                <td>High Power</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FCF-E</strong></td>
+                                <td>Thick Film</td>
+                                <td>10mΩ~910mΩ</td>
+                                <td>1/8W~2W</td>
+                                <td>0603~2512</td>
+                                <td>General Purpose</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
+                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
+                <div class="application-grid">
+                    <div class="application">Battery Pack / BMS</div>
+                    <div class="application">EV / Automotive</div>
+                    <div class="application">Power Supply</div>
+                    <div class="application">DC-DC Converter</div>
+                    <div class="application">Battery Charger</div>
+                    <div class="application">Server Power</div>
+                    <div class="application">Test Instrument</div>
+                    <div class="application">Industrial Electronics</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
                 <div class="contact-box">
                     <h2><span data-lang="ko">제품 검색 및 문의</span><span data-lang="en">Product Search and Inquiry</span>
                     </h2>
-                    <p><span data-lang="ko">통합 제품 검색에서 상세 품번을 확인하거나, 요구 사양을 보내주시면 후보 선정을 지원합니다.</span><span
-                            data-lang="en">Use the integrated search for detailed part numbers, or send requirements for
-                            candidate selection support.</span></p><a class="btn"
+                    <p><span data-lang="ko">필요 저항값, 정격전력, 허용오차, TCR, 크기, AEC-Q200 및 내황 조건을 알려주시면 후보 품번 검토를
+                            지원합니다.</span><span data-lang="en">Send resistance, power, tolerance, TCR, size, AEC-Q200 and
+                            anti-sulfur requirements for candidate review.</span></p><a class="btn"
                         href="../../product-search.html?category=chip-resistors&amp;subcategory=Current%20Sense"><span
                             data-lang="ko">통합 제품 검색</span><span data-lang="en">Integrated Product Search</span></a><a
                         class="btn" href="../../index.html#contact" style="margin-left:10px"><span
@@ -438,7 +687,7 @@
         </section>
     </main>
     <footer>© 2026 CERANIX | PDC Korea Authorized Distributor</footer>
-    <script>const root = document.documentElement, buttons = document.querySelectorAll('[data-set-lang]'); function setLanguage(lang) { const safeLang = lang === 'en' ? 'en' : 'ko'; root.lang = safeLang; document.title = 'CERANIX | Current Sense Resistors'; buttons.forEach(b => b.classList.toggle('active', b.dataset.setLang === safeLang)); localStorage.setItem('ceranix-language', safeLang) } buttons.forEach(b => b.addEventListener('click', () => setLanguage(b.dataset.setLang))); setLanguage(localStorage.getItem('ceranix-language') || 'ko');</script>
+    <script>const root = document.documentElement; const buttons = document.querySelectorAll('[data-set-lang]'); function setLanguage(lang) { const safe = lang === 'en' ? 'en' : 'ko'; root.lang = safe; document.title = safe === 'ko' ? 'CERANIX | PDC 전류 감지 저항기' : 'CERANIX | PDC Current Sense Resistors'; buttons.forEach(b => b.classList.toggle('active', b.dataset.setLang === safe)); localStorage.setItem('ceranix-language', safe) } buttons.forEach(b => b.addEventListener('click', () => setLanguage(b.dataset.setLang))); setLanguage(localStorage.getItem('ceranix-language') || 'ko');</script>
 </body>
 
 </html>

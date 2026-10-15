@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="CERANIX PDC Automotive Resistors product information.">
+    <meta name="description" content="CERANIX PDC FWF automotive grade and anti-sulfur thick-film chip resistors.">
     <title>CERANIX | Automotive Resistors</title>
     <style>
         :root {
@@ -17,9 +17,9 @@
         }
 
         * {
+            box-sizing: border-box;
             margin: 0;
-            padding: 0;
-            box-sizing: border-box
+            padding: 0
         }
 
         html {
@@ -28,9 +28,8 @@
 
         body {
             font-family: "Pretendard", "Noto Sans KR", "Segoe UI", Arial, sans-serif;
-            line-height: 1.65;
             color: var(--text);
-            background: #fff
+            line-height: 1.65
         }
 
         a {
@@ -41,6 +40,15 @@
         .container {
             width: min(1120px, calc(100% - 40px));
             margin: auto
+        }
+
+        [data-lang] {
+            display: none
+        }
+
+        html[lang="ko"] [data-lang="ko"],
+        html[lang="en"] [data-lang="en"] {
+            display: initial
         }
 
         header {
@@ -62,17 +70,13 @@
 
         .brand {
             display: flex;
-            align-items: center;
-            min-width: 180px
+            align-items: center
         }
 
         .logo {
-            display: block;
             width: 210px;
-            max-width: 100%;
             max-height: 48px;
-            object-fit: contain;
-            object-position: left center
+            object-fit: contain
         }
 
         .logo-fallback {
@@ -87,8 +91,8 @@
             align-items: center;
             gap: 28px;
             list-style: none;
-            font-weight: 700;
-            font-size: 14px
+            font-size: 14px;
+            font-weight: 700
         }
 
         .nav-links a:hover,
@@ -98,20 +102,20 @@
 
         .lang-switch {
             display: flex;
+            padding: 3px;
             border: 1px solid var(--line);
             border-radius: 999px;
-            padding: 3px;
             background: #f7f9fc
         }
 
         .lang-btn {
-            border: 0;
-            background: transparent;
             padding: 7px 11px;
+            border: 0;
             border-radius: 999px;
-            cursor: pointer;
+            background: transparent;
+            color: var(--muted);
             font-weight: 800;
-            color: var(--muted)
+            cursor: pointer
         }
 
         .lang-btn.active {
@@ -120,22 +124,10 @@
         }
 
         .hero {
-            color: #fff;
             padding: 105px 20px;
+            color: #fff;
             text-align: center;
             background: radial-gradient(circle at 15% 20%, rgba(0, 184, 255, .34), transparent 36%), linear-gradient(135deg, #041c43, #073979 65%, #086ca4)
-        }
-
-        .hero h1 {
-            font-size: clamp(40px, 6vw, 68px);
-            line-height: 1.1
-        }
-
-        .subtitle {
-            font-size: clamp(18px, 2.3vw, 24px);
-            color: #dcecff;
-            margin: 18px auto 0;
-            max-width: 850px
         }
 
         .eyebrow {
@@ -148,6 +140,18 @@
             font-weight: 800
         }
 
+        .hero h1 {
+            font-size: clamp(40px, 6vw, 68px);
+            line-height: 1.1
+        }
+
+        .subtitle {
+            max-width: 850px;
+            margin: 18px auto 0;
+            color: #dcecff;
+            font-size: clamp(18px, 2.3vw, 24px)
+        }
+
         section {
             padding: 78px 0
         }
@@ -157,14 +161,18 @@
         }
 
         h2 {
-            color: var(--navy);
             margin-bottom: 18px;
+            color: var(--navy);
             font-size: clamp(29px, 4vw, 38px)
         }
 
         .lead {
-            color: var(--muted);
-            max-width: 920px
+            max-width: 930px;
+            color: var(--muted)
+        }
+
+        .lead+.lead {
+            margin-top: 14px
         }
 
         .notice {
@@ -176,32 +184,121 @@
             font-size: 14px
         }
 
-        .card-grid {
+        .series-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 22px;
             margin-top: 32px
         }
 
-        .card {
+        .series-card {
+            position: relative;
+            display: block;
             height: 100%;
-            background: #fff;
+            padding: 30px 78px 30px 30px;
             border: 1px solid var(--line);
             border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 8px 24px rgba(25, 52, 84, .06)
+            background: #fff;
+            box-shadow: 0 18px 38px rgba(25, 52, 84, .12);
+            transform: translateY(-6px);
+            transition: .25s
         }
 
-        .card h3 {
+        .series-card:hover,
+        .series-card:focus-visible {
+            border-color: var(--blue);
+            box-shadow: 0 26px 48px rgba(25, 52, 84, .22);
+            transform: translateY(-13px);
+            outline: none
+        }
+
+        .series-card h3 {
+            margin-bottom: 4px;
             color: var(--navy);
-            margin-bottom: 12px
+            font-size: 24px
         }
 
-        .card ul {
+        .series-type {
+            display: block;
+            margin-bottom: 15px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .series-card ul {
             padding-left: 20px;
             color: var(--muted)
         }
 
+        .series-card li+li {
+            margin-top: 6px
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            transition: .25s
+        }
+
+        .series-card:hover .download-icon {
+            transform: translateY(3px) scale(1.06)
+        }
+
+        .download-label {
+            display: inline-block;
+            margin-top: 18px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .table-wrap {
+            margin-top: 28px;
+            overflow-x: auto;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff
+        }
+
+        table {
+            width: 100%;
+            min-width: 860px;
+            border-collapse: collapse
+        }
+
+        th,
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top
+        }
+
+        th {
+            color: #fff;
+            background: var(--navy);
+            font-size: 14px
+        }
+
+        td {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        tr:last-child td {
+            border: 0
+        }
+
+        td strong {
+            color: var(--navy)
+        }
+
+        .feature-grid,
         .application-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -209,27 +306,45 @@
             margin-top: 28px
         }
 
-        .application {
-            background: linear-gradient(135deg, var(--navy), #0a5f9e);
-            color: #fff;
-            padding: 22px 18px;
-            text-align: center;
+        .feature {
+            padding: 22px;
+            border: 1px solid var(--line);
             border-radius: 10px;
+            background: #fff
+        }
+
+        .feature h3 {
+            color: var(--navy);
+            font-size: 17px
+        }
+
+        .feature p {
+            margin-top: 7px;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .application {
+            padding: 22px 18px;
+            border-radius: 10px;
+            color: #fff;
+            background: linear-gradient(135deg, var(--navy), #0a5f9e);
+            text-align: center;
             font-weight: 800
         }
 
         .contact-box {
-            background: var(--light);
+            padding: 42px;
             border: 1px solid var(--line);
             border-radius: 14px;
-            padding: 42px;
+            background: #fff;
             text-align: center
         }
 
         .contact-box p {
-            color: var(--muted);
-            max-width: 680px;
-            margin: auto
+            max-width: 700px;
+            margin: auto;
+            color: var(--muted)
         }
 
         .btn {
@@ -237,10 +352,10 @@
             align-items: center;
             justify-content: center;
             margin-top: 24px;
-            background: var(--blue);
-            color: #fff;
             padding: 13px 26px;
             border-radius: 7px;
+            color: #fff;
+            background: var(--blue);
             font-weight: 800
         }
 
@@ -249,19 +364,10 @@
         }
 
         footer {
-            background: #03172f;
+            padding: 26px;
             color: #c9d5e3;
-            text-align: center;
-            padding: 26px
-        }
-
-        [data-lang] {
-            display: none
-        }
-
-        html[lang="ko"] [data-lang="ko"],
-        html[lang="en"] [data-lang="en"] {
-            display: initial
+            background: #03172f;
+            text-align: center
         }
 
         @media(max-width:860px) {
@@ -269,10 +375,11 @@
                 display: none
             }
 
-            .card-grid {
+            .series-grid {
                 grid-template-columns: 1fr
             }
 
+            .feature-grid,
             .application-grid {
                 grid-template-columns: 1fr 1fr
             }
@@ -291,17 +398,22 @@
                 padding: 62px 0
             }
 
+            .feature-grid,
             .application-grid {
                 grid-template-columns: 1fr
             }
 
-            .contact-box {
-                padding: 28px 20px
+            .series-card {
+                padding: 72px 24px 26px;
+                transform: none
             }
 
-            .contact-box .btn {
-                display: flex;
-                margin-left: 0 !important
+            .series-card:hover {
+                transform: translateY(-5px)
+            }
+
+            .contact-box {
+                padding: 28px 20px
             }
         }
     </style>
@@ -309,10 +421,10 @@
 
 <body>
     <header>
-        <nav class="container"><a aria-label="CERANIX home" class="brand" href="../../index.html"><img
-                    alt="CERANIX logo" class="logo"
-                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
-                    src="../../LOGO.png"><span class="logo-fallback">CERANIX</span></a>
+        <nav class="container"><a class="brand" href="../../index.html" aria-label="CERANIX home"><img class="logo"
+                    src="../../LOGO.png" alt="CERANIX logo"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><span
+                    class="logo-fallback">CERANIX</span></a>
             <ul class="nav-links">
                 <li><a href="../../index.html#about"><span data-lang="ko">회사소개</span><span
                             data-lang="en">About</span></a></li>
@@ -331,84 +443,142 @@
     </header>
     <main>
         <section class="hero">
-            <div class="container"><span class="eyebrow">PDC Chip Resistors</span>
+            <div class="container"><span class="eyebrow">PDC CHIP RESISTORS</span>
                 <h1>Automotive Resistors</h1>
-                <p class="subtitle"><span data-lang="ko">AEC-Q200 대응 자동차용 후막 칩 저항</span><span data-lang="en">AEC-Q200
-                        automotive thick-film chip resistors</span></p>
+                <p class="subtitle"><span data-lang="ko">AEC-Q200 자동차용 범용 및 내황 후막 칩 저항기</span><span
+                        data-lang="en">AEC-Q200 automotive general-purpose and anti-sulfur thick-film chip
+                        resistors</span></p>
             </div>
         </section>
         <section>
             <div class="container">
                 <h2><span data-lang="ko">제품 소개</span><span data-lang="en">Product Introduction</span></h2>
-                <p class="lead"><strong>FWF Automotive</strong><br><br><span data-lang="ko">PDC FWF 시리즈는 자동차 산업용
-                        AEC-Q200 시험에 대응하는 후막 칩 저항입니다. 0402~2512 크기, 0Ω 및 1Ω~10MΩ 범위, ±1%·±5% 허용오차와 최대 1W 정격을 지원하며
-                        anti-sulfur 옵션을 제공합니다.</span><span data-lang="en">PDC FWF series is a thick-film chip resistor
-                        designed to meet AEC-Q200 testing for automotive applications. It covers 0402 to 2512, 0Ω and 1Ω
-                        to 10MΩ, ±1% and ±5% tolerance, power ratings up to 1W, and an anti-sulfur option.</span></p>
-                <div class="notice"><span data-lang="ko">제품 선정 시 저항값, 정격 전력, TCR, 동작 전압, 패키지 및 사용 환경을 검토하고 최종 사양은 최신
-                        데이터시트 또는 승인 사양서로 확인하시기 바랍니다.</span><span data-lang="en">Review resistance, power rating, TCR,
-                        operating voltage, package and environment, and confirm final specifications in the latest
-                        datasheet or approved specification.</span></div>
+                <p class="lead"><span data-lang="ko">PDC FWF 제품군은 자동차 산업의 AEC-Q200 시험 요구에 대응하는 후막 칩 저항기입니다. FWF는 범용 자동차
+                        등급, FWF-S는 내황 기능을 강화한 자동차 등급 제품으로 구분됩니다.</span><span data-lang="en">PDC FWF families are
+                        thick-film chip resistors designed for automotive AEC-Q200 test requirements. FWF is the
+                        general-purpose automotive family, while FWF-S adds an anti-sulfur configuration.</span></p>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h3>AEC-Q200</h3>
+                        <p>Automotive qualification test coverage</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Resistance</h3>
+                        <p>1Ω~10MΩ plus 0Ω jumper</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Temperature</h3>
+                        <p>-55°C~+155°C operating range</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Compliance</h3>
+                        <p>Lead-free · RoHS · Halogen Free</p>
+                    </div>
+                </div>
+                <div class="notice"><span data-lang="ko">자동차 등급 제품이라도 안전 관련 회로의 사용 적합성을 자동으로 의미하지 않습니다. 최종 설계에서는 해당 시스템의
+                        안전 요구와 최신 승인 사양서를 별도로 검토하세요.</span><span data-lang="en">Automotive grade does not by itself
+                        establish suitability for a safety-related circuit. Review the system safety requirements and
+                        latest approved specification for the final design.</span></div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
-                <h2><span data-lang="ko">주요 검토 항목</span><span data-lang="en">Key Review Points</span></h2>
-                <div class="card-grid">
-                    <article class="card">
-                        <h3>Automotive Grade</h3>
+                <h2><span data-lang="ko">시리즈별 사양 및 데이터시트</span><span data-lang="en">Series Specifications and
+                        Datasheets</span></h2>
+                <p class="lead"><span data-lang="ko">카드 전체를 클릭하면 해당 데이터시트를 다운로드합니다.</span><span data-lang="en">Select a
+                        card to download the corresponding datasheet.</span></p>
+                <div class="series-grid">
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/at/FWF.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="" aria-hidden="true">
+                        <h3>FWF Series</h3><span class="series-type">Automotive Grade General Purpose</span>
                         <ul>
-                            <li><span data-lang="ko">AEC-Q200 시험 대응</span><span data-lang="en">Designed for AEC-Q200
-                                    testing</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Resistance</h3>
+                            <li>Size: 0402~2512</li>
+                            <li>Resistance: 1Ω~10MΩ / 0Ω jumper</li>
+                            <li>Tolerance: ±1% / ±5%</li>
+                            <li>Power: 1/16W~1W</li>
+                            <li>Anti-sulfur -W option: H2S 1000ppm</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
+                    <a class="series-card" download href="../../docu/datasheet/Chip-R/at/FWF-S.pdf"><img
+                            class="download-icon" src="../../images/download-button.png" alt="" aria-hidden="true">
+                        <h3>FWF-S Series</h3><span class="series-type">Automotive Grade &amp; Anti-Sulfur</span>
                         <ul>
-                            <li><span data-lang="ko">0Ω 및 1Ω~10MΩ</span><span data-lang="en">0Ω and 1Ω to 10MΩ</span>
-                            </li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Size &amp; Power</h3>
-                        <ul>
-                            <li><span data-lang="ko">0402~2512, 최대 1W</span><span data-lang="en">0402 to 2512, up to
-                                    1W</span></li>
-                        </ul>
-                    </article>
-                    <article class="card">
-                        <h3>Special Option</h3>
-                        <ul>
-                            <li><span data-lang="ko">H2S 1000ppm anti-sulfur</span><span data-lang="en">H2S 1000ppm
-                                    anti-sulfur</span></li>
-                        </ul>
-                    </article>
+                            <li>Size: 0201~2512</li>
+                            <li>Resistance: 1Ω~10MΩ / 0Ω jumper</li>
+                            <li>Tolerance: ±1% / ±5%</li>
+                            <li>Power: 1/20W~1W</li>
+                            <li>ASTM B-809-95 anti-sulfur, 60°C / 500h</li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a>
                 </div>
             </div>
         </section>
         <section>
             <div class="container">
-                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
-                <div class="application-grid">
-                    <div class="application">Automotive Electronics</div>
-                    <div class="application">ECU</div>
-                    <div class="application">BMS</div>
-                    <div class="application">Power Control</div>
-                    <div class="application">Digital Meter</div>
-                    <div class="application">Consumer Electronics</div>
-                    <div class="application">Portable Devices</div>
-                    <div class="application">Safety Circuit</div>
+                <h2><span data-lang="ko">FWF / FWF-S 비교</span><span data-lang="en">FWF / FWF-S Comparison</span></h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Series</th>
+                                <th>Grade</th>
+                                <th>Size</th>
+                                <th>Resistance</th>
+                                <th>Power</th>
+                                <th>Anti-Sulfur</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>FWF</strong></td>
+                                <td>AEC-Q200 General Purpose</td>
+                                <td>0402~2512</td>
+                                <td>1Ω~10MΩ / 0Ω</td>
+                                <td>1/16W~1W</td>
+                                <td>-W: H2S 1000ppm option</td>
+                            </tr>
+                            <tr>
+                                <td><strong>FWF-S</strong></td>
+                                <td>AEC-Q200 Automotive &amp; Anti-Sulfur</td>
+                                <td>0201~2512</td>
+                                <td>1Ω~10MΩ / 0Ω</td>
+                                <td>1/20W~1W</td>
+                                <td>ASTM B-809-95, 60°C / 500h</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+                <div class="notice"><span data-lang="ko">FWF-S는 0201까지 지원하며, 데이터시트에는 0Ω 점퍼의 정격전류가 크기별로 별도 규정되어 있습니다. 예를
+                        들어 2512는 정격전류 ≤4.5A, 피크전류 ≤11A, 저항 &lt;50mΩ 조건입니다.</span><span data-lang="en">FWF-S extends to
+                        0201 and specifies size-dependent current ratings for 0Ω jumpers. For example, 2512 is specified
+                        at rated current ≤4.5A, peak current ≤11A and resistance &lt;50mΩ.</span></div>
             </div>
         </section>
         <section class="alt">
             <div class="container">
+                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
+                <div class="application-grid">
+                    <div class="application">Automotive Electronics</div>
+                    <div class="application">Motor Control</div>
+                    <div class="application">Power Supply</div>
+                    <div class="application">Digital Meter</div>
+                    <div class="application">Consumer Electronics</div>
+                    <div class="application">Motherboard</div>
+                    <div class="application">Portable Devices</div>
+                    <div class="application">Control Modules</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
                 <div class="contact-box">
                     <h2><span data-lang="ko">제품 검색 및 문의</span><span data-lang="en">Product Search and Inquiry</span>
                     </h2>
-                    <p><span data-lang="ko">통합 제품 검색에서 상세 품번을 확인하거나 요구 사양을 보내주시면 후보 선정을 지원합니다.</span><span
-                            data-lang="en">Use the integrated search for detailed part numbers, or send requirements for
-                            candidate selection support.</span></p><a class="btn"
+                    <p><span data-lang="ko">저항값, 정격전력, 패키지, TCR, 0Ω 점퍼 여부와 내황 요구사항을 알려주시면 FWF/FWF-S 후보 품번 검토를
+                            지원합니다.</span><span data-lang="en">Send resistance, power, package, TCR, jumper and
+                            anti-sulfur requirements for FWF/FWF-S candidate review.</span></p><a class="btn"
                         href="../../product-search.html?category=chip-resistors&amp;subcategory=Automotive"><span
                             data-lang="ko">통합 제품 검색</span><span data-lang="en">Integrated Product Search</span></a><a
                         class="btn" href="../../index.html#contact" style="margin-left:10px"><span
@@ -418,7 +588,7 @@
         </section>
     </main>
     <footer>© 2026 CERANIX | PDC Korea Authorized Distributor</footer>
-    <script>const root = document.documentElement, buttons = document.querySelectorAll('[data-set-lang]'); function setLanguage(lang) { const safeLang = lang === 'en' ? 'en' : 'ko'; root.lang = safeLang; document.title = 'CERANIX | Automotive Resistors'; buttons.forEach(b => b.classList.toggle('active', b.dataset.setLang === safeLang)); localStorage.setItem('ceranix-language', safeLang) } buttons.forEach(b => b.addEventListener('click', () => setLanguage(b.dataset.setLang))); setLanguage(localStorage.getItem('ceranix-language') || 'ko');</script>
+    <script>const root = document.documentElement; const buttons = document.querySelectorAll('[data-set-lang]'); function setLanguage(lang) { const safe = lang === 'en' ? 'en' : 'ko'; root.lang = safe; buttons.forEach(b => b.classList.toggle('active', b.dataset.setLang === safe)); localStorage.setItem('ceranix-language', safe) } buttons.forEach(b => b.addEventListener('click', () => setLanguage(b.dataset.setLang))); setLanguage(localStorage.getItem('ceranix-language') || 'ko');</script>
 </body>
 
 </html>
