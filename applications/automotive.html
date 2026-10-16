@@ -572,6 +572,59 @@
 .detail-grid > a > .detail-card{height:100%;cursor:pointer;position:relative;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease!important;will-change:transform}
 .detail-grid > a:hover > .detail-card,.detail-grid > a:focus-visible > .detail-card{transform:translateY(-8px)!important;border-color:var(--blue)!important;box-shadow:0 20px 40px rgba(25,52,84,.18)!important}
 .detail-card p{margin-top:9px;color:var(--muted);font-size:14px;line-height:1.55}
+
+/* Automotive hero background: 20% image opacity */
+.application-hero{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:#041c43 !important;
+}
+.application-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background:url("../images/applications/automotive/automotive-mbg.webp") center center/cover no-repeat;
+  opacity:.20;
+  pointer-events:none;
+}
+.application-hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:linear-gradient(135deg,rgba(4,28,67,.42),rgba(7,57,121,.30) 65%,rgba(8,108,164,.24));
+  pointer-events:none;
+}
+
+/* Key application cards: keep existing dimensions, 30% image opacity */
+.detail-card.application-image-card{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:#fff;
+}
+.detail-card.application-image-card::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  background-image:var(--card-bg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  opacity:.30;
+  pointer-events:none;
+}
+.detail-card.application-image-card::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:rgba(255,255,255,.58);
+  pointer-events:none;
+}
 </style>
 </head>
 <body>
@@ -607,7 +660,7 @@
 <div class="section-head"><span>RELATED APPLICATIONS</span>
 <h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
 </div>
-<div class="detail-grid"><a class="product-link" href="automotive/bms.html"><article class="detail-card"><h3><span data-lang="ko">배터리 관리 시스템 (BMS)</span><span data-lang="en">Battery Management System (BMS)</span></h3><p><span data-lang="ko">400V~800V 배터리의 충·방전 및 안전 제어</span><span data-lang="en">Charge/discharge and safety control for 400V–800V battery systems</span></p></article></a><a class="product-link" href="automotive/obc.html"><article class="detail-card"><h3><span data-lang="ko">EV 온보드 충전기 (OBC)</span><span data-lang="en">EV On Board Charger (OBC)</span></h3><p><span data-lang="ko">AC 전원을 배터리 충전용 DC 전력으로 변환</span><span data-lang="en">Converts AC input power to DC power for EV battery charging</span></p></article></a><a class="product-link" href="automotive/48v-dc-dc-converter.html"><article class="detail-card"><h3><span data-lang="ko">48V DC/DC 컨버터</span><span data-lang="en">48V DC/DC Converter</span></h3><p><span data-lang="ko">PTC 히터·EPS 등 48V↔12/14V 전력변환 시스템</span><span data-lang="en">48V↔12/14V power conversion for PTC heaters, EPS and related systems</span></p></article></a><a class="product-link" href="automotive/inverter.html"><article class="detail-card"><h3><span data-lang="ko">인버터</span><span data-lang="en">Inverter</span></h3><p><span data-lang="ko">EV 모터 구동을 위한 DC→AC 전력변환</span><span data-lang="en">DC-to-AC power conversion for EV motor drive</span></p></article></a><a class="product-link" href="automotive/lighting.html"><article class="detail-card"><h3><span data-lang="ko">자동차 조명</span><span data-lang="en">Automotive Lighting</span></h3><p><span data-lang="ko">48V DC/DC 기반 LED 조명 및 제어 시스템</span><span data-lang="en">48V DC/DC LED lighting and control systems</span></p></article></a></div>
+<div class="detail-grid"><a class="product-link" href="automotive/bms.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/bms.webp')"><h3><span data-lang="ko">배터리 관리 시스템 (BMS)</span><span data-lang="en">Battery Management System (BMS)</span></h3><p><span data-lang="ko">400V~800V 배터리의 충·방전 및 안전 제어</span><span data-lang="en">Charge/discharge and safety control for 400V–800V battery systems</span></p></article></a><a class="product-link" href="automotive/obc.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/evc.webp')"><h3><span data-lang="ko">EV 온보드 충전기 (OBC)</span><span data-lang="en">EV On Board Charger (OBC)</span></h3><p><span data-lang="ko">AC 전원을 배터리 충전용 DC 전력으로 변환</span><span data-lang="en">Converts AC input power to DC power for EV battery charging</span></p></article></a><a class="product-link" href="automotive/48v-dc-dc-converter.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/dc converter.webp')"><h3><span data-lang="ko">48V DC/DC 컨버터</span><span data-lang="en">48V DC/DC Converter</span></h3><p><span data-lang="ko">PTC 히터·EPS 등 48V↔12/14V 전력변환 시스템</span><span data-lang="en">48V↔12/14V power conversion for PTC heaters, EPS and related systems</span></p></article></a><a class="product-link" href="automotive/inverter.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/inverter.webp')"><h3><span data-lang="ko">인버터</span><span data-lang="en">Inverter</span></h3><p><span data-lang="ko">EV 모터 구동을 위한 DC→AC 전력변환</span><span data-lang="en">DC-to-AC power conversion for EV motor drive</span></p></article></a><a class="product-link" href="automotive/lighting.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/lighting.webp')"><h3><span data-lang="ko">자동차 조명</span><span data-lang="en">Automotive Lighting</span></h3><p><span data-lang="ko">48V DC/DC 기반 LED 조명 및 제어 시스템</span><span data-lang="en">48V DC/DC LED lighting and control systems</span></p></article></a></div>
 </div>
 </section>
 <section class="alt">
