@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="ko">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="CERANIX Power Supply application solutions" name="description"/>
-<title>Power Supply | CERANIX</title>
-<style>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="CERANIX Power Supply application solutions" name="description" />
+  <title>Power Supply | CERANIX</title>
+  <style>
     :root {
       --navy: #062b63;
       --blue: #009fe3;
@@ -566,70 +567,163 @@
         padding: 66px 0
       }
     }
-  
-/* Related Applications: bilingual content + floating interaction */
-.detail-grid > a{display:block;height:100%}
-.detail-grid > a > .detail-card{height:100%;cursor:pointer;position:relative;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease!important;will-change:transform}
-.detail-grid > a:hover > .detail-card,.detail-grid > a:focus-visible > .detail-card{transform:translateY(-8px)!important;border-color:var(--blue)!important;box-shadow:0 20px 40px rgba(25,52,84,.18)!important}
-.detail-card p{margin-top:9px;color:var(--muted);font-size:14px;line-height:1.55}
-</style>
+
+    /* Related Applications: bilingual content + floating interaction */
+    .detail-grid>a {
+      display: block;
+      height: 100%
+    }
+
+    .detail-grid>a>.detail-card {
+      height: 100%;
+      cursor: pointer;
+      position: relative;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease !important;
+      will-change: transform
+    }
+
+    .detail-grid>a:hover>.detail-card,
+    .detail-grid>a:focus-visible>.detail-card {
+      transform: translateY(-8px) !important;
+      border-color: var(--blue) !important;
+      box-shadow: 0 20px 40px rgba(25, 52, 84, .18) !important
+    }
+
+    .detail-card p {
+      margin-top: 9px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55
+    }
+
+    /* Application hero image: image layer at 20% opacity, content unaffected */
+    .application-hero {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      background: #041c43 !important
+    }
+
+    .application-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background: url("../images/applications/power supply-mbg.webp") center center/cover no-repeat;
+      opacity: .20;
+      pointer-events: none
+    }
+
+    .application-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: linear-gradient(135deg, rgba(4, 28, 67, .44), rgba(7, 57, 121, .33) 65%, rgba(8, 108, 164, .26));
+      pointer-events: none
+    }
+  </style>
 </head>
+
 <body>
-<header>
-<nav class="container">
-<a aria-label="CERANIX home" href="../index.html#home"><img alt="CERANIX" class="logo" src="../LOGO.png"/></a>
-<ul class="nav-links">
-<li><a href="../index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li>
-<li><a href="../index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li>
-<li><a href="../index.html#applications"><span data-lang="ko">적용 분야</span><span data-lang="en">Applications</span></a></li>
-<li><a href="../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product
+  <header>
+    <nav class="container">
+      <a aria-label="CERANIX home" href="../index.html#home"><img alt="CERANIX" class="logo" src="../LOGO.png" /></a>
+      <ul class="nav-links">
+        <li><a href="../index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li>
+        <li><a href="../index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li>
+        <li><a href="../index.html#applications"><span data-lang="ko">적용 분야</span><span
+              data-lang="en">Applications</span></a></li>
+        <li><a href="../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product
               Search</span></a></li>
-<li><a href="../index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li>
-</ul>
-<div aria-label="Language selector" class="lang-switch">
-<button class="lang-btn active" data-set-lang="ko" type="button">KO</button>
-<button class="lang-btn" data-set-lang="en" type="button">EN</button>
-</div>
-</nav>
-</header>
-<main>
-<section class="application-hero">
-<div class="container"><span class="eyebrow">APPLICATION</span>
-<h1><span data-lang="ko">전원 공급</span><span data-lang="en">Power Supply</span></h1>
-<p><span data-lang="ko">PDC는 Solar Inverter, EV Charging Pile, SMPS, Smart Power Supply와 같은 대규모 전원 시스템에 자사 솔루션과 제품 적용 가이드를 제공합니다.</span><span data-lang="en">PDC provides solutions and product application guidelines for large-scale power supplies such as solar inverters, EV charging piles, switch-mode power supplies and smart power supplies.</span></p>
-</div>
-</section>
-<section>
-<div class="container">
-<div class="section-head"><span>RELATED APPLICATIONS</span>
-<h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
-</div>
-<div class="detail-grid"><a class="product-link" href="power-supply/solar-application.html"><article class="detail-card"><h3><span data-lang="ko">태양광 전력 시스템</span><span data-lang="en">Solar Application</span></h3><p><span data-lang="ko">태양광 인버터의 전력변환 및 보호 회로</span><span data-lang="en">Power conversion and protection for solar inverters</span></p></article></a><a class="product-link" href="power-supply/fast-chargers-for-ev.html"><article class="detail-card"><h3><span data-lang="ko">EV 급속 충전기</span><span data-lang="en">Fast Chargers for EV</span></h3><p><span data-lang="ko">고전력 EV 충전 시스템의 전력변환·보호</span><span data-lang="en">Power conversion and protection in high-power EV chargers</span></p></article></a><a class="product-link" href="power-supply/wind-power-generation.html"><article class="detail-card"><h3><span data-lang="ko">풍력 발전</span><span data-lang="en">Wind Power Generation</span></h3><p><span data-lang="ko">풍력 발전 전력변환 모듈 및 보호 회로</span><span data-lang="en">Power-conversion modules and protection for wind generation</span></p></article></a><a class="product-link" href="power-supply/pd-qc-gan-fast-charger.html"><article class="detail-card"><h3><span data-lang="ko">PD/QC GaN 고속 충전기</span><span data-lang="en">PD/QC GaN Fast Charger</span></h3><p><span data-lang="ko">GaN 기반 고밀도 고속 충전 전원</span><span data-lang="en">GaN-based high-density fast-charging power supplies</span></p></article></a><a class="product-link" href="power-supply/smps.html"><article class="detail-card"><h3><span data-lang="ko">스위칭 전원 (SMPS)</span><span data-lang="en">SMPS</span></h3><p><span data-lang="ko">스위칭 전원 변환 및 출력 안정화</span><span data-lang="en">Switch-mode power conversion and output stabilization</span></p></article></a><a class="product-link" href="power-supply/smart-power-system.html"><article class="detail-card"><h3><span data-lang="ko">스마트 전원 시스템</span><span data-lang="en">Smart Power System</span></h3><p><span data-lang="ko">스마트 전원·계측 시스템의 전력변환·보호</span><span data-lang="en">Power conversion and protection for smart power and metering systems</span></p></article></a></div>
-</div>
-</section>
-<section class="alt">
-<div class="container">
-<div class="section-head"><span>PDC SOLUTIONS</span>
-<h2><span data-lang="ko">관련 제품군</span><span data-lang="en">Related Product Families</span></h2>
-<p><span data-lang="ko">요구 전압, 용량, 정격 전력, 패키지 및 신뢰성 조건에 따라 적합한 제품을 검토할 수 있습니다.</span><span data-lang="en">Suitable products can be reviewed by voltage, capacitance, power rating, package and
+        <li><a href="../index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li>
+      </ul>
+      <div aria-label="Language selector" class="lang-switch">
+        <button class="lang-btn active" data-set-lang="ko" type="button">KO</button>
+        <button class="lang-btn" data-set-lang="en" type="button">EN</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="application-hero">
+      <div class="container"><span class="eyebrow">APPLICATION</span>
+        <h1><span data-lang="ko">전원 공급</span><span data-lang="en">Power Supply</span></h1>
+        <p><span data-lang="ko">PDC는 Solar Inverter, EV Charging Pile, SMPS, Smart Power Supply와 같은 대규모 전원 시스템에 자사 솔루션과
+            제품 적용 가이드를 제공합니다.</span><span data-lang="en">PDC provides solutions and product application guidelines for
+            large-scale power supplies such as solar inverters, EV charging piles, switch-mode power supplies and smart
+            power supplies.</span></p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="section-head"><span>RELATED APPLICATIONS</span>
+          <h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
+        </div>
+        <div class="detail-grid"><a class="product-link" href="power-supply/solar-application.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">태양광 전력 시스템</span><span data-lang="en">Solar Application</span></h3>
+              <p><span data-lang="ko">태양광 인버터의 전력변환 및 보호 회로</span><span data-lang="en">Power conversion and protection
+                  for solar inverters</span></p>
+            </article>
+          </a><a class="product-link" href="power-supply/fast-chargers-for-ev.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">EV 급속 충전기</span><span data-lang="en">Fast Chargers for EV</span></h3>
+              <p><span data-lang="ko">고전력 EV 충전 시스템의 전력변환·보호</span><span data-lang="en">Power conversion and protection
+                  in high-power EV chargers</span></p>
+            </article>
+          </a><a class="product-link" href="power-supply/wind-power-generation.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">풍력 발전</span><span data-lang="en">Wind Power Generation</span></h3>
+              <p><span data-lang="ko">풍력 발전 전력변환 모듈 및 보호 회로</span><span data-lang="en">Power-conversion modules and
+                  protection for wind generation</span></p>
+            </article>
+          </a><a class="product-link" href="power-supply/pd-qc-gan-fast-charger.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">PD/QC GaN 고속 충전기</span><span data-lang="en">PD/QC GaN Fast Charger</span></h3>
+              <p><span data-lang="ko">GaN 기반 고밀도 고속 충전 전원</span><span data-lang="en">GaN-based high-density
+                  fast-charging power supplies</span></p>
+            </article>
+          </a><a class="product-link" href="power-supply/smps.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">스위칭 전원 (SMPS)</span><span data-lang="en">SMPS</span></h3>
+              <p><span data-lang="ko">스위칭 전원 변환 및 출력 안정화</span><span data-lang="en">Switch-mode power conversion and
+                  output stabilization</span></p>
+            </article>
+          </a><a class="product-link" href="power-supply/smart-power-system.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">스마트 전원 시스템</span><span data-lang="en">Smart Power System</span></h3>
+              <p><span data-lang="ko">스마트 전원·계측 시스템의 전력변환·보호</span><span data-lang="en">Power conversion and protection
+                  for smart power and metering systems</span></p>
+            </article>
+          </a></div>
+      </div>
+    </section>
+    <section class="alt">
+      <div class="container">
+        <div class="section-head"><span>PDC SOLUTIONS</span>
+          <h2><span data-lang="ko">관련 제품군</span><span data-lang="en">Related Product Families</span></h2>
+          <p><span data-lang="ko">요구 전압, 용량, 정격 전력, 패키지 및 신뢰성 조건에 따라 적합한 제품을 검토할 수 있습니다.</span><span
+              data-lang="en">Suitable products can be reviewed by voltage, capacitance, power rating, package and
               reliability requirements.</span></p>
-</div>
-<div class="solution-list"><a href="../product-search.html">MLCC</a><a href="../product-search.html">Chip
+        </div>
+        <div class="solution-list"><a href="../product-search.html">MLCC</a><a href="../product-search.html">Chip
             Resistors</a><a href="../product-search.html">Inductors</a><a href="../product-search.html">Thermistors
             &amp; Varistors</a></div>
-<div class="detail-actions"><a class="btn btn-primary" href="../product-search.html"><span data-lang="ko">제품
-              검색</span><span data-lang="en">Product Search</span></a><a class="btn btn-secondary" href="../index.html#contact"><span data-lang="ko">문의하기</span><span data-lang="en">Contact</span></a></div>
-</div>
-</section>
-</main>
-<footer>
-<div class="container">
-<div>© 2026 CERANIX. All Rights Reserved.</div>
-<div style="margin-top:4px"><span data-lang="ko">서울시 구로구 경인로53길 15 중앙유통단지 업무 A동 507호</span><span data-lang="en">Room 507, Building A, Jungang Distribution Complex, 15 Gyeongin-ro 53-gil, Guro-gu, Seoul,
+        <div class="detail-actions"><a class="btn btn-primary" href="../product-search.html"><span data-lang="ko">제품
+              검색</span><span data-lang="en">Product Search</span></a><a class="btn btn-secondary"
+            href="../index.html#contact"><span data-lang="ko">문의하기</span><span data-lang="en">Contact</span></a></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div>© 2026 CERANIX. All Rights Reserved.</div>
+      <div style="margin-top:4px"><span data-lang="ko">서울시 구로구 경인로53길 15 중앙유통단지 업무 A동 507호</span><span
+          data-lang="en">Room 507, Building A, Jungang Distribution Complex, 15 Gyeongin-ro 53-gil, Guro-gu, Seoul,
           Republic of Korea</span></div>
-</div>
-</footer>
-<script>
+    </div>
+  </footer>
+  <script>
     const root = document.documentElement;
     const buttons = document.querySelectorAll('[data-set-lang]');
     const selectOptions = document.querySelectorAll('#type option');
@@ -645,4 +739,5 @@
     setLanguage(localStorage.getItem('ceranix-language') || 'ko');
   </script>
 </body>
+
 </html>

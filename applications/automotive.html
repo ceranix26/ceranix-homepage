@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="ko">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="CERANIX Automotive application solutions" name="description"/>
-<title>Automotive | CERANIX</title>
-<style>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="CERANIX Automotive application solutions" name="description" />
+  <title>Automotive | CERANIX</title>
+  <style>
     :root {
       --navy: #062b63;
       --blue: #009fe3;
@@ -566,125 +567,214 @@
         padding: 66px 0
       }
     }
-  
-/* Related Applications: bilingual content + floating interaction */
-.detail-grid > a{display:block;height:100%}
-.detail-grid > a > .detail-card{height:100%;cursor:pointer;position:relative;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease!important;will-change:transform}
-.detail-grid > a:hover > .detail-card,.detail-grid > a:focus-visible > .detail-card{transform:translateY(-8px)!important;border-color:var(--blue)!important;box-shadow:0 20px 40px rgba(25,52,84,.18)!important}
-.detail-card p{margin-top:9px;color:var(--muted);font-size:14px;line-height:1.55}
 
-/* Automotive hero background: 20% image opacity */
-.application-hero{
-  position:relative;
-  isolation:isolate;
-  overflow:hidden;
-  background:#041c43 !important;
-}
-.application-hero::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:-2;
-  background:url("../images/applications/automotive/automotive-mbg.webp") center center/cover no-repeat;
-  opacity:.20;
-  pointer-events:none;
-}
-.application-hero::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:-1;
-  background:linear-gradient(135deg,rgba(4,28,67,.42),rgba(7,57,121,.30) 65%,rgba(8,108,164,.24));
-  pointer-events:none;
-}
+    /* Related Applications: bilingual content + floating interaction */
+    .detail-grid>a {
+      display: block;
+      height: 100%
+    }
 
-/* Key application cards: keep existing dimensions, 30% image opacity */
-.detail-card.application-image-card{
-  position:relative;
-  isolation:isolate;
-  overflow:hidden;
-  background:#fff;
-}
-.detail-card.application-image-card::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:-2;
-  background-image:var(--card-bg);
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-  opacity:.30;
-  pointer-events:none;
-}
-.detail-card.application-image-card::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:-1;
-  background:rgba(255,255,255,.58);
-  pointer-events:none;
-}
-</style>
+    .detail-grid>a>.detail-card {
+      height: 100%;
+      cursor: pointer;
+      position: relative;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease !important;
+      will-change: transform
+    }
+
+    .detail-grid>a:hover>.detail-card,
+    .detail-grid>a:focus-visible>.detail-card {
+      transform: translateY(-8px) !important;
+      border-color: var(--blue) !important;
+      box-shadow: 0 20px 40px rgba(25, 52, 84, .18) !important
+    }
+
+    .detail-card p {
+      margin-top: 9px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55
+    }
+
+    /* Automotive hero background: 20% image opacity */
+    .application-hero {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      background: #041c43 !important;
+    }
+
+    .application-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background: url("../images/applications/automotive/automotive-mbg.webp") center center/cover no-repeat;
+      opacity: .20;
+      pointer-events: none;
+    }
+
+    .application-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: linear-gradient(135deg, rgba(4, 28, 67, .42), rgba(7, 57, 121, .30) 65%, rgba(8, 108, 164, .24));
+      pointer-events: none;
+    }
+
+    /* Key application cards: keep existing dimensions, 30% image opacity */
+    .detail-card.application-image-card {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .detail-card.application-image-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background-image: var(--card-bg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: .30;
+      pointer-events: none;
+    }
+
+    .detail-card.application-image-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: rgba(255, 255, 255, .58);
+      pointer-events: none;
+    }
+
+    /* Application hero image: image layer at 20% opacity, content unaffected */
+    .application-hero {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      background: #041c43 !important
+    }
+
+    .application-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background: url("../images/applications/automotive-mbg.webp") center center/cover no-repeat;
+      opacity: .20;
+      pointer-events: none
+    }
+
+    .application-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: linear-gradient(135deg, rgba(4, 28, 67, .44), rgba(7, 57, 121, .33) 65%, rgba(8, 108, 164, .26));
+      pointer-events: none
+    }
+  </style>
 </head>
+
 <body>
-<header>
-<nav class="container">
-<a aria-label="CERANIX home" href="../index.html#home"><img alt="CERANIX" class="logo" src="../LOGO.png"/></a>
-<ul class="nav-links">
-<li><a href="../index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li>
-<li><a href="../index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li>
-<li><a href="../index.html#applications"><span data-lang="ko">적용 분야</span><span data-lang="en">Applications</span></a></li>
-<li><a href="../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product
+  <header>
+    <nav class="container">
+      <a aria-label="CERANIX home" href="../index.html#home"><img alt="CERANIX" class="logo" src="../LOGO.png" /></a>
+      <ul class="nav-links">
+        <li><a href="../index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li>
+        <li><a href="../index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li>
+        <li><a href="../index.html#applications"><span data-lang="ko">적용 분야</span><span
+              data-lang="en">Applications</span></a></li>
+        <li><a href="../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product
               Search</span></a></li>
-<li><a href="../index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li>
-</ul>
-<div aria-label="Language selector" class="lang-switch">
-<button class="lang-btn active" data-set-lang="ko" type="button">KO</button>
-<button class="lang-btn" data-set-lang="en" type="button">EN</button>
-</div>
-</nav>
-</header>
-<main>
-<section class="application-hero">
-<div class="container"><span class="eyebrow">APPLICATION</span>
-<h1><span data-lang="ko">자동차</span><span data-lang="en">Automotive</span></h1>
-<p><span data-lang="ko">신에너지 차량은 더 큰 전력원, 높은 충전 효율과 고전압 배터리 시스템을 요구합니다. OBC, DC/DC 컨버터, BMS, 48V PTC 히터 컨트롤러와
+        <li><a href="../index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li>
+      </ul>
+      <div aria-label="Language selector" class="lang-switch">
+        <button class="lang-btn active" data-set-lang="ko" type="button">KO</button>
+        <button class="lang-btn" data-set-lang="en" type="button">EN</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="application-hero">
+      <div class="container"><span class="eyebrow">APPLICATION</span>
+        <h1><span data-lang="ko">자동차</span><span data-lang="en">Automotive</span></h1>
+        <p><span data-lang="ko">신에너지 차량은 더 큰 전력원, 높은 충전 효율과 고전압 배터리 시스템을 요구합니다. OBC, DC/DC 컨버터, BMS, 48V PTC 히터 컨트롤러와
             인버터에는 고전력·대형 수동부품이 적용됩니다.</span><span data-lang="en">New energy vehicles require larger power sources,
             higher charging efficiency and high-voltage battery systems. High-power, large-size passive components are
             used in OBCs, DC/DC converters, BMS, 48V PTC heater controllers and inverters.</span></p>
-</div>
-</section>
-<section>
-<div class="container">
-<div class="section-head"><span>RELATED APPLICATIONS</span>
-<h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
-</div>
-<div class="detail-grid"><a class="product-link" href="automotive/bms.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/bms.webp')"><h3><span data-lang="ko">배터리 관리 시스템 (BMS)</span><span data-lang="en">Battery Management System (BMS)</span></h3><p><span data-lang="ko">400V~800V 배터리의 충·방전 및 안전 제어</span><span data-lang="en">Charge/discharge and safety control for 400V–800V battery systems</span></p></article></a><a class="product-link" href="automotive/obc.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/evc.webp')"><h3><span data-lang="ko">EV 온보드 충전기 (OBC)</span><span data-lang="en">EV On Board Charger (OBC)</span></h3><p><span data-lang="ko">AC 전원을 배터리 충전용 DC 전력으로 변환</span><span data-lang="en">Converts AC input power to DC power for EV battery charging</span></p></article></a><a class="product-link" href="automotive/48v-dc-dc-converter.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/dc converter.webp')"><h3><span data-lang="ko">48V DC/DC 컨버터</span><span data-lang="en">48V DC/DC Converter</span></h3><p><span data-lang="ko">PTC 히터·EPS 등 48V↔12/14V 전력변환 시스템</span><span data-lang="en">48V↔12/14V power conversion for PTC heaters, EPS and related systems</span></p></article></a><a class="product-link" href="automotive/inverter.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/inverter.webp')"><h3><span data-lang="ko">인버터</span><span data-lang="en">Inverter</span></h3><p><span data-lang="ko">EV 모터 구동을 위한 DC→AC 전력변환</span><span data-lang="en">DC-to-AC power conversion for EV motor drive</span></p></article></a><a class="product-link" href="automotive/lighting.html"><article class="detail-card application-image-card" style="--card-bg:url('../images/applications/automotive/lighting.webp')"><h3><span data-lang="ko">자동차 조명</span><span data-lang="en">Automotive Lighting</span></h3><p><span data-lang="ko">48V DC/DC 기반 LED 조명 및 제어 시스템</span><span data-lang="en">48V DC/DC LED lighting and control systems</span></p></article></a></div>
-</div>
-</section>
-<section class="alt">
-<div class="container">
-<div class="section-head"><span>PDC SOLUTIONS</span>
-<h2><span data-lang="ko">관련 제품군</span><span data-lang="en">Related Product Families</span></h2>
-<p><span data-lang="ko">요구 전압, 용량, 정격 전력, 패키지 및 신뢰성 조건에 따라 적합한 제품을 검토할 수 있습니다.</span><span data-lang="en">Suitable products can be reviewed by voltage, capacitance, power rating, package and
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="section-head"><span>RELATED APPLICATIONS</span>
+          <h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
+        </div>
+        <div class="detail-grid"><a class="product-link" href="automotive/bms.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">배터리 관리 시스템 (BMS)</span><span data-lang="en">Battery Management System
+                  (BMS)</span></h3>
+              <p><span data-lang="ko">400V~800V 배터리의 충·방전 및 안전 제어</span><span data-lang="en">Charge/discharge and safety
+                  control for 400V–800V battery systems</span></p>
+            </article>
+          </a><a class="product-link" href="automotive/obc.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">EV 온보드 충전기 (OBC)</span><span data-lang="en">EV On Board Charger (OBC)</span></h3>
+              <p><span data-lang="ko">AC 전원을 배터리 충전용 DC 전력으로 변환</span><span data-lang="en">Converts AC input power to DC
+                  power for EV battery charging</span></p>
+            </article>
+          </a><a class="product-link" href="automotive/48v-dc-dc-converter.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">48V DC/DC 컨버터</span><span data-lang="en">48V DC/DC Converter</span></h3>
+              <p><span data-lang="ko">PTC 히터·EPS 등 48V↔12/14V 전력변환 시스템</span><span data-lang="en">48V↔12/14V power
+                  conversion for PTC heaters, EPS and related systems</span></p>
+            </article>
+          </a><a class="product-link" href="automotive/inverter.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">인버터</span><span data-lang="en">Inverter</span></h3>
+              <p><span data-lang="ko">EV 모터 구동을 위한 DC→AC 전력변환</span><span data-lang="en">DC-to-AC power conversion for
+                  EV motor drive</span></p>
+            </article>
+          </a><a class="product-link" href="automotive/lighting.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">자동차 조명</span><span data-lang="en">Automotive Lighting</span></h3>
+              <p><span data-lang="ko">48V DC/DC 기반 LED 조명 및 제어 시스템</span><span data-lang="en">48V DC/DC LED lighting and
+                  control systems</span></p>
+            </article>
+          </a></div>
+      </div>
+    </section>
+    <section class="alt">
+      <div class="container">
+        <div class="section-head"><span>PDC SOLUTIONS</span>
+          <h2><span data-lang="ko">관련 제품군</span><span data-lang="en">Related Product Families</span></h2>
+          <p><span data-lang="ko">요구 전압, 용량, 정격 전력, 패키지 및 신뢰성 조건에 따라 적합한 제품을 검토할 수 있습니다.</span><span
+              data-lang="en">Suitable products can be reviewed by voltage, capacitance, power rating, package and
               reliability requirements.</span></p>
-</div>
-<div class="solution-list"><a href="../product-search.html">MLCC</a><a href="../product-search.html">Chip
+        </div>
+        <div class="solution-list"><a href="../product-search.html">MLCC</a><a href="../product-search.html">Chip
             Resistors</a></div>
-<div class="detail-actions"><a class="btn btn-primary" href="../product-search.html"><span data-lang="ko">제품
-              검색</span><span data-lang="en">Product Search</span></a><a class="btn btn-secondary" href="../index.html#contact"><span data-lang="ko">문의하기</span><span data-lang="en">Contact</span></a></div>
-</div>
-</section>
-</main>
-<footer>
-<div class="container">
-<div>© 2026 CERANIX. All Rights Reserved.</div>
-<div style="margin-top:4px"><span data-lang="ko">서울시 구로구 경인로53길 15 중앙유통단지 업무 A동 507호</span><span data-lang="en">Room 507, Building A, Jungang Distribution Complex, 15 Gyeongin-ro 53-gil, Guro-gu, Seoul,
+        <div class="detail-actions"><a class="btn btn-primary" href="../product-search.html"><span data-lang="ko">제품
+              검색</span><span data-lang="en">Product Search</span></a><a class="btn btn-secondary"
+            href="../index.html#contact"><span data-lang="ko">문의하기</span><span data-lang="en">Contact</span></a></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div>© 2026 CERANIX. All Rights Reserved.</div>
+      <div style="margin-top:4px"><span data-lang="ko">서울시 구로구 경인로53길 15 중앙유통단지 업무 A동 507호</span><span
+          data-lang="en">Room 507, Building A, Jungang Distribution Complex, 15 Gyeongin-ro 53-gil, Guro-gu, Seoul,
           Republic of Korea</span></div>
-</div>
-</footer>
-<script>
+    </div>
+  </footer>
+  <script>
     const root = document.documentElement;
     const buttons = document.querySelectorAll('[data-set-lang]');
     const selectOptions = document.querySelectorAll('#type option');
@@ -700,4 +790,5 @@
     setLanguage(localStorage.getItem('ceranix-language') || 'ko');
   </script>
 </body>
+
 </html>

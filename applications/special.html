@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="ko">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="CERANIX Special application solutions" name="description"/>
-<title>Special | CERANIX</title>
-<style>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="CERANIX Special application solutions" name="description" />
+  <title>Special | CERANIX</title>
+  <style>
     :root {
       --navy: #062b63;
       --blue: #009fe3;
@@ -566,68 +567,145 @@
         padding: 66px 0
       }
     }
-  
-/* Related Applications: bilingual content + floating interaction */
-.detail-grid > a{display:block;height:100%}
-.detail-grid > a > .detail-card{height:100%;cursor:pointer;position:relative;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease!important;will-change:transform}
-.detail-grid > a:hover > .detail-card,.detail-grid > a:focus-visible > .detail-card{transform:translateY(-8px)!important;border-color:var(--blue)!important;box-shadow:0 20px 40px rgba(25,52,84,.18)!important}
-.detail-card p{margin-top:9px;color:var(--muted);font-size:14px;line-height:1.55}
-</style>
+
+    /* Related Applications: bilingual content + floating interaction */
+    .detail-grid>a {
+      display: block;
+      height: 100%
+    }
+
+    .detail-grid>a>.detail-card {
+      height: 100%;
+      cursor: pointer;
+      position: relative;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease !important;
+      will-change: transform
+    }
+
+    .detail-grid>a:hover>.detail-card,
+    .detail-grid>a:focus-visible>.detail-card {
+      transform: translateY(-8px) !important;
+      border-color: var(--blue) !important;
+      box-shadow: 0 20px 40px rgba(25, 52, 84, .18) !important
+    }
+
+    .detail-card p {
+      margin-top: 9px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55
+    }
+
+    /* Application hero image: image layer at 20% opacity, content unaffected */
+    .application-hero {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      background: #041c43 !important
+    }
+
+    .application-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background: url("../images/applications/special-mbg.webp") center center/cover no-repeat;
+      opacity: .20;
+      pointer-events: none
+    }
+
+    .application-hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: linear-gradient(135deg, rgba(4, 28, 67, .44), rgba(7, 57, 121, .33) 65%, rgba(8, 108, 164, .26));
+      pointer-events: none
+    }
+  </style>
 </head>
+
 <body>
-<header>
-<nav class="container">
-<a aria-label="CERANIX home" href="../index.html#home"><img alt="CERANIX" class="logo" src="../LOGO.png"/></a>
-<ul class="nav-links">
-<li><a href="../index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li>
-<li><a href="../index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li>
-<li><a href="../index.html#applications"><span data-lang="ko">적용 분야</span><span data-lang="en">Applications</span></a></li>
-<li><a href="../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product
+  <header>
+    <nav class="container">
+      <a aria-label="CERANIX home" href="../index.html#home"><img alt="CERANIX" class="logo" src="../LOGO.png" /></a>
+      <ul class="nav-links">
+        <li><a href="../index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li>
+        <li><a href="../index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li>
+        <li><a href="../index.html#applications"><span data-lang="ko">적용 분야</span><span
+              data-lang="en">Applications</span></a></li>
+        <li><a href="../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product
               Search</span></a></li>
-<li><a href="../index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li>
-</ul>
-<div aria-label="Language selector" class="lang-switch">
-<button class="lang-btn active" data-set-lang="ko" type="button">KO</button>
-<button class="lang-btn" data-set-lang="en" type="button">EN</button>
-</div>
-</nav>
-</header>
-<main>
-<section class="application-hero">
-<div class="container"><span class="eyebrow">APPLICATION</span>
-<h1><span data-lang="ko">특수 응용</span><span data-lang="en">Special</span></h1>
-<p><span data-lang="ko">PDC는 2015년 AS9100 항공우주 제조 인증을 취득했으며 항공·의료 등 특수 응용을 위한 고신뢰성 수동부품을 제공합니다.</span><span data-lang="en">PDC obtained AS9100 aerospace manufacturing certification in 2015 and provides high-reliability passive components for special applications including aviation and medical.</span></p>
-</div>
-</section>
-<section>
-<div class="container">
-<div class="section-head"><span>RELATED APPLICATIONS</span>
-<h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
-</div>
-<div class="detail-grid"><a class="product-link" href="special/medical-healthcare.html"><article class="detail-card"><h3><span data-lang="ko">의료·헬스케어</span><span data-lang="en">Medical / Healthcare</span></h3><p><span data-lang="ko">의료기기용 고신뢰성 수동부품 적용</span><span data-lang="en">High-reliability passive components for medical equipment</span></p></article></a><a class="product-link" href="special/aviation-application.html"><article class="detail-card"><h3><span data-lang="ko">항공우주 응용</span><span data-lang="en">Aviation Application</span></h3><p><span data-lang="ko">항공우주 환경을 위한 고신뢰성 부품 적용</span><span data-lang="en">High-reliability component applications for aerospace environments</span></p></article></a><a class="product-link" href="special/other-special-applications.html"><article class="detail-card"><h3><span data-lang="ko">기타 특수 응용</span><span data-lang="en">Other Special Applications</span></h3><p><span data-lang="ko">일반 산업 규격을 넘어서는 특수 신뢰성 요구 대응</span><span data-lang="en">Support for special reliability requirements beyond general industrial use</span></p></article></a></div>
-</div>
-</section>
-<section class="alt">
-<div class="container">
-<div class="section-head"><span>PDC SOLUTIONS</span>
-<h2><span data-lang="ko">관련 제품군</span><span data-lang="en">Related Product Families</span></h2>
-<p><span data-lang="ko">요구 전압, 용량, 정격 전력, 패키지 및 신뢰성 조건에 따라 적합한 제품을 검토할 수 있습니다.</span><span data-lang="en">Suitable products can be reviewed by voltage, capacitance, power rating, package and
+        <li><a href="../index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li>
+      </ul>
+      <div aria-label="Language selector" class="lang-switch">
+        <button class="lang-btn active" data-set-lang="ko" type="button">KO</button>
+        <button class="lang-btn" data-set-lang="en" type="button">EN</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="application-hero">
+      <div class="container"><span class="eyebrow">APPLICATION</span>
+        <h1><span data-lang="ko">특수 응용</span><span data-lang="en">Special</span></h1>
+        <p><span data-lang="ko">PDC는 2015년 AS9100 항공우주 제조 인증을 취득했으며 항공·의료 등 특수 응용을 위한 고신뢰성 수동부품을 제공합니다.</span><span
+            data-lang="en">PDC obtained AS9100 aerospace manufacturing certification in 2015 and provides
+            high-reliability passive components for special applications including aviation and medical.</span></p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="section-head"><span>RELATED APPLICATIONS</span>
+          <h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
+        </div>
+        <div class="detail-grid"><a class="product-link" href="special/medical-healthcare.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">의료·헬스케어</span><span data-lang="en">Medical / Healthcare</span></h3>
+              <p><span data-lang="ko">의료기기용 고신뢰성 수동부품 적용</span><span data-lang="en">High-reliability passive components
+                  for medical equipment</span></p>
+            </article>
+          </a><a class="product-link" href="special/aviation-application.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">항공우주 응용</span><span data-lang="en">Aviation Application</span></h3>
+              <p><span data-lang="ko">항공우주 환경을 위한 고신뢰성 부품 적용</span><span data-lang="en">High-reliability component
+                  applications for aerospace environments</span></p>
+            </article>
+          </a><a class="product-link" href="special/other-special-applications.html">
+            <article class="detail-card">
+              <h3><span data-lang="ko">기타 특수 응용</span><span data-lang="en">Other Special Applications</span></h3>
+              <p><span data-lang="ko">일반 산업 규격을 넘어서는 특수 신뢰성 요구 대응</span><span data-lang="en">Support for special
+                  reliability requirements beyond general industrial use</span></p>
+            </article>
+          </a></div>
+      </div>
+    </section>
+    <section class="alt">
+      <div class="container">
+        <div class="section-head"><span>PDC SOLUTIONS</span>
+          <h2><span data-lang="ko">관련 제품군</span><span data-lang="en">Related Product Families</span></h2>
+          <p><span data-lang="ko">요구 전압, 용량, 정격 전력, 패키지 및 신뢰성 조건에 따라 적합한 제품을 검토할 수 있습니다.</span><span
+              data-lang="en">Suitable products can be reviewed by voltage, capacitance, power rating, package and
               reliability requirements.</span></p>
-</div>
-<div class="solution-list"><a href="../product-search.html">High-reliability MLCC</a><a href="../product-search.html">Safety &amp; High-voltage Capacitors</a><a href="../product-search.html">High-power &amp; Precision Resistors</a><a href="../product-search.html">Thermistors</a></div>
-<div class="detail-actions"><a class="btn btn-primary" href="../product-search.html"><span data-lang="ko">제품
-              검색</span><span data-lang="en">Product Search</span></a><a class="btn btn-secondary" href="../index.html#contact"><span data-lang="ko">문의하기</span><span data-lang="en">Contact</span></a></div>
-</div>
-</section>
-</main>
-<footer>
-<div class="container">
-<div>© 2026 CERANIX. All Rights Reserved.</div>
-<div style="margin-top:4px"><span data-lang="ko">서울시 구로구 경인로53길 15 중앙유통단지 업무 A동 507호</span><span data-lang="en">Room 507, Building A, Jungang Distribution Complex, 15 Gyeongin-ro 53-gil, Guro-gu, Seoul,
+        </div>
+        <div class="solution-list"><a href="../product-search.html">High-reliability MLCC</a><a
+            href="../product-search.html">Safety &amp; High-voltage Capacitors</a><a
+            href="../product-search.html">High-power &amp; Precision Resistors</a><a
+            href="../product-search.html">Thermistors</a></div>
+        <div class="detail-actions"><a class="btn btn-primary" href="../product-search.html"><span data-lang="ko">제품
+              검색</span><span data-lang="en">Product Search</span></a><a class="btn btn-secondary"
+            href="../index.html#contact"><span data-lang="ko">문의하기</span><span data-lang="en">Contact</span></a></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div>© 2026 CERANIX. All Rights Reserved.</div>
+      <div style="margin-top:4px"><span data-lang="ko">서울시 구로구 경인로53길 15 중앙유통단지 업무 A동 507호</span><span
+          data-lang="en">Room 507, Building A, Jungang Distribution Complex, 15 Gyeongin-ro 53-gil, Guro-gu, Seoul,
           Republic of Korea</span></div>
-</div>
-</footer>
-<script>
+    </div>
+  </footer>
+  <script>
     const root = document.documentElement;
     const buttons = document.querySelectorAll('[data-set-lang]');
     const selectOptions = document.querySelectorAll('#type option');
@@ -643,4 +721,5 @@
     setLanguage(localStorage.getItem('ceranix-language') || 'ko');
   </script>
 </body>
+
 </html>
