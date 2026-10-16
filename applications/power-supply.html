@@ -566,7 +566,13 @@
         padding: 66px 0
       }
     }
-  </style>
+  
+/* Related Applications: bilingual content + floating interaction */
+.detail-grid > a{display:block;height:100%}
+.detail-grid > a > .detail-card{height:100%;cursor:pointer;position:relative;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease!important;will-change:transform}
+.detail-grid > a:hover > .detail-card,.detail-grid > a:focus-visible > .detail-card{transform:translateY(-8px)!important;border-color:var(--blue)!important;box-shadow:0 20px 40px rgba(25,52,84,.18)!important}
+.detail-card p{margin-top:9px;color:var(--muted);font-size:14px;line-height:1.55}
+</style>
 </head>
 <body>
 <header>
@@ -598,7 +604,7 @@
 <div class="section-head"><span>RELATED APPLICATIONS</span>
 <h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
 </div>
-<div class="detail-grid"><a class="product-link" href="power-supply/solar-application.html"><article class="detail-card"><h3>Solar Application</h3><p>Power conversion and protection application</p></article></a><a class="product-link" href="power-supply/fast-chargers-for-ev.html"><article class="detail-card"><h3>Fast Chargers for EV</h3><p>Power conversion and protection application</p></article></a><a class="product-link" href="power-supply/wind-power-generation.html"><article class="detail-card"><h3>Wind Power Generation</h3><p>Power conversion and protection application</p></article></a><a class="product-link" href="power-supply/pd-qc-gan-fast-charger.html"><article class="detail-card"><h3>PD-QC GaN Fast Charger</h3><p>Power conversion and protection application</p></article></a><a class="product-link" href="power-supply/smps.html"><article class="detail-card"><h3>SMPS</h3><p>Power conversion and protection application</p></article></a><a class="product-link" href="power-supply/smart-power-system.html"><article class="detail-card"><h3>Smart Power System</h3><p>Power conversion and protection application</p></article></a></div>
+<div class="detail-grid"><a class="product-link" href="power-supply/solar-application.html"><article class="detail-card"><h3><span data-lang="ko">태양광 전력 시스템</span><span data-lang="en">Solar Application</span></h3><p><span data-lang="ko">태양광 인버터의 전력변환 및 보호 회로</span><span data-lang="en">Power conversion and protection for solar inverters</span></p></article></a><a class="product-link" href="power-supply/fast-chargers-for-ev.html"><article class="detail-card"><h3><span data-lang="ko">EV 급속 충전기</span><span data-lang="en">Fast Chargers for EV</span></h3><p><span data-lang="ko">고전력 EV 충전 시스템의 전력변환·보호</span><span data-lang="en">Power conversion and protection in high-power EV chargers</span></p></article></a><a class="product-link" href="power-supply/wind-power-generation.html"><article class="detail-card"><h3><span data-lang="ko">풍력 발전</span><span data-lang="en">Wind Power Generation</span></h3><p><span data-lang="ko">풍력 발전 전력변환 모듈 및 보호 회로</span><span data-lang="en">Power-conversion modules and protection for wind generation</span></p></article></a><a class="product-link" href="power-supply/pd-qc-gan-fast-charger.html"><article class="detail-card"><h3><span data-lang="ko">PD/QC GaN 고속 충전기</span><span data-lang="en">PD/QC GaN Fast Charger</span></h3><p><span data-lang="ko">GaN 기반 고밀도 고속 충전 전원</span><span data-lang="en">GaN-based high-density fast-charging power supplies</span></p></article></a><a class="product-link" href="power-supply/smps.html"><article class="detail-card"><h3><span data-lang="ko">스위칭 전원 (SMPS)</span><span data-lang="en">SMPS</span></h3><p><span data-lang="ko">스위칭 전원 변환 및 출력 안정화</span><span data-lang="en">Switch-mode power conversion and output stabilization</span></p></article></a><a class="product-link" href="power-supply/smart-power-system.html"><article class="detail-card"><h3><span data-lang="ko">스마트 전원 시스템</span><span data-lang="en">Smart Power System</span></h3><p><span data-lang="ko">스마트 전원·계측 시스템의 전력변환·보호</span><span data-lang="en">Power conversion and protection for smart power and metering systems</span></p></article></a></div>
 </div>
 </section>
 <section class="alt">

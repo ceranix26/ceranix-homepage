@@ -566,7 +566,13 @@
         padding: 66px 0
       }
     }
-  </style>
+  
+/* Related Applications: bilingual content + floating interaction */
+.detail-grid > a{display:block;height:100%}
+.detail-grid > a > .detail-card{height:100%;cursor:pointer;position:relative;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease!important;will-change:transform}
+.detail-grid > a:hover > .detail-card,.detail-grid > a:focus-visible > .detail-card{transform:translateY(-8px)!important;border-color:var(--blue)!important;box-shadow:0 20px 40px rgba(25,52,84,.18)!important}
+.detail-card p{margin-top:9px;color:var(--muted);font-size:14px;line-height:1.55}
+</style>
 </head>
 <body>
 <header>
@@ -598,7 +604,7 @@
 <div class="section-head"><span>RELATED APPLICATIONS</span>
 <h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
 </div>
-<div class="detail-grid"><a class="product-link" href="special/medical-healthcare.html"><article class="detail-card"><h3>Medical-Healthcare</h3><p>High-reliability special application</p></article></a><a class="product-link" href="special/aviation-application.html"><article class="detail-card"><h3>Aviation Application</h3><p>High-reliability special application</p></article></a><a class="product-link" href="special/other-special-applications.html"><article class="detail-card"><h3>Other Special Applications</h3><p>High-reliability special application</p></article></a></div>
+<div class="detail-grid"><a class="product-link" href="special/medical-healthcare.html"><article class="detail-card"><h3><span data-lang="ko">의료·헬스케어</span><span data-lang="en">Medical / Healthcare</span></h3><p><span data-lang="ko">의료기기용 고신뢰성 수동부품 적용</span><span data-lang="en">High-reliability passive components for medical equipment</span></p></article></a><a class="product-link" href="special/aviation-application.html"><article class="detail-card"><h3><span data-lang="ko">항공우주 응용</span><span data-lang="en">Aviation Application</span></h3><p><span data-lang="ko">항공우주 환경을 위한 고신뢰성 부품 적용</span><span data-lang="en">High-reliability component applications for aerospace environments</span></p></article></a><a class="product-link" href="special/other-special-applications.html"><article class="detail-card"><h3><span data-lang="ko">기타 특수 응용</span><span data-lang="en">Other Special Applications</span></h3><p><span data-lang="ko">일반 산업 규격을 넘어서는 특수 신뢰성 요구 대응</span><span data-lang="en">Support for special reliability requirements beyond general industrial use</span></p></article></a></div>
 </div>
 </section>
 <section class="alt">

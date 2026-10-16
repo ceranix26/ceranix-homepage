@@ -566,7 +566,11 @@
         padding: 66px 0
       }
     }
-  </style>
+  
+/* Related Applications floating cards */
+.detail-grid .detail-card{cursor:pointer;position:relative;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease!important;will-change:transform;}
+.detail-grid .detail-card:hover{transform:translateY(-8px)!important;border-color:var(--blue)!important;box-shadow:0 20px 40px rgba(25,52,84,.18)!important;}
+</style>
 </head>
 <body>
 <header>
@@ -590,7 +594,8 @@
 <section class="application-hero">
 <div class="container"><span class="eyebrow">APPLICATION</span>
 <h1><span data-lang="ko">소비자 전자</span><span data-lang="en">Consumer Electronics</span></h1>
-<p><span data-lang="ko">에어컨, 냉장고, 세탁기, PC/NB 등의 전원 모듈과 제어 보드의 전력 증가로 고전력·대형 수동부품 사용이 증가합니다.</span><span data-lang="en">As power levels increase in power modules and control boards for air conditioners, refrigerators, washing machines and PC/NB products, the use of high-power and large-size passive components increases.</span></p>
+<p><span data-lang="ko">에어컨, 냉장고, 세탁기, PC와 노트북의 전원 모듈 및 제어 보드에는 고전력·대형 수동부품이 폭넓게 적용됩니다.</span><span data-lang="en">Power modules and control boards in air conditioners, refrigerators, washing machines, PCs
+            and notebooks widely use high-power, large-size passive components.</span></p>
 </div>
 </section>
 <section>
@@ -598,7 +603,17 @@
 <div class="section-head"><span>RELATED APPLICATIONS</span>
 <h2><span data-lang="ko">주요 적용 영역</span><span data-lang="en">Key Application Areas</span></h2>
 </div>
-<div class="detail-grid"><a class="product-link" href="consumer-electronics/black-consumer-electronics.html"><article class="detail-card"><h3>Black Consumer Electronics</h3><p>Consumer-electronics application</p></article></a><a class="product-link" href="consumer-electronics/white-consumer-electronics.html"><article class="detail-card"><h3>White Consumer Electronics</h3><p>Consumer-electronics application</p></article></a><a class="product-link" href="consumer-electronics/pc-nb.html"><article class="detail-card"><h3>PC-NB</h3><p>Consumer-electronics application</p></article></a></div>
+<div class="detail-grid">
+<article class="detail-card">
+<h3><span data-lang="ko">영상·음향 가전</span><span data-lang="en">Black Consumer Electronics</span></h3>
+<p><span data-lang="ko">TV·오디오·영상기기 등 엔터테인먼트 중심 소비자 전자제품</span><span data-lang="en">Entertainment-oriented consumer electronics such as TV, audio and video equipment</span></p></article>
+<article class="detail-card">
+<h3><span data-lang="ko">생활가전</span><span data-lang="en">White Consumer Electronics</span></h3>
+<p><span data-lang="ko">에어컨·냉장고·세탁기 등 전원 및 제어 시스템이 적용되는 생활가전</span><span data-lang="en">Home appliances such as air conditioners, refrigerators and washing machines with power and control systems</span></p></article>
+<article class="detail-card">
+<h3><span data-lang="ko">PC / 노트북</span><span data-lang="en">PC / Notebook</span></h3>
+<p><span data-lang="ko">PC 및 노트북의 전원·충전·제어 시스템용 수동부품 적용 분야</span><span data-lang="en">Passive-component applications for PC and notebook power, charging and control systems</span></p></article>
+</div>
 </div>
 </section>
 <section class="alt">
