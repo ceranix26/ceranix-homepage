@@ -1,8 +1,548 @@
 <!DOCTYPE html>
 
-<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="CERANIX PDC NTC Thermistor (SMD) product series and datasheets." name="description"/><title>CERANIX | PDC NTC Thermistor (SMD)</title><style>
-:root{--navy:#062b63;--blue:#009fe3;--light:#f6f9fc;--text:#1a1a1a;--muted:#667085;--line:#d9e2ec}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:"Pretendard","Noto Sans KR","Segoe UI",Arial,sans-serif;line-height:1.65;color:var(--text);background:#fff}a{color:inherit;text-decoration:none}.container{width:min(1120px,calc(100% - 40px));margin:auto}header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;min-width:180px}.logo{display:block;width:210px;max-width:100%;max-height:48px;object-fit:contain}.logo-fallback{display:none;color:var(--navy);font-size:25px;font-weight:900}.nav-links{display:flex;align-items:center;gap:28px;list-style:none;font-weight:700;font-size:14px}.nav-links a:hover,.nav-links a.active{color:var(--blue)}.lang-switch{display:flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:#f7f9fc}.lang-btn{border:0;background:transparent;padding:7px 11px;border-radius:999px;cursor:pointer;font-weight:800;color:var(--muted)}.lang-btn.active{color:#fff;background:var(--navy)}.hero{color:#fff;padding:105px 20px;text-align:center;background:radial-gradient(circle at 15% 20%,rgba(0,184,255,.34),transparent 36%),linear-gradient(135deg,#041c43,#073979 65%,#086ca4)}.hero h1{font-size:clamp(44px,7vw,72px);line-height:1.1}.subtitle{font-size:clamp(18px,2.3vw,24px);color:#dcecff;margin:18px auto 0;max-width:820px}.eyebrow{display:inline-block;margin-bottom:20px;padding:7px 14px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.08);font-weight:800}section{padding:78px 0}section.alt{background:var(--light)}h2{color:var(--navy);margin-bottom:18px;font-size:clamp(29px,4vw,38px)}.lead{color:var(--muted);max-width:900px}.notice{margin-top:22px;padding:16px 18px;border-left:4px solid var(--blue);background:#f7fbfe;color:var(--muted);font-size:14px}.card-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:32px}.card{height:100%;background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px;box-shadow:0 8px 24px rgba(25,52,84,.06)}.card h3{color:var(--navy);margin-bottom:12px}.card ul{padding-left:20px;color:var(--muted)}.card.download-card{position:relative;display:block;color:inherit;cursor:pointer;padding:30px 78px 30px 30px;transform:translateY(-8px);box-shadow:0 18px 38px rgba(25,52,84,.15);transition:.25s}.card.download-card:hover{transform:translateY(-15px);border-color:var(--blue);box-shadow:0 26px 48px rgba(25,52,84,.22)}.download-icon{position:absolute;top:20px;right:20px;width:38px;height:38px;object-fit:contain}.download-label{display:inline-block;margin-top:18px;color:var(--blue);font-size:14px;font-weight:800}.application-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}.application{background:linear-gradient(135deg,var(--navy),#0a5f9e);color:#fff;padding:22px 18px;text-align:center;border-radius:10px;font-weight:800}.contact-box{background:var(--light);border:1px solid var(--line);border-radius:14px;padding:42px;text-align:center}.contact-box p{color:var(--muted);max-width:680px;margin:auto}.btn{display:inline-flex;align-items:center;justify-content:center;margin-top:24px;background:var(--blue);color:#fff;padding:13px 26px;border-radius:7px;font-weight:800}footer{background:#03172f;color:#c9d5e3;text-align:center;padding:26px}[data-lang]{display:none}html[lang="ko"] [data-lang="ko"],html[lang="en"] [data-lang="en"]{display:initial}@media(max-width:860px){.nav-links{display:none}.card-grid{grid-template-columns:1fr}.application-grid{grid-template-columns:1fr 1fr}}@media(max-width:480px){.container{width:min(100% - 26px,1120px)}.logo{width:170px}section{padding:62px 0}.application-grid{grid-template-columns:1fr}.contact-box{padding:28px 20px}.card.download-card{padding:72px 24px 26px;transform:none}}
+<html lang="ko">
 
-/* Detailed specification support */
-.spec-note{margin:0 0 26px;color:var(--muted);font-size:15px}.series-type{display:block;margin:-6px 0 14px;color:var(--blue);font-size:13px;font-weight:800}.card li+li{margin-top:5px}.summary-table-wrap{margin-top:30px;overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff}.summary-table{width:100%;min-width:850px;border-collapse:collapse}.summary-table th,.summary-table td{padding:13px 15px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.summary-table th{color:#fff;background:var(--navy);font-size:14px}.summary-table td{color:var(--muted);font-size:14px}.summary-table tr:last-child td{border-bottom:0}.summary-table strong{color:var(--navy)}
-</style></head><body><header><nav class="container"><a class="brand" href="../../index.html"><img alt="CERANIX logo" class="logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'" src="../../LOGO.png"/><span class="logo-fallback">CERANIX</span></a><ul class="nav-links"><li><a href="../../index.html#about"><span data-lang="ko">회사소개</span><span data-lang="en">About</span></a></li><li><a class="active" href="../../index.html#products"><span data-lang="ko">제품</span><span data-lang="en">Products</span></a></li><li><a href="../../index.html#applications"><span data-lang="ko">적용 분야</span><span data-lang="en">Applications</span></a></li><li><a href="../../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product Search</span></a></li><li><a href="../../index.html#contact"><span data-lang="ko">문의</span><span data-lang="en">Contact</span></a></li></ul><div class="lang-switch"><button class="lang-btn active" data-set-lang="ko">KO</button><button class="lang-btn" data-set-lang="en">EN</button></div></nav></header><main><section class="hero"><div class="container"><span class="eyebrow">PDC THERMISTOR</span><h1>NTC Thermistor (SMD)</h1><p class="subtitle"><span data-lang="ko">JSN Series · JSN Automotive Series</span><span data-lang="en">JSN Series · JSN Automotive Series</span></p></div></section><section><div class="container"><h2><span data-lang="ko">제품 소개</span><span data-lang="en">Product Introduction</span></h2><p class="lead"><span data-lang="ko">PDC SMD NTC Thermistor는 소형 PCB 실장을 위한 일반 JSN Series와 자동차 환경을 위한 JSN Automotive Series로 구성됩니다. 일반 JSN은 0201~0805 크기와 -40~+125°C 동작 범위를 제공하고, Automotive Series는 0603~0805 크기에서 AEC-Q200 Qualified와 -40~+150°C 동작 범위를 지원합니다. 두 제품군 모두 R25 및 B Value 조합을 통해 IT 장비, 모바일 기기, 배터리 팩, OA 장비와 자동차의 정밀 온도 감지 및 보상 회로에 적용할 수 있습니다.</span><span data-lang="en">PDC SMD NTC Thermistors include the general JSN Series for compact PCB mounting and the JSN Automotive Series for automotive environments. General JSN covers 0201 to 0805 with operation from -40 to +125°C, while the Automotive Series covers 0603 to 0805 with AEC-Q200 qualification and operation from -40 to +150°C. Both families provide R25 and B-value combinations for precision temperature sensing and compensation in IT equipment, mobile devices, battery packs, office automation and automotive systems.</span></p><div class="notice"><span data-lang="ko">최종 적용 전에는 대상 품번의 전기적 특성, 치수, 동작 조건 및 최신 데이터시트를 확인하세요.</span><span data-lang="en">Before final application, verify electrical characteristics, dimensions, operating conditions and the latest datasheet for the selected part number.</span></div></div></section><section class="alt"><div class="container"><h2><span data-lang="ko">제품 시리즈 및 데이터시트</span><span data-lang="en">Product Series and Datasheets</span></h2><div class="card-grid"><a class="card download-card" download="" href="../../docu/datasheet/ntc/JSN.pdf"><img alt="" class="download-icon" src="../../images/download-button.png"/><h3>JSN Series</h3><span class="series-type">SMD NTC Thermistor · General</span><ul><li><span data-lang="ko">Size: 0201(0603)~0805(2012)</span><span data-lang="en">Size: 0201(0603)~0805(2012)</span></li><li><span data-lang="ko">R25: 10~220kΩ (Quick Reference)</span><span data-lang="en">R25: 10~220kΩ (Quick Reference)</span></li><li><span data-lang="ko">B25/50: 3380~4250K</span><span data-lang="en">B25/50: 3380~4250K</span></li><li><span data-lang="ko">B25/85: 3435~4360K</span><span data-lang="en">B25/85: 3435~4360K</span></li><li><span data-lang="ko">동작온도: -40~+125°C · UL/TUV</span><span data-lang="en">Operating temperature: -40~+125°C · UL/TUV</span></li></ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download Datasheet</span></span></a><a class="card download-card" download="" href="../../docu/datasheet/ntc/JSN_Automotive.pdf"><img alt="" class="download-icon" src="../../images/download-button.png"/><h3>JSN Automotive Series</h3><span class="series-type">SMD NTC Thermistor · AEC-Q200</span><ul><li><span data-lang="ko">Size: 0603(1608)~0805(2012)</span><span data-lang="en">Size: 0603(1608)~0805(2012)</span></li><li><span data-lang="ko">R25: 10~100kΩ</span><span data-lang="en">R25: 10~100kΩ</span></li><li><span data-lang="ko">B25/50: 3380~4250K</span><span data-lang="en">B25/50: 3380~4250K</span></li><li><span data-lang="ko">B25/85: 3435~4360K</span><span data-lang="en">B25/85: 3435~4360K</span></li><li><span data-lang="ko">동작온도: -40~+150°C · AEC-Q200 · UL/TUV</span><span data-lang="en">Operating temperature: -40~+150°C · AEC-Q200 · UL/TUV</span></li></ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span data-lang="en">Download Datasheet</span></span></a></div><div class="summary-table-wrap"><table class="summary-table"><thead><tr><th>Series</th><th>R25</th><th>B Value</th><th>Operating Temp.</th><th>Key Point</th></tr></thead><tbody><tr><td><strong>JSN</strong></td><td>10~220kΩ</td><td>3380~4360K</td><td>-40~+125°C</td><td>0201~0805, UL/TUV</td></tr><tr><td><strong>JSN Automotive</strong></td><td>10~100kΩ</td><td>3380~4360K</td><td>-40~+150°C</td><td>0603~0805, AEC-Q200</td></tr></tbody></table></div></div></section><section><div class="container"><h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2><div class="application-grid"><div class="application">IT Equipment</div><div class="application">Mobile Devices</div><div class="application">Battery Packs</div><div class="application">Office Automation</div><div class="application">Automotive</div></div></div></section><section class="alt"><div class="container"><div class="contact-box"><h2><span data-lang="ko">제품 검색 및 문의</span><span data-lang="en">Product Search and Inquiry</span></h2><p><span data-lang="ko">요구 사양과 적용 조건을 보내주시면 후보 품번 검토를 지원합니다.</span><span data-lang="en">Send your requirements and application conditions for candidate part-number review.</span></p><a class="btn" href="../../product-search.html"><span data-lang="ko">통합 제품 검색</span><span data-lang="en">Integrated Product Search</span></a><a class="btn" href="../../index.html#contact" style="margin-left:10px"><span data-lang="ko">문의하기</span><span data-lang="en">Contact CERANIX</span></a></div></div></section></main><footer>© 2026 CERANIX | PDC Korea Authorized Distributor</footer><script>const root=document.documentElement,buttons=document.querySelectorAll('[data-set-lang]');function setLanguage(lang){const safe=lang==='en'?'en':'ko';root.lang=safe;buttons.forEach(b=>b.classList.toggle('active',b.dataset.setLang===safe));localStorage.setItem('ceranix-language',safe)}buttons.forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.setLang)));setLanguage(localStorage.getItem('ceranix-language')||'ko');</script></body></html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="CERANIX PDC NTC Thermistor (SMD) product series and datasheets." name="description" />
+    <title>CERANIX | PDC NTC Thermistor (SMD)</title>
+    <style>
+        :root {
+            --navy: #062b63;
+            --blue: #009fe3;
+            --light: #f6f9fc;
+            --text: #1a1a1a;
+            --muted: #667085;
+            --line: #d9e2ec
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            font-family: "Pretendard", "Noto Sans KR", "Segoe UI", Arial, sans-serif;
+            line-height: 1.65;
+            color: var(--text);
+            background: #fff
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        .container {
+            width: min(1120px, calc(100% - 40px));
+            margin: auto
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, .96);
+            border-bottom: 1px solid var(--line);
+            backdrop-filter: blur(10px)
+        }
+
+        nav {
+            min-height: 76px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            min-width: 180px
+        }
+
+        .logo {
+            display: block;
+            width: 210px;
+            max-width: 100%;
+            max-height: 48px;
+            object-fit: contain
+        }
+
+        .logo-fallback {
+            display: none;
+            color: var(--navy);
+            font-size: 25px;
+            font-weight: 900
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            list-style: none;
+            font-weight: 700;
+            font-size: 14px
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--blue)
+        }
+
+        .lang-switch {
+            display: flex;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 3px;
+            background: #f7f9fc
+        }
+
+        .lang-btn {
+            border: 0;
+            background: transparent;
+            padding: 7px 11px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-weight: 800;
+            color: var(--muted)
+        }
+
+        .lang-btn.active {
+            color: #fff;
+            background: var(--navy)
+        }
+
+        .hero {
+            color: #fff;
+            padding: 105px 20px;
+            text-align: center;
+            background: radial-gradient(circle at 15% 20%, rgba(0, 184, 255, .34), transparent 36%), linear-gradient(135deg, #041c43, #073979 65%, #086ca4)
+        }
+
+        .hero h1 {
+            font-size: clamp(44px, 7vw, 72px);
+            line-height: 1.1
+        }
+
+        .subtitle {
+            font-size: clamp(18px, 2.3vw, 24px);
+            color: #dcecff;
+            margin: 18px auto 0;
+            max-width: 820px
+        }
+
+        .eyebrow {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 7px 14px;
+            border: 1px solid rgba(255, 255, 255, .35);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, .08);
+            font-weight: 800
+        }
+
+        section {
+            padding: 78px 0
+        }
+
+        section.alt {
+            background: var(--light)
+        }
+
+        h2 {
+            color: var(--navy);
+            margin-bottom: 18px;
+            font-size: clamp(29px, 4vw, 38px)
+        }
+
+        .lead {
+            color: var(--muted);
+            max-width: 900px
+        }
+
+        .notice {
+            margin-top: 22px;
+            padding: 16px 18px;
+            border-left: 4px solid var(--blue);
+            background: #f7fbfe;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+            margin-top: 32px
+        }
+
+        .card {
+            height: 100%;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 24px rgba(25, 52, 84, .06)
+        }
+
+        .card h3 {
+            color: var(--navy);
+            margin-bottom: 12px
+        }
+
+        .card ul {
+            padding-left: 20px;
+            color: var(--muted)
+        }
+
+        .card.download-card {
+            position: relative;
+            display: block;
+            color: inherit;
+            cursor: pointer;
+            padding: 30px 78px 30px 30px;
+            transform: translateY(-8px);
+            box-shadow: 0 18px 38px rgba(25, 52, 84, .15);
+            transition: .25s
+        }
+
+        .card.download-card:hover {
+            transform: translateY(-15px);
+            border-color: var(--blue);
+            box-shadow: 0 26px 48px rgba(25, 52, 84, .22)
+        }
+
+        .download-icon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 38px;
+            height: 38px;
+            object-fit: contain
+        }
+
+        .download-label {
+            display: inline-block;
+            margin-top: 18px;
+            color: var(--blue);
+            font-size: 14px;
+            font-weight: 800
+        }
+
+        .application-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-top: 28px
+        }
+
+        .application {
+            background: linear-gradient(135deg, var(--navy), #0a5f9e);
+            color: #fff;
+            padding: 22px 18px;
+            text-align: center;
+            border-radius: 10px;
+            font-weight: 800
+        }
+
+        .contact-box {
+            background: var(--light);
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            padding: 42px;
+            text-align: center
+        }
+
+        .contact-box p {
+            color: var(--muted);
+            max-width: 680px;
+            margin: auto
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 24px;
+            background: var(--blue);
+            color: #fff;
+            padding: 13px 26px;
+            border-radius: 7px;
+            font-weight: 800
+        }
+
+        footer {
+            background: #03172f;
+            color: #c9d5e3;
+            text-align: center;
+            padding: 26px
+        }
+
+        [data-lang] {
+            display: none
+        }
+
+        html[lang="ko"] [data-lang="ko"],
+        html[lang="en"] [data-lang="en"] {
+            display: initial
+        }
+
+        @media(max-width:860px) {
+            .nav-links {
+                display: none
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr
+            }
+
+            .application-grid {
+                grid-template-columns: 1fr 1fr
+            }
+        }
+
+        @media(max-width:480px) {
+            .container {
+                width: min(100% - 26px, 1120px)
+            }
+
+            .logo {
+                width: 170px
+            }
+
+            section {
+                padding: 62px 0
+            }
+
+            .application-grid {
+                grid-template-columns: 1fr
+            }
+
+            .contact-box {
+                padding: 28px 20px
+            }
+
+            .card.download-card {
+                padding: 72px 24px 26px;
+                transform: none
+            }
+        }
+
+        /* Detailed specification support */
+        .spec-note {
+            margin: 0 0 26px;
+            color: var(--muted);
+            font-size: 15px
+        }
+
+        .series-type {
+            display: block;
+            margin: -6px 0 14px;
+            color: var(--blue);
+            font-size: 13px;
+            font-weight: 800
+        }
+
+        .card li+li {
+            margin-top: 5px
+        }
+
+        .summary-table-wrap {
+            margin-top: 30px;
+            overflow-x: auto;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: #fff
+        }
+
+        .summary-table {
+            width: 100%;
+            min-width: 850px;
+            border-collapse: collapse
+        }
+
+        .summary-table th,
+        .summary-table td {
+            padding: 13px 15px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top
+        }
+
+        .summary-table th {
+            color: #fff;
+            background: var(--navy);
+            font-size: 14px
+        }
+
+        .summary-table td {
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .summary-table tr:last-child td {
+            border-bottom: 0
+        }
+
+        .summary-table strong {
+            color: var(--navy)
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container"><a class="brand" href="../../index.html"><img alt="CERANIX logo" class="logo"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'"
+                    src="../../LOGO.png" /><span class="logo-fallback">CERANIX</span></a>
+            <ul class="nav-links">
+                <li><a href="../../index.html#about"><span data-lang="ko">회사소개</span><span
+                            data-lang="en">About</span></a></li>
+                <li><a class="active" href="../../index.html#products"><span data-lang="ko">제품</span><span
+                            data-lang="en">Products</span></a></li>
+                <li><a href="../../index.html#applications"><span data-lang="ko">적용 분야</span><span
+                            data-lang="en">Applications</span></a></li>
+                <li><a href="../../product-search.html"><span data-lang="ko">제품 검색</span><span data-lang="en">Product
+                            Search</span></a></li>
+                <li><a href="../../index.html#contact"><span data-lang="ko">문의</span><span
+                            data-lang="en">Contact</span></a></li>
+            </ul>
+            <div class="lang-switch"><button class="lang-btn active" data-set-lang="ko">KO</button><button
+                    class="lang-btn" data-set-lang="en">EN</button></div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container"><span class="eyebrow">PDC THERMISTOR</span>
+                <h1>NTC Thermistor (SMD)</h1>
+                <p class="subtitle"><span data-lang="ko">JSN Series · JSN Automotive Series</span><span
+                        data-lang="en">JSN Series · JSN Automotive Series</span></p>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2><span data-lang="ko">제품 소개</span><span data-lang="en">Product Introduction</span></h2>
+                <p class="lead"><span data-lang="ko">PDC SMD NTC Thermistor는 소형 PCB 실장을 위한 일반 JSN Series와 자동차 환경을 위한 JSN
+                        Automotive Series로 구성됩니다. 일반 JSN은 0201~0805 크기와 -40~+125°C 동작 범위를 제공하고, Automotive Series는
+                        0603~0805 크기에서 AEC-Q200 Qualified와 -40~+150°C 동작 범위를 지원합니다. 두 제품군 모두 R25 및 B Value 조합을 통해 IT 장비,
+                        모바일 기기, 배터리 팩, OA 장비와 자동차의 정밀 온도 감지 및 보상 회로에 적용할 수 있습니다.</span><span data-lang="en">PDC SMD NTC
+                        Thermistors include the general JSN Series for compact PCB mounting and the JSN Automotive
+                        Series for automotive environments. General JSN covers 0201 to 0805 with operation from -40 to
+                        +125°C, while the Automotive Series covers 0603 to 0805 with AEC-Q200 qualification and
+                        operation from -40 to +150°C. Both families provide R25 and B-value combinations for precision
+                        temperature sensing and compensation in IT equipment, mobile devices, battery packs, office
+                        automation and automotive systems.</span></p>
+                <div class="notice"><span data-lang="ko">최종 적용 전에는 대상 품번의 전기적 특성, 치수, 동작 조건 및 최신 데이터시트를
+                        확인하세요.</span><span data-lang="en">Before final application, verify electrical characteristics,
+                        dimensions, operating conditions and the latest datasheet for the selected part number.</span>
+                </div>
+            </div>
+        </section>
+        <section class="alt">
+            <div class="container">
+                <h2><span data-lang="ko">제품 시리즈 및 데이터시트</span><span data-lang="en">Product Series and Datasheets</span>
+                </h2>
+                <div class="card-grid"><a class="card download-card" download=""
+                        href="../../docu/datasheet/ntc/JSN.pdf"><img alt="" class="download-icon"
+                            src="../../images/download-button.png" />
+                        <h3>JSN Series</h3><span class="series-type">SMD NTC Thermistor · General</span>
+                        <ul>
+                            <li><span data-lang="ko">Size: 0201(0603)~0805(2012)</span><span data-lang="en">Size:
+                                    0201(0603)~0805(2012)</span></li>
+                            <li><span data-lang="ko">R25: 10~220kΩ (Quick Reference)</span><span data-lang="en">R25:
+                                    10~220kΩ (Quick Reference)</span></li>
+                            <li><span data-lang="ko">B25/50: 3380~4250K</span><span data-lang="en">B25/50:
+                                    3380~4250K</span></li>
+                            <li><span data-lang="ko">B25/85: 3435~4360K</span><span data-lang="en">B25/85:
+                                    3435~4360K</span></li>
+                            <li><span data-lang="ko">동작온도: -40~+125°C · UL/TUV</span><span data-lang="en">Operating
+                                    temperature: -40~+125°C · UL/TUV</span></li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a><a class="card download-card" download=""
+                        href="../../docu/datasheet/ntc/JSN_Automotive.pdf"><img alt="" class="download-icon"
+                            src="../../images/download-button.png" />
+                        <h3>JSN Automotive Series</h3><span class="series-type">SMD NTC Thermistor · AEC-Q200</span>
+                        <ul>
+                            <li><span data-lang="ko">Size: 0603(1608)~0805(2012)</span><span data-lang="en">Size:
+                                    0603(1608)~0805(2012)</span></li>
+                            <li><span data-lang="ko">R25: 10~100kΩ</span><span data-lang="en">R25: 10~100kΩ</span></li>
+                            <li><span data-lang="ko">B25/50: 3380~4250K</span><span data-lang="en">B25/50:
+                                    3380~4250K</span></li>
+                            <li><span data-lang="ko">B25/85: 3435~4360K</span><span data-lang="en">B25/85:
+                                    3435~4360K</span></li>
+                            <li><span data-lang="ko">동작온도: -40~+150°C · AEC-Q200 · UL/TUV</span><span
+                                    data-lang="en">Operating temperature: -40~+150°C · AEC-Q200 · UL/TUV</span></li>
+                        </ul><span class="download-label"><span data-lang="ko">데이터시트 다운로드</span><span
+                                data-lang="en">Download Datasheet</span></span>
+                    </a></div>
+                <div class="summary-table-wrap">
+                    <table class="summary-table">
+                        <thead>
+                            <tr>
+                                <th>Series</th>
+                                <th>R25</th>
+                                <th>B Value</th>
+                                <th>Operating Temp.</th>
+                                <th>Key Point</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>JSN</strong></td>
+                                <td>10~220kΩ</td>
+                                <td>3380~4360K</td>
+                                <td>-40~+125°C</td>
+                                <td>0201~0805, UL/TUV</td>
+                            </tr>
+                            <tr>
+                                <td><strong>JSN Automotive</strong></td>
+                                <td>10~100kΩ</td>
+                                <td>3380~4360K</td>
+                                <td>-40~+150°C</td>
+                                <td>0603~0805, AEC-Q200</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2><span data-lang="ko">주요 적용 분야</span><span data-lang="en">Key Applications</span></h2>
+                <div class="application-grid">
+                    <div class="application">IT Equipment</div>
+                    <div class="application">Mobile Devices</div>
+                    <div class="application">Battery Packs</div>
+                    <div class="application">Office Automation</div>
+                    <div class="application">Automotive</div>
+                </div>
+            </div>
+        </section>
+        <section class="alt">
+            <div class="container">
+                <div class="contact-box">
+                    <h2><span data-lang="ko">제품 검색 및 문의</span><span data-lang="en">Product Search and Inquiry</span>
+                    </h2>
+                    <p><span data-lang="ko">요구 사양과 적용 조건을 보내주시면 후보 품번 검토를 지원합니다.</span><span data-lang="en">Send your
+                            requirements and application conditions for candidate part-number review.</span></p><a
+                        class="btn" href="../../product-search.html"><span data-lang="ko">통합 제품 검색</span><span
+                            data-lang="en">Integrated Product Search</span></a><a class="btn"
+                        href="../../index.html#contact" style="margin-left:10px"><span data-lang="ko">문의하기</span><span
+                            data-lang="en">Contact CERANIX</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>© 2026 CERANIX | PDC Korea Authorized Distributor</footer>
+    <script>const root = document.documentElement, buttons = document.querySelectorAll('[data-set-lang]'); function setLanguage(lang) { const safe = lang === 'en' ? 'en' : 'ko'; root.lang = safe; buttons.forEach(b => b.classList.toggle('active', b.dataset.setLang === safe)); localStorage.setItem('ceranix-language', safe) } buttons.forEach(b => b.addEventListener('click', () => setLanguage(b.dataset.setLang))); setLanguage(localStorage.getItem('ceranix-language') || 'ko');</script>
+</body>
+
+</html>
